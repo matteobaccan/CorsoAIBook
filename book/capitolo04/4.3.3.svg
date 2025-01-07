@@ -1,0 +1,58 @@
+<svg width="1000" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Titolo -->
+  <text x="500" y="80" font-family="Arial" font-size="28" fill="black" text-anchor="middle">Reinforcement Learning - Esempio Pratico</text>
+
+  <!-- Labirinto (Ambiente) -->
+  <rect x="200" y="150" width="600" height="400" fill="lightgray" stroke="black"/>
+  <text x="500" y="570" font-family="Arial" font-size="18" fill="black" text-anchor="middle">Labirinto (Ambiente)</text>
+
+  <!-- Robot (Agente) -->
+  <circle cx="400" cy="200" r="30" fill="lightblue" stroke="black"/> <!-- Spostato più a destra (cx="400") -->
+  <text x="400" y="205" font-family="Arial" font-size="14" fill="black" text-anchor="middle" dominant-baseline="middle">Robot</text> <!-- Testo dentro il pallino -->
+
+  <!-- Mela (Obiettivo) -->
+  <circle cx="650" cy="450" r="30" fill="red" stroke="black"/>
+  <text x="650" y="455" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">Mela</text> <!-- Testo dentro il pallino -->
+
+  <!-- Azione (Movimento del Robot) -->
+  <line x1="430" y1="200" x2="550" y2="200" stroke="black" stroke-width="2"/> <!-- Aggiustata la posizione della linea -->
+  <polygon points="550,200 540,195 540,205" fill="black"/>
+  <text x="490" y="190" font-family="Arial" font-size="16" fill="black" text-anchor="middle">Azione: Muoversi</text>
+
+  <!-- Stato (Posizione del Robot) -->
+  <line x1="200" y1="200" x2="370" y2="200" stroke="black" stroke-width="2"/> <!-- Aggiustata la posizione della linea -->
+  <polygon points="200,200 210,195 210,205" fill="black"/> <!-- Freccia invertita -->
+  <text x="285" y="190" font-family="Arial" font-size="16" fill="black" text-anchor="middle">Stato: Posizione</text>
+
+  <!-- Ricompensa -->
+  <line x1="650" y1="420" x2="650" y2="350" stroke="black" stroke-width="2"/>
+  <polygon points="650,350 645,360 655,360" fill="black"/>
+  <text x="670" y="380" font-family="Arial" font-size="16" fill="black">Ricompensa: +1</text>
+
+  <!-- Legenda -->
+  <rect x="50" y="600" width="900" height="250" fill="white" stroke="black" stroke-width="1"/>
+  <text x="70" y="640" font-family="Arial" font-size="20" fill="black" font-weight="bold">Legenda:</text>
+
+  <!-- Agente -->
+  <circle cx="80" y="680" r="10" fill="lightblue" stroke="black"/>
+  <text x="110" y="685" font-family="Arial" font-size="16" fill="black">Agente (Robot): Impara a muoversi nel labirinto.</text>
+
+  <!-- Ambiente -->
+  <rect x="80" y="710" width="20" height="20" fill="lightgray" stroke="black"/>
+  <text x="110" y="725" font-family="Arial" font-size="16" fill="black">Ambiente (Labirinto): Contesto in cui il robot opera.</text>
+
+  <!-- Azione -->
+  <line x1="80" y1="750" x2="100" y2="750" stroke="black" stroke-width="2"/>
+  <polygon points="100,750 90,745 90,755" fill="black"/>
+  <text x="110" y="755" font-family="Arial" font-size="16" fill="black">Azione: Muoversi in una direzione.</text>
+
+  <!-- Stato -->
+  <line x1="80" y1="780" x2="80" y2="800" stroke="black" stroke-width="2"/>
+  <polygon points="80,800 75,790 85,790" fill="black"/>
+  <text x="110" y="795" font-family="Arial" font-size="16" fill="black">Stato: Posizione corrente del robot.</text>
+
+  <!-- Ricompensa -->
+  <line x1="80" y1="810" x2="80" y2="830" stroke="black" stroke-width="2"/>
+  <polygon points="80,830 75,820 85,820" fill="black"/>
+  <text x="110" y="825" font-family="Arial" font-size="16" fill="black">Ricompensa: Feedback (+1 per la mela).</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+    <!-- Titolo -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold">Apprendimento Supervisionato vs Non Supervisionato</text>
+    
+    <!-- Supervised Learning -->
+    <g transform="translate(100,100)">
+        <text x="150" y="0" text-anchor="middle" font-size="20" font-weight="bold" fill="#2c5282">Supervisionato</text>
+        
+        <!-- Input Data -->
+        <rect x="0" y="20" width="80" height="160" fill="#bee3f8" rx="5"/>
+        <text x="40" y="100" text-anchor="middle" font-size="14">Dati di Input</text>
+        
+        <!-- Labels -->
+        <rect x="220" y="20" width="80" height="160" fill="#9ae6b4" rx="5"/>
+        <text x="260" y="100" text-anchor="middle" font-size="14">Etichette</text>
+        
+        <!-- Arrow -->
+        <path d="M90,100 L210,100" stroke="#4299e1" stroke-width="2" marker-end="url(#arrowhead)"/>
+        
+        <!-- Model -->
+        <rect x="100" y="140" width="100" height="40" fill="#4299e1" rx="5"/>
+        <text x="150" y="165" text-anchor="middle" font-size="14" fill="white">Modello</text>
+    </g>
+    
+    <!-- Unsupervised Learning -->
+    <g transform="translate(450,100)">
+        <text x="150" y="0" text-anchor="middle" font-size="20" font-weight="bold" fill="#2c5282">Non Supervisionato</text>
+        
+        <!-- Input Data -->
+        <rect x="0" y="20" width="80" height="160" fill="#bee3f8" rx="5"/>
+        <text x="40" y="100" text-anchor="middle" font-size="14">Dati di Input</text>
+        
+        <!-- Clusters -->
+        <rect x="220" y="20" width="80" height="160" fill="#fbd38d" rx="5"/>
+        <text x="260" y="100" text-anchor="middle" font-size="14">Cluster</text>
+        
+        <!-- Arrow -->
+        <path d="M90,100 L210,100" stroke="#4299e1" stroke-width="2" marker-end="url(#arrowhead)"/>
+        
+        <!-- Model -->
+        <rect x="100" y="140" width="100" height="40" fill="#4299e1" rx="5"/>
+        <text x="150" y="165" text-anchor="middle" font-size="14" fill="white">Modello</text>
+    </g>
+    
+    <!-- Descrizioni -->
+    <g transform="translate(100,320)">
+        <text x="150" y="0" font-size="14">• Dati etichettati</text>
+        <text x="150" y="20" font-size="14">• Predizione guidata</text>
+        <text x="150" y="40" font-size="14">• es: Classificazione</text>
+    </g>
+    
+    <g transform="translate(450,320)">
+        <text x="150" y="0" font-size="14">• Dati non etichettati</text>
+        <text x="150" y="20" font-size="14">• Trova patterns</text>
+        <text x="150" y="40" font-size="14">• es: Clustering</text>
+    </g>
+    
+    <!-- Arrow definition -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#4299e1"/>
+        </marker>
+    </defs>
+</svg>

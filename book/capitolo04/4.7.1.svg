@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+    <!-- Titolo -->
+    <text x="600" y="40" text-anchor="middle" font-size="24" font-weight="bold">Underfitting vs Fitting Corretto vs Overfitting</text>
+
+    <!-- Underfitting -->
+    <g transform="translate(50,80)">
+        <text x="130" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#e53e3e">Underfitting</text>
+        
+        <!-- Plot area -->
+        <rect x="30" y="50" width="200" height="200" fill="#f7fafc" stroke="#e2e8f0"/>
+        
+        <!-- Punti dati -->
+        <circle cx="60" cy="180" r="4" fill="#2b6cb0"/>
+        <circle cx="90" cy="150" r="4" fill="#2b6cb0"/>
+        <circle cx="120" cy="100" r="4" fill="#2b6cb0"/>
+        <circle cx="150" cy="90" r="4" fill="#2b6cb0"/>
+        <circle cx="180" cy="120" r="4" fill="#2b6cb0"/>
+        <circle cx="210" cy="150" r="4" fill="#2b6cb0"/>
+        
+        <!-- Linea di fitting -->
+        <line x1="40" y1="170" x2="220" y2="130" stroke="#e53e3e" stroke-width="2"/>
+        
+        <!-- Caratteristiche -->
+        <text x="30" y="280" font-size="14">• Modello troppo semplice</text>
+        <text x="30" y="300" font-size="14">• Non cattura il pattern</text>
+    </g>
+
+    <!-- Fitting Corretto -->
+    <g transform="translate(450,80)">
+        <text x="130" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#48bb78">Fitting Corretto</text>
+        
+        <!-- Plot area -->
+        <rect x="30" y="50" width="200" height="200" fill="#f7fafc" stroke="#e2e8f0"/>
+        
+        <!-- Punti dati -->
+        <circle cx="60" cy="180" r="4" fill="#2b6cb0"/>
+        <circle cx="90" cy="150" r="4" fill="#2b6cb0"/>
+        <circle cx="120" cy="100" r="4" fill="#2b6cb0"/>
+        <circle cx="150" cy="90" r="4" fill="#2b6cb0"/>
+        <circle cx="180" cy="120" r="4" fill="#2b6cb0"/>
+        <circle cx="210" cy="150" r="4" fill="#2b6cb0"/>
+        
+        <!-- Curva di fitting -->
+        <path d="M40,180 Q130,70 220,150" fill="none" stroke="#48bb78" stroke-width="2"/>
+        
+        <!-- Caratteristiche -->
+        <text x="30" y="280" font-size="14">• Modello bilanciato</text>
+        <text x="30" y="300" font-size="14">• Generalizza bene</text>
+    </g>
+
+    <!-- Overfitting -->
+    <g transform="translate(850,80)">
+        <text x="130" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#805ad5">Overfitting</text>
+        
+        <!-- Plot area -->
+        <rect x="30" y="50" width="200" height="200" fill="#f7fafc" stroke="#e2e8f0"/>
+        
+        <!-- Punti dati -->
+        <circle cx="60" cy="180" r="4" fill="#2b6cb0"/>
+        <circle cx="90" cy="150" r="4" fill="#2b6cb0"/>
+        <circle cx="120" cy="100" r="4" fill="#2b6cb0"/>
+        <circle cx="150" cy="90" r="4" fill="#2b6cb0"/>
+        <circle cx="180" cy="120" r="4" fill="#2b6cb0"/>
+        <circle cx="210" cy="150" r="4" fill="#2b6cb0"/>
+        
+        <!-- Curva di fitting complessa -->
+        <path d="M40,180 C60,180 70,150 90,150 C110,150 115,100 120,100 C125,100 145,90 150,90 C155,90 175,120 180,120 C185,120 205,150 220,150" 
+              fill="none" stroke="#805ad5" stroke-width="2"/>
+        
+        <!-- Caratteristiche -->
+        <text x="30" y="280" font-size="14">• Modello troppo complesso</text>
+        <text x="30" y="300" font-size="14">• Memorizza il rumore</text>
+    </g>
+
+    <!-- Performance -->
+    <g transform="translate(50,350)">
+        <text x="0" y="0" font-size="16" font-weight="bold">Performance:</text>
+        <text x="0" y="25" font-size="14">• Underfitting: Basso training, basso test</text>
+        <text x="400" y="25" font-size="14">• Fitting Corretto: Buon training, buon test</text>
+        <text x="800" y="25" font-size="14">• Overfitting: Alto training, basso test</text>
+    </g>
+</svg>

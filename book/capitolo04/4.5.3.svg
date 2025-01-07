@@ -1,0 +1,56 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Titolo -->
+  <text x="400" y="40" font-family="Arial" font-size="24" fill="black" text-anchor="middle">Generazione di Immagini con GAN</text>
+
+  <!-- Spiegazione -->
+  <text x="400" y="80" font-family="Arial" font-size="16" fill="black" text-anchor="middle">Esempio: Generatore e Discriminatore in competizione</text>
+
+  <!-- Generatore -->
+  <rect x="100" y="150" width="200" height="100" fill="lightblue" stroke="black"/>
+  <text x="200" y="200" font-family="Arial" font-size="14" fill="black" text-anchor="middle">Generatore</text>
+  <text x="200" y="230" font-family="Arial" font-size="12" fill="black" text-anchor="middle">Crea immagini "false"</text>
+
+  <!-- Freccia -->
+  <line x1="300" y1="200" x2="350" y2="200" stroke="black" stroke-width="2"/>
+  <polygon points="350,200 340,195 340,205" fill="black"/>
+
+  <!-- Immagine Generata -->
+  <rect x="350" y="150" width="100" height="100" fill="lightgray" stroke="black"/>
+  <text x="400" y="200" font-family="Arial" font-size="14" fill="black" text-anchor="middle">Immagine</text>
+  <text x="400" y="230" font-family="Arial" font-size="12" fill="black" text-anchor="middle">(Generata)</text>
+
+  <!-- Freccia -->
+  <line x1="450" y1="200" x2="500" y2="200" stroke="black" stroke-width="2"/>
+  <polygon points="500,200 490,195 490,205" fill="black"/>
+
+  <!-- Discriminatore -->
+  <rect x="500" y="150" width="200" height="100" fill="lightgreen" stroke="black"/>
+  <text x="600" y="200" font-family="Arial" font-size="14" fill="black" text-anchor="middle">Discriminatore</text>
+  <text x="600" y="230" font-family="Arial" font-size="12" fill="black" text-anchor="middle">Valuta se l'immagine è reale o falsa</text>
+
+  <!-- Feedback -->
+  <line x1="600" y1="250" x2="600" y2="300" stroke="black" stroke-width="2"/>
+  <polygon points="600,300 595,290 605,290" fill="black"/>
+  <text x="620" y="275" font-family="Arial" font-size="14" fill="black">Feedback</text>
+
+  <!-- Legenda -->
+  <rect x="50" y="350" width="700" height="200" fill="white" stroke="black" stroke-width="1"/>
+  <text x="70" y="380" font-family="Arial" font-size="16" fill="black" font-weight="bold">Legenda:</text>
+
+  <!-- Generatore -->
+  <rect x="70" y="410" width="20" height="20" fill="lightblue" stroke="black"/>
+  <text x="100" y="425" font-family="Arial" font-size="14" fill="black">Generatore: Crea immagini "false" a partire da rumore casuale.</text>
+
+  <!-- Immagine Generata -->
+  <rect x="70" y="450" width="20" height="20" fill="lightgray" stroke="black"/>
+  <text x="100" y="465" font-family="Arial" font-size="14" fill="black">Immagine Generata: Risultato del generatore.</text>
+
+  <!-- Discriminatore -->
+  <rect x="70" y="490" width="20" height="20" fill="lightgreen" stroke="black"/>
+  <text x="100" y="505" font-family="Arial" font-size="14" fill="black">Discriminatore: Valuta se l'immagine è reale o falsa.</text>
+
+  <!-- Feedback -->
+  <line x1="70" y1="530" x2="90" y2="530" stroke="black" stroke-width="2"/>
+  <polygon points="90,530 80,525 80,535" fill="black"/>
+  <text x="100" y="535" font-family="Arial" font-size="14" fill="black">Feedback: Il discriminatore fornisce feedback al generatore.</text>
+</svg>

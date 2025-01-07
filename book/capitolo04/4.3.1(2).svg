@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+    <!-- Titolo -->
+    <text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold">Confronto tra Algoritmi di ML</text>
+
+    <!-- Regressione Lineare -->
+    <g transform="translate(50,80)">
+        <text x="130" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#2c5282">Regressione Lineare</text>
+        
+        <!-- Plot area -->
+        <rect x="30" y="50" width="200" height="200" fill="#f7fafc" stroke="#e2e8f0"/>
+        
+        <!-- Punti dati -->
+        <circle cx="60" cy="200" r="4" fill="#4299e1"/>
+        <circle cx="100" cy="170" r="4" fill="#4299e1"/>
+        <circle cx="140" cy="140" r="4" fill="#4299e1"/>
+        <circle cx="180" cy="110" r="4" fill="#4299e1"/>
+        <circle cx="220" cy="80" r="4" fill="#4299e1"/>
+        
+        <!-- Linea di regressione -->
+        <line x1="40" y1="210" x2="220" y2="70" stroke="#2b6cb0" stroke-width="2"/>
+        
+        <!-- Caratteristiche -->
+        <text x="30" y="280" font-size="14">• Trova la migliore</text>
+        <text x="30" y="300" font-size="14">  linea retta</text>
+        <text x="30" y="320" font-size="14">• Predice valori continui</text>
+    </g>
+
+    <!-- Albero di Decisione -->
+    <g transform="translate(350,80)">
+        <text x="130" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#2c5282">Albero di Decisione</text>
+        
+        <!-- Plot area -->
+        <rect x="30" y="50" width="200" height="200" fill="#f7fafc" stroke="#e2e8f0"/>
+        
+        <!-- Regioni di decisione -->
+        <path d="M30 150 H230 M130 50 V250" stroke="#48bb78" stroke-width="2"/>
+        <rect x="30" y="50" width="100" height="100" fill="#48bb78" fill-opacity="0.2"/>
+        <rect x="130" y="150" width="100" height="100" fill="#48bb78" fill-opacity="0.2"/>
+        
+        <!-- Punti dati -->
+        <circle cx="80" cy="100" r="4" fill="#48bb78"/>
+        <circle cx="180" cy="200" r="4" fill="#48bb78"/>
+        
+        <!-- Caratteristiche -->
+        <text x="30" y="280" font-size="14">• Divide lo spazio</text>
+        <text x="30" y="300" font-size="14">  in regioni</text>
+        <text x="30" y="320" font-size="14">• Decisioni</text>
+        <text x="30" y="340" font-size="14">  sequenziali</text>
+    </g>
+
+    <!-- SVM -->
+    <g transform="translate(650,80)">
+        <text x="130" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#2c5282">Support Vector Machine</text>
+        
+        <!-- Plot area -->
+        <rect x="30" y="50" width="200" height="200" fill="#f7fafc" stroke="#e2e8f0"/>
+        
+        <!-- Punti dati -->
+        <circle cx="80" cy="80" r="4" fill="#ed8936"/>
+        <circle cx="90" cy="90" r="4" fill="#ed8936"/>
+        <circle cx="180" cy="180" r="4" fill="#ed8936"/>
+        <circle cx="170" cy="170" r="4" fill="#ed8936"/>
+        
+        <!-- Margine e iperpiano -->
+        <line x1="60" y1="220" x2="220" y2="60" stroke="#ed8936" stroke-width="2"/>
+        <line x1="40" y1="200" x2="200" y2="40" stroke="#ed8936" stroke-width="1" stroke-dasharray="4"/>
+        <line x1="80" y1="240" x2="240" y2="80" stroke="#ed8936" stroke-width="1" stroke-dasharray="4"/>
+        
+        <!-- Caratteristiche -->
+        <text x="30" y="280" font-size="14">• Trova il miglior</text>
+        <text x="30" y="300" font-size="14">  margine di</text>
+        <text x="30" y="320" font-size="14">  separazione</text>
+        <text x="30" y="340" font-size="14">• Robusto al rumore</text>
+    </g>
+
+    <!-- Legenda -->
+    <g transform="translate(50,450)">
+        <text x="0" y="0" font-size="16" font-weight="bold">Applicazioni tipiche:</text>
+        <text x="0" y="30" font-size="14">• Regressione Lineare: Previsione prezzi, vendite</text>
+        <text x="300" y="30" font-size="14">• Alberi: Classificazione, regole decisionali</text>
+        <text x="600" y="30" font-size="14">• SVM: Classificazione binaria, dati complessi</text>
+    </g>
+</svg>
