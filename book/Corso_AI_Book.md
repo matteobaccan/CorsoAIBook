@@ -117,6 +117,9 @@ L'AI richiede grandi quantità di dati per funzionare, il che solleva preoccupaz
 ### 2.4.2 Bias e Discriminazione
 
 Gli algoritmi di AI possono essere influenzati da bias presenti nei dati di addestramento, portando a decisioni discriminatorie o ingiuste. È importante sviluppare modelli di AI che siano equi e inclusivi.
+Credo sia importante soffermarsi un momento sul concetto di bias essendo uno dei punti più critici dell'AI.
+I bias, o meglio bias cognitivi, sono delle distorsioni che le persone attuano nelle valutazioni di fatti e avvenimenti. Tali distorsioni ci spingono a ricreare una propria visione soggettiva che non corrisponde fedelmente alla realtà.
+Nel caso dell'AI il bias (o pregiudizio) si riferisce a errori sistematici nei risultati di un modello di AI, causati da ipotesi errate o incomplete presenti nei dati di addestramento o nel processo di sviluppo del modello. In altre parole, il bias porta il modello a fare previsioni o decisioni che sono ingiuste, inaccurate o non rappresentative della realtà.
 
 ### 2.4.3 Impatto sul Lavoro
 
@@ -251,6 +254,11 @@ Il **Machine Learning** (ML) e il **Deep Learning** (DL) sono due delle aree pi�
 ### 4.2.1 Definizione di Machine Learning
 
 Il **Machine Learning** è una sottobranca dell'AI che si concentra sullo sviluppo di algoritmi e modelli che permettono alle macchine di apprendere dai dati senza essere esplicitamente programmate. Invece di seguire regole fisse, i modelli di Machine Learning utilizzano dati di addestramento per identificare pattern e fare previsioni o decisioni.
+**Metafora**: Il Bambino che Impara a Riconoscere gli Animali
+Immagina di voler insegnare a un bambino a riconoscere gli animali.
+    Esempi (Dati): Gli mostri tante foto di gatti e cani, dicendogli "questo è un gatto" e "questo è un cane".
+    Apprendimento (Addestramento): Il bambino inizia a notare schemi, come "i gatti hanno orecchie a punta" e "i cani        hanno il muso lungo".
+    Previsioni (Risultato): Quando gli mostri una nuova foto, il bambino usa ciò che ha imparato per dire se è un gatto o      un cane.
 
 ### 4.2.2 Perché il Machine Learning è importante?
 
@@ -276,7 +284,9 @@ Nell'**apprendimento supervisionato**, il modello viene addestrato su un dataset
 
 - **Regressione Lineare**: Utilizzato per prevedere valori continui, come il prezzo di una casa.
 - **Alberi di Decisione**: Utilizzati per la classificazione e la regressione, basati su una serie di decisioni binarie.
+Ovvero è un modello che prende decisioni facendo una serie di domande sì/no (o if/else) sui dati. È come un gioco di "20 domande" per classificare o prevedere qualcosa.
 - **Support Vector Machines (SVM)**: Utilizzati per la classificazione, trovando il confine ottimale tra diverse classi.
+Immagina di dover separare mele (rosse) da arance (arancioni) su un tavolo. La SVM trova la linea che lascia più spazio possibile tra le mele e le arance.
 
 ### 4.3.2 Apprendimento Non Supervisionato (Unsupervised Learning)
 
@@ -284,9 +294,11 @@ Nell'**apprendimento non supervisionato**, il modello viene addestrato su un dat
 
 #### Esempi di algoritmi di apprendimento non supervisionato
 
-- **K-Means Clustering**: Utilizzato per raggruppare dati in cluster basati sulla somiglianza.
-- **Principal Component Analysis (PCA)**: Utilizzato per ridurre la dimensionalità dei dati, mantenendo le informazioni più importanti.
-- **Autoencoder**: Una rete neurale utilizzata per comprimere e ricostruire dati, spesso utilizzata per la riduzione del rumore.
+- **K-Means Clustering**: Utilizzato per raggruppare dati in cluster basati sulla somiglianza. Immagina di avere un mucchio di palline di colori diversi. Il K-Means le divide in gruppi in base al colore.
+- **Principal Component Analysis (PCA)**: Utilizzato per ridurre la dimensionalità dei dati, mantenendo le informazioni più importanti. Immagina di avere un disegno di una mela fatto con tanti puntini sparsi. La PCA lo trasforma in un disegno più semplice, con meno puntini, ma che sembra ancora una mela.
+- **Autoencoder**: Una rete neurale utilizzata per comprimere e ricostruire dati, spesso utilizzata per la riduzione del rumore. Immagina di avere una foto di un gatto. L’autoencoder:
+- La comprime in una versione più piccola (come un’icona).
+- La ricostruisce per farla sembrare di nuovo la foto originale.
 
 ### 4.3.3 Apprendimento per Rinforzo (Reinforcement Learning)
 
@@ -295,13 +307,26 @@ Nell'**apprendimento per rinforzo**, un agente impara a prendere decisioni inter
 #### Esempi di algoritmi di apprendimento per rinforzo
 
 - **Q-Learning**: Un algoritmo che impara una politica ottimale per prendere decisioni in un ambiente.
-- **Deep Q-Networks (DQN)**: Una combinazione di Q-Learning e reti neurali profonde, utilizzata per risolvere problemi complessi.
+Immagina un robot in un labirinto:
+- Il robot prova a muoversi in direzioni casuali.
+- Se trova l’uscita, impara che quelle mosse erano buone (Q-Value aumenta).
+- Ripete il processo fino a trovare il percorso migliore.
+- **Deep Q-Networks (DQN)**: Una combinazione di Q-Learning e reti neurali profonde, utilizzata per risolvere problemi complessi. Immagina un gioco come Pac-Man:
+- La DQN guarda lo schermo (stato) e decide dove muoversi (azione).
+- Se mangia un fantasma, impara che quella mossa è buona (ricompensa).
+- Usa le esperienze passate per migliorare le decisioni future.
 
 ## 4.4 Cos'è il Deep Learning?
 
 ### 4.4.1 Definizione di Deep Learning
 
 Il **Deep Learning** è una sottobranca del Machine Learning che utilizza **reti neurali artificiali** con molti strati (da qui il termine "deep") per risolvere problemi complessi. Queste reti neurali sono ispirate al funzionamento del cervello umano e sono in grado di apprendere rappresentazioni gerarchiche dei dati.
+**Metafora**: La Ricetta Magica
+Immagina di voler creare una ricetta magica per fare la pizza perfetta.
+    Ingredienti (Dati): Hai tanti ingredienti (dati) come farina, pomodoro, mozzarella, ecc.
+    Strumenti (Reti Neurali): Usi una serie di strumenti (strati della rete neurale) per mescolare, impastare e cuocere.
+    Assaggi (Addestramento): Ogni volta che fai una pizza, la assaggi e correggi la ricetta per migliorarla (la rete impara     dai suoi errori).
+    Pizza Perfetta (Risultato): Dopo molti tentativi, la tua ricetta diventa così buona che riesci a fare la pizza perfetta ogni     volta!
 
 ### 4.4.2 Perché il Deep Learning è importante?
 
@@ -322,6 +347,15 @@ Le reti neurali profonde sono composte da più strati di neuroni artificiali, og
 ### 4.5.1 Reti Neurali Convoluzionali (CNN)
 
 Le **Reti Neurali Convoluzionali** (CNN) sono progettate per elaborare dati strutturati a griglia, come le immagini. Utilizzano operazioni di convoluzione per estrarre feature locali, come bordi e texture, e pooling per ridurre le dimensioni dei dati.
+Immagina di voler organizzare il tuo armario e insegnare a un amico a riconoscere i diversi tipi di vestiti.
+    Filtri (Convoluzioni):
+        Dai al tuo amico una lente d’ingrandimento (filtro) per guardare i vestiti in dettaglio.
+        Lui cerca caratteristiche specifiche, come "righe", "bottoni" o "maniche lunghe".
+    Schemi (Feature Maps):
+        Ogni volta che trova uno schema (es. "righe"), lo segna su un foglio (feature map).
+        Ripete il processo con diverse lenti (filtri) per trovare altri schemi (es. "colori", "tasche").
+    Classificazione:
+        Alla fine, usa tutti gli schemi trovati per decidere che tipo di vestito è (es. "maglietta", "pantalone", "giacca").
 
 #### Applicazioni delle CNN
 
@@ -332,6 +366,9 @@ Le **Reti Neurali Convoluzionali** (CNN) sono progettate per elaborare dati stru
 ### 4.5.2 Reti Neurali Ricorrenti (RNN)
 
 Le **Reti Neurali Ricorrenti** (RNN) sono progettate per elaborare sequenze di dati, come il testo o le serie temporali. Mantengono uno "stato interno" che funziona come una forma di memoria, permettendo di considerare le informazioni precedenti per elaborare l'input corrente.
+Immagina di voler completare una frase:
+    Frase: "Oggi piove, quindi prenderò l’___."
+    La RNN ricorda che "piove" è associato a "ombrello" e completa la frase con "ombrello".
 
 #### Applicazioni delle RNN
 
@@ -342,6 +379,10 @@ Le **Reti Neurali Ricorrenti** (RNN) sono progettate per elaborare sequenze di d
 ### 4.5.3 Reti Generative Avversariali (GAN)
 
 Le **Reti Generative Avversariali** (GAN) sono composte da due reti neurali: un generatore e un discriminatore. Il generatore crea dati sintetici, mentre il discriminatore cerca di distinguere tra dati reali e generati. Le due reti si allenano simultaneamente, migliorando progressivamente la qualità dei dati generati.
+Immagina un falsario (generatore) che crea banconote false e un detective (discriminatore) che cerca di scoprirle.
+    All’inizio, il falsario è maldestro e il detective lo smaschera facilmente.
+    Con il tempo, il falsario migliora e il detective deve diventare più bravo.
+    Alla fine, le banconote false sono così perfette che il detective non riesce più a distinguerle da quelle vere.
 
 #### Applicazioni delle GAN
 
@@ -376,10 +417,14 @@ L'AI generativa, come le GAN, è utilizzata per creare nuovi contenuti, come imm
 ### 4.7.1 Sovradattamento (Overfitting)
 
 Il **sovradattamento** si verifica quando un modello impara troppo bene i dati di addestramento, perdendo la capacità di generalizzare a nuovi dati. Questo può essere mitigato utilizzando tecniche come la regolarizzazione e la cross-validation.
+Immagina di studiare per un esame:
+    Modello Sovradattato: Memorizza ogni singola domanda del libro, ma non capisce il contesto.
+    Modello Corretto: Studia i concetti e riesce a rispondere a domande simili, anche se formulate in modo diverso.
 
 ### 4.7.2 Bias nei Dati
 
 I modelli di Machine Learning possono essere influenzati da bias presenti nei dati di addestramento, portando a decisioni discriminatorie o ingiuste. È importante garantire che i dati siano rappresentativi e privi di pregiudizi.
+Come dicevamo al punto 2.4.2 questo è uno dei punti critici dell'evoluzione dell'AI. Immagina un modello di AI utilizzato per selezionare i candidati per un lavoro. Se i dati di addestramento provengono da aziende che in passato hanno assunto principalmente uomini, o una determinata etnia o religione, il modello potrebbe imparare a favorire quel tipo di candidati, anche se questo non è giusto o intenzionale. Questo è un classico caso di bias nei dati che porta a discriminazione algoritmica.
 
 ### 4.7.3 Complessità Computazionale
 
@@ -462,7 +507,7 @@ Le RNN elaborano i dati sequenziali passo dopo passo, mantenendo uno stato inter
 
 ### 5.4.3 Varianti delle RNN
 
-1. **LSTM (Long Short-Term Memory)**: Una LSTM è una variante avanzata delle RNN che utilizza un sistema di "gate" (cancelli) per controllare il flusso delle informazioni, permettendo alla rete di memorizzare selettivamente informazioni importanti per lunghi periodi e risolvere il problema del **vanishing gradient**.
+1. **LSTM (Long Short-Term Memory)**: Una LSTM è una variante avanzata delle RNN che utilizza un sistema di "gate" (cancelli) per controllare il flusso delle informazioni, permettendo alla rete di memorizzare selettivamente informazioni importanti per lunghi periodi e risolvere il problema del **vanishing gradient**; ovvero un problema che si verifica durante l’addestramento delle reti neurali profonde, dove i gradienti diventano così piccoli che il modello smette di imparare. È come se il tuo allenatore ti sussurrasse consigli così piano che non li senti più..
 2. **GRU (Gated Recurrent Unit)**: La GRU è una versione semplificata della LSTM che combina i gate di dimenticanza e di input in un unico "gate di aggiornamento", mantenendo prestazioni simili, ma con minor complessità computazionale.
 
 ### 5.4.4 Applicazioni delle RNN
@@ -520,6 +565,7 @@ Anche se gli algoritmi generativi possono produrre dati realistici, a volte poss
 ### 5.7.2 Bias nei Dati di Addestramento
 
 Gli algoritmi generativi possono essere influenzati da bias presenti nei dati di addestramento, portando a risultati distorti o discriminatori. È importante garantire che i dati di addestramento siano rappresentativi e privi di pregiudizi.
+Ad esempio se un modello di riconoscimento facciale viene addestrato principalmente su volti di una sola etnia, potrebbe avere difficoltà a riconoscere volti di altre etnie.
 
 ### 5.7.3 Complessità Computazionale
 
@@ -696,7 +742,7 @@ La valutazione dell'etica si concentra sull'impatto sociale e morale dell'AI. Qu
 
 - **Bias algoritmico**: I modelli di AI possono perpetuare o amplificare pregiudizi presenti nei dati di addestramento, portando a decisioni discriminatorie.
 - **Privacy**: L'AI spesso richiede grandi quantità di dati personali, sollevando preoccupazioni sulla protezione della privacy.
-- **Sicurezza**: I sistemi di AI possono essere vulnerabili ad attacchi informatici, come l'avvelenamento dei dati o gli attacchi adversarial.
+- **Sicurezza**: I sistemi di AI possono essere vulnerabili ad attacchi informatici, come l'avvelenamento dei dati o gli attacchi adversarial, ovvero immagina di mostrare ad un amico una foto di un gatto, ma con un filtro strano che lo fa sembrare un cane. Lui dice "cane", anche se è chiaramente un gatto..
 - **Impatto sul lavoro**: L'automazione guidata dall'AI potrebbe portare alla perdita di posti di lavoro in alcuni settori, mentre ne creerà di nuovi in altri.
 
 ### 7.3.4 Valutazione dell'Interpretabilità
@@ -706,14 +752,16 @@ La valutazione dell'interpretabilità si concentra sulla capacità di un sistema
 #### Metodi di interpretabilità
 
 - **Modelli interpretabili**: Utilizzo di modelli semplici e trasparenti, come gli alberi di decisione, che sono più facili da interpretare.
-- **Tecniche di spiegazione**: Utilizzo di tecniche come **LIME** (Local Interpretable Model-agnostic Explanations) e **SHAP** (SHapley Additive exPlanations) per spiegare le previsioni di modelli complessi.
+- **Tecniche di spiegazione**: 
+**LIME** (Local Interpretable Model-agnostic Explanations) immagina di avere un modello che classifica immagini: Input: Una foto di un gatto. LIME: Ti mostra che il modello ha guardato le orecchie e il naso per decidere "gatto".
+**SHAP** (SHapley Additive exPlanations) per spiegare le previsioni di modelli complessi. Immagina un modello che approva prestiti: Input: Una persona di 30 anni, reddito medio. SHAP: Ti dice che l’età ha contribuito +10%, il reddito -5% al rifiuto).
 - **Visualizzazione**: Utilizzo di grafici e diagrammi per rappresentare il funzionamento interno del modello e le sue decisioni.
 
 ## 7.4 Nuovi Test e Benchmark
 
 ### 7.4.1 FrontierMath
 
-**FrontierMath** è un benchmark sviluppato per testare le capacità di ragionamento matematico dei modelli di AI. Questo benchmark include problemi matematici complessi e originali, progettati per essere particolarmente impegnativi anche per esperti umani. FrontierMath utilizza sistemi di verifica automatizzati per valutare le prestazioni dei modelli in modo efficiente e riproducibile.
+**FrontierMath** è un benchmark ( un punto di riferimento per misurare le prestazioni di un sistema, modello o tecnologia) sviluppato per testare le capacità di ragionamento matematico dei modelli di AI. Questo benchmark include problemi matematici complessi e originali, progettati per essere particolarmente impegnativi anche per esperti umani. FrontierMath utilizza sistemi di verifica automatizzati per valutare le prestazioni dei modelli in modo efficiente e riproducibile.
 
 #### Caratteristiche di FrontierMath
 
@@ -928,7 +976,7 @@ L'Intelligenza Artificiale (AI) è diventata accessibile a un pubblico sempre pi
 
 ### 9.2.3 Keras
 
-**Keras** è un'API di alto livello per lo sviluppo di modelli di deep learning, che può essere eseguita su TensorFlow, Theano o CNTK. Keras è progettato per essere semplice e intuitivo, rendendolo ideale per chi è nuovo al campo dell'AI.
+**Keras** è un'API (un’API è come un menù in un ristorante: ti dice cosa puoi ordinare (funzioni) e come farlo, ma non ti mostra come la cucina (sistema) prepara il piatto.) di alto livello per lo sviluppo di modelli di deep learning, che può essere eseguita su TensorFlow, Theano o CNTK. Keras è progettato per essere semplice e intuitivo, rendendolo ideale per chi è nuovo al campo dell'AI.
 
 #### Caratteristiche di Keras
 
