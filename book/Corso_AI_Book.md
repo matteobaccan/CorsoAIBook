@@ -1044,7 +1044,7 @@ L'AI generativa ha una vasta gamma di applicazioni, tra cui:
 
 #### 10.7.1 Cos'è un Prompt
 
-Un **prompt** è una richiesta o un’istruzione che dai a un’AI per fargli fare qualcosa. È come dire a un assistente: "Esegui questo compito in questo modo". Può essere una domanda, un’istruzione o un insieme di indicazioni che guidano l’IA nel generare un output desiderato. Generalmente, un testo inserito in una chat che descrive ciò di cui abbiamo bisogno.
+Un **prompt** è una richiesta o un’istruzione che dai a un’AI per fargli fare qualcosa. È come dire a un assistente: "Esegui questo compito in questo modo". Può essere una domanda, un’istruzione o un insieme di indicazioni che guidano l’AI nel generare un output desiderato. Generalmente, un testo inserito in una chat che descrive ciò di cui abbiamo bisogno.
 
 #### 10.7.2 Linee Guida per Scrivere un Prompt
 
@@ -1054,7 +1054,7 @@ Un **prompt** è una richiesta o un’istruzione che dai a un’AI per fargli fa
 - **Esempio forte**: "Scrivi un paragrafo sulle cause del cambiamento climatico, focalizzandoti sull’effetto serra."
 
 **Definisci il Contesto**:
-- **Fornisci informazioni di base per aiutare l’IA a capire il contesto.**
+- **Fornisci informazioni di base per aiutare l’AI a capire il contesto.**
 - **Esempio debole**: "Spiega la teoria della relatività."
 - **Esempio forte**: "Spiega la teoria della relatività di Einstein in modo semplice, come se stessi parlando a uno studente delle superiori."
 
@@ -1075,7 +1075,7 @@ Un **prompt** è una richiesta o un’istruzione che dai a un’AI per fargli fa
 
 **Chiedi un Punto di Vista o un Approccio**:
 - **Specifica se vuoi un tono serio, divertente, tecnico, ecc.**
-- **Esempio debole**: "Parlami dell’IA."
+- **Esempio debole**: "Parlami dell’AI."
 - **Esempio forte**: "Spiega cos’è l’intelligenza artificiale in modo divertente e adatto a un pubblico di bambini."
 
 **Includi Vincoli o Parametri**:
@@ -1287,7 +1287,7 @@ Esempio pratico:
 -**Rete Neurale**
 Un modello computazionale ispirato al funzionamento del cervello umano, composto da strati di "neuroni" artificiali che elaborano informazioni. Le reti neurali sono alla base del Deep Learning.
 
--**Esempio pratico:**
+Esempio pratico:
 Una rete neurale utilizzata per riconoscere numeri scritti a mano, come quelli nei codici postali.
 
 -**Reti Neurali Convoluzionali (CNN)**
