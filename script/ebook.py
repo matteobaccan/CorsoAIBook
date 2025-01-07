@@ -67,6 +67,13 @@ def convert_markdown_to_pdf():
                 allowWidows=1,  # Evita che una riga venga lasciata sola in una pagina
                 allowOrphans=1,  # Evita che una riga venga lasciata sola in una pagina
             ),
+            'link': ParagraphStyle(
+                name='Link',
+                fontName='Helvetica',
+                fontSize=12,
+                textColor=colors.blue,
+                underline=True,
+            ),
             'toc_entry' : ParagraphStyle(name='TOCEntry'    , fontName='Roboto'         , fontSize=14, spaceBefore=6,   spaceAfter=6    , leading=14                    ),
             'code'      : ParagraphStyle(
                 name='Code'        , 
@@ -125,12 +132,12 @@ def convert_markdown_to_pdf():
         h3 = ParagraphStyle(name = 'h3',
         fontSize = 12,
         leading = 14,
-        leftIndent = 12)
+        leftIndent = 14)
 
         h4 = ParagraphStyle(name = 'h4',
         fontSize = 10,
         leading = 14,
-        leftIndent = 14)
+        leftIndent = 18)
 
         # Creazione del PDF
         doc = MyDocTemplate(output_file,
@@ -163,15 +170,9 @@ def convert_markdown_to_pdf():
         add_page(elements)
 
         # Ringraziamenti
-        #ringraziamenti = Paragraph('Ringraziamenti', custom_styles['header1'])
-        #elements.append(ringraziamenti)
-        #elements.append(Paragraph('Grazie alla mia famiglia, che con il suo amore e il suo supporto mi ha permesso di realizzare questo progetto.', custom_styles['paragraph']))
-        #add_page(elements)
-
-        # Introduzione
-        f = open('../book/00-introduzione-it.md', 'r', encoding='utf-8');
-        markdown_content = f.read()
-        elements.extend(process_markdown_content(markdown_content, custom_styles))
+        ringraziamenti = Paragraph('Ringraziamenti', custom_styles['header1'])
+        elements.append(ringraziamenti)
+        elements.append(Paragraph('Grazie alle nostre famiglie, che con il loro amore e il loro supporto ci hanno permesso di realizzare questo progetto.', custom_styles['paragraph']))
         add_page(elements)
 
         # Elaborazione capitoli
@@ -219,22 +220,28 @@ def convert_markdown_to_pdf():
                 add_page(elements)
 
         # Biografia
-        f = open('../book/00-biografia-it.md', 'r', encoding='utf-8');
-        markdown_content = f.read()
-        elements.extend(process_markdown_content(markdown_content, custom_styles))
-        add_page(elements)
+        with open('../book/00-biografia-it.md', 'r', encoding='utf-8') as f:
+            markdown_content = f.read()
+            elements.extend(process_markdown_content(markdown_content, custom_styles))
+            add_page(elements)
 
         # Glossario
-        f = open('../book/00-glossario-it.md', 'r', encoding='utf-8');
-        markdown_content = f.read()
-        elements.extend(process_markdown_content(markdown_content, custom_styles))
-        add_page(elements)
+        with open('../book/00-glossario-it.md', 'r', encoding='utf-8') as f:
+            markdown_content = f.read()
+            elements.extend(process_markdown_content(markdown_content, custom_styles))
+            add_page(elements)
+
+        # Bibliografia
+        with open('../book/00-bibliografia-it.md', 'r', encoding='utf-8') as f:
+            markdown_content = f.read()
+            elements.extend(process_markdown_content(markdown_content, custom_styles))
+            add_page(elements)
 
         # Disclaimer
-        f = open('../book/00-disclaimer-it.md', 'r', encoding='utf-8');
-        markdown_content = f.read()
-        elements.extend(process_markdown_content(markdown_content, custom_styles))
-        add_page(elements)
+        with open('../book/00-disclaimer-it.md', 'r', encoding='utf-8') as f:
+            markdown_content = f.read()
+            elements.extend(process_markdown_content(markdown_content, custom_styles))
+            add_page(elements)
 
         # Inserisci la TOC prima della biografia
         elements.append(Paragraph('Indice', custom_styles['header1']))
@@ -282,7 +289,7 @@ def process_markdown_title(elements, custom_styles, title, image_path):
 
         add_page(elements)
 
-def apply_bold(text, style):
+def apply_bold(text):
     # Cerca il testo tra ** e lo sostituisce con il formato grassetto
     bold_pattern = re.compile(r'\*\*(.*?)\*\*')
     return bold_pattern.sub(lambda match: f'<font name="Quicksand-Bold">{match.group(1)}</font>', text)
@@ -294,16 +301,14 @@ def process_images(line, custom_styles):
     
     if match:
         caption = match.group(1)  # Didascalia
-        # Costruisci il percorso dell'immagine in modo compatibile
-        image_path = os.path.join(os.getcwd(), match.group(2))
-        print(f'Immagine: {image_path}')
+        image_path = os.path.join(os.getcwd(), match.group(2))  # Percorso dell'immagine
         
         # Verifica se il file esiste
         if not os.path.exists(image_path):
             raise Exception(f"Immagine non trovata: {image_path}")
         
         try:
-            # Aggiungi l'immagine
+            # Aggiungi l'immagine con un bordo
             img = Image(image_path, width=400, height=300)  # Regola le dimensioni secondo necessità
             img.hAlign = 'CENTER'
             
@@ -317,6 +322,54 @@ def process_images(line, custom_styles):
     
     # Se non c'è un'immagine, restituisci None
     return None
+
+def process_links(line, custom_styles):
+    # Cerca il pattern [testo](URL)
+    link_pattern = re.compile(r'\[(.*?)\]\((.*?)\)')
+    match = link_pattern.search(line)
+    
+    if match:
+        link_text = match.group(1)  # Testo del link
+        link_url = match.group(2)   # URL del link
+        link_html = f'<a href="{link_url}" color="blue">{link_text}</a>'
+        link_paragraph = Paragraph(link_html, custom_styles['link'])
+        return link_paragraph
+    return None
+
+def process_lists(line, custom_styles):
+    # Gestisce le liste non ordinate
+    if line.strip().startswith("- "):
+        return Paragraph(f"• {line[2:]}", custom_styles['paragraph'])
+    # Gestisce le liste ordinate
+    elif re.match(r'^\d+\. ', line.strip()):
+        return Paragraph(line, custom_styles['paragraph'])
+    return None
+
+def process_code_blocks(content, custom_styles):
+    blocks = []
+    in_code_block = False
+    code_lines = []
+
+    for line in content.splitlines():
+        if line.strip().startswith("```"):
+            if not in_code_block:
+                in_code_block = True
+                code_lines = []
+            else:
+                in_code_block = False
+                code_text = "\n".join(code_lines)
+                blocks.append(Paragraph(code_text, custom_styles['code']))
+                code_lines = []
+        elif in_code_block:
+            code_lines.append(line)
+        else:
+            blocks.append(Paragraph(line, custom_styles['paragraph']))
+
+    if code_lines:
+        code_text = "\n".join(code_lines)
+        blocks.append(Paragraph(code_text, custom_styles['code']))
+
+    return blocks
 
 def process_markdown_content(content, custom_styles):
     blocks = []
@@ -336,15 +389,27 @@ def process_markdown_content(content, custom_styles):
         elif in_code_block:
             code_lines.append(line)
         else:
+            # Applica il grassetto al testo tra **
+            line = apply_bold(line)
+
             # Gestisci le immagini
             image_elements = process_images(line, custom_styles)
             if image_elements:
                 blocks.extend(image_elements)
                 continue  # Passa alla prossima riga dopo aver gestito l'immagine
             
-            # Applica il grassetto al testo tra **
-            line = apply_bold(line, custom_styles['paragraph'])
+            # Gestisci i link
+            link_paragraph = process_links(line, custom_styles)
+            if link_paragraph:
+                blocks.append(link_paragraph)
+                continue  # Passa alla prossima riga dopo aver gestito il link
             
+            # Gestisci le liste
+            list_paragraph = process_lists(line, custom_styles)
+            if list_paragraph:
+                blocks.append(list_paragraph)
+                continue  # Passa alla prossima riga dopo aver gestito la lista
+                       
             # Riconosce le intestazioni
             if line.startswith("# "):
                 blocks.append(Paragraph(line[2:], custom_styles['header1']))

@@ -6,17 +6,17 @@ L'**Intelligenza Artificiale** (AI) è una branca dell'informatica che si occupa
 
 L'AI non è un concetto nuovo: le sue radici risalgono agli anni '50, quando Alan Turing propose il famoso **Test di Turing** come criterio per determinare se una macchina può essere considerata "intelligente". Tuttavia, solo negli ultimi decenni, grazie ai progressi nella potenza di calcolo, alla disponibilità di grandi quantità di dati e allo sviluppo di algoritmi avanzati, l'AI ha iniziato a raggiungere risultati significativi e a diventare parte integrante della nostra vita quotidiana.
 
-### 2.1.1 Definizione di Intelligenza Artificiale
+#### 2.1.1 Definizione di Intelligenza Artificiale
 
 L'AI può essere definita come la capacità di una macchina di imitare le funzioni cognitive umane, come l'apprendimento e la risoluzione di problemi. Questo include la capacità di analizzare dati, riconoscere pattern, prendere decisioni e adattarsi a nuove situazioni senza essere esplicitamente programmata per ogni singolo compito.
 
-### 2.1.2 Differenza tra AI, Machine Learning e Deep Learning
+#### 2.1.2 Differenza tra AI, Machine Learning e Deep Learning
 
 - **AI (Intelligenza Artificiale)**: È il campo più ampio che comprende tutte le tecnologie e i metodi per creare macchine intelligenti.
 - **Machine Learning (Apprendimento Automatico)**: È una sottobranca dell'AI che si concentra sullo sviluppo di algoritmi che permettono alle macchine di apprendere dai dati senza essere esplicitamente programmate.
 - **Deep Learning (Apprendimento Profondo)**: È una sottobranca del Machine Learning che utilizza reti neurali artificiali con molti strati (da qui il termine "deep") per risolvere problemi complessi, come il riconoscimento di immagini o il trattamento del linguaggio naturale.
 
-### 2.1.3 Tipi di Intelligenza Artificiale
+#### 2.1.3 Tipi di Intelligenza Artificiale
 
 L'AI può essere classificata in tre categorie principali, in base alle sue capacità e al livello di autonomia:
 
