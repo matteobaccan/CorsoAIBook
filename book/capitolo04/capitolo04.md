@@ -12,6 +12,8 @@ Il **Machine Learning** è una sottobranca dell'AI che si concentra sullo svilup
 
 **Esempio**: Immagina di voler insegnare a un bambino a riconoscere gli animali. Gli mostri tante foto di gatti e cani, dicendogli "questo è un gatto" e "questo è un cane". Il bambino inizia a notare schemi, come "i gatti hanno orecchie a punta" e "i cani hanno il muso lungo". Quando gli mostri una nuova foto, il bambino usa ciò che ha imparato per dire se è un gatto o un cane.
 
+![Pipeline di machine learning](4.2.1.png)
+
 #### 4.2.2 Perché il Machine Learning è importante?
 
 Il Machine Learning è fondamentale perché permette di affrontare problemi complessi che non possono essere risolti con algoritmi tradizionali. Ad esempio, riconoscere un volto in un'immagine o tradurre un testo da una lingua all'altra sono compiti che richiedono la capacità di apprendere da grandi quantità di dati e di generalizzare da essi.
@@ -31,6 +33,7 @@ Il processo di Machine Learning può essere suddiviso in tre fasi principali:
 Nell'**apprendimento supervisionato**, il modello viene addestrato su un dataset etichettato, dove ogni esempio di input è associato a un output desiderato. L'obiettivo è imparare una funzione che mappa gli input agli output corretti. Esempi comuni includono la classificazione di immagini e la previsione di valori numerici (regressione).
 
 **Esempi di algoritmi**:
+
 - **Regressione Lineare**: Utilizzato per prevedere valori continui, come il prezzo di una casa.
 - **Alberi di Decisione**: Utilizzati per la classificazione e la regressione, basati su una serie di decisioni binarie.
 - **Support Vector Machines (SVM)**: Utilizzati per la classificazione, trovando il confine ottimale tra diverse classi.
@@ -40,6 +43,7 @@ Nell'**apprendimento supervisionato**, il modello viene addestrato su un dataset
 Nell'**apprendimento non supervisionato**, il modello viene addestrato su un dataset non etichettato, dove non ci sono output desiderati. L'obiettivo è identificare pattern o strutture nascoste nei dati. Esempi comuni includono il clustering e la riduzione della dimensionalità.
 
 **Esempi di algoritmi**:
+
 - **K-Means Clustering**: Utilizzato per raggruppare dati in cluster basati sulla somiglianza.Immagina di avere un mucchio di palline di colori diversi. Il K-Means le divide in gruppi in base al colore.
 - **Principal Component Analysis (PCA)**: Utilizzato per ridurre la dimensionalità dei dati, mantenendo le informazioni più importanti. Immagina di avere un disegno di una mela fatto con tanti puntini sparsi. La PCA lo trasforma in un disegno più semplice, con meno puntini, ma che sembra ancora una mela.
 - **Autoencoder**: Una rete neurale utilizzata per comprimere e ricostruire dati, spesso utilizzata per la riduzione del rumore. Immagina di avere una foto di un gatto. L’autoencoder, la comprime in una versione più piccola (come un’icona), la ricostruisce per farla sembrare di nuovo la foto originale.
@@ -49,6 +53,7 @@ Nell'**apprendimento non supervisionato**, il modello viene addestrato su un dat
 Nell'**apprendimento per rinforzo**, un agente impara a prendere decisioni interagendo con un ambiente dinamico. L'agente riceve feedback sotto forma di ricompense o punizioni in base alle sue azioni, e l'obiettivo è massimizzare la ricompensa totale nel lungo termine. Questo approccio è particolarmente utile in contesti come i giochi e la robotica.
 
 **Esempi di algoritmi**:
+
 - **Q-Learning**: Un algoritmo che impara una politica ottimale per prendere decisioni in un ambiente.
 mmagina un robot in un labirinto:
 - Il robot prova a muoversi in direzioni casuali.
@@ -58,7 +63,6 @@ mmagina un robot in un labirinto:
 - La DQN guarda lo schermo (stato) e decide dove muoversi (azione).
 - Se mangia un fantasma, impara che quella mossa è buona (ricompensa).
 - Usa le esperienze passate per migliorare le decisioni future.
-
 
 ### 4.4 Cos'è il Deep Learning?
 
@@ -77,6 +81,7 @@ Il Deep Learning ha rivoluzionato molti campi dell'AI grazie alla sua capacità 
 Le reti neurali profonde sono composte da più strati di neuroni artificiali, ognuno dei quali trasforma i dati in modo non lineare. Durante l'addestramento, i pesi della rete vengono regolati per minimizzare l'errore tra le previsioni del modello e i risultati desiderati. Questo processo è noto come **backpropagation**.
 
 **Componenti principali di una rete neurale**:
+
 - **Input Layer**: Lo strato che riceve i dati di input.
 - **Hidden Layers**: Gli strati intermedi che trasformano i dati.
 - **Output Layer**: Lo strato che produce il risultato finale.
@@ -91,6 +96,7 @@ Le **Reti Neurali Convoluzionali** (CNN) sono progettate per elaborare dati stru
 Le CNN sono composte da più strati di neuroni artificiali, ognuno dei quali trasforma i dati in modo non lineare. Gli strati di convoluzione applicano filtri (kernel) all'input per estrarre feature locali, mentre gli strati di pooling riducono le dimensioni dei dati, mantenendo le feature più importanti.
 
 **Applicazioni delle CNN**:
+
 - **Riconoscimento di immagini**: Le CNN sono utilizzate per identificare oggetti, volti e scene in immagini e video.
 - **Visione artificiale**: Le CNN sono utilizzate in sistemi di guida autonoma, sorveglianza e analisi medica.
 - **Elaborazione video**: Le CNN possono analizzare video per rilevare movimenti, oggetti o eventi specifici.
@@ -104,10 +110,12 @@ Le **Reti Neurali Ricorrenti** (RNN) sono progettate per elaborare sequenze di d
 Le RNN elaborano i dati sequenziali passo dopo passo, mantenendo uno stato interno che cattura le informazioni rilevanti dai passaggi precedenti. Questo permette alle RNN di gestire input di lunghezza variabile e di mantenere il contesto temporale.
 
 **Varianti delle RNN**:
+
 1. **LSTM (Long Short-Term Memory)**: Una LSTM è una variante avanzata delle RNN che utilizza un sistema di "gate" (cancelli) per controllare il flusso delle informazioni, permettendo alla rete di memorizzare selettivamente informazioni importanti per lunghi periodi e risolvere il problema del **vanishing gradient**, ovvero un problema che si verifica durante l’addestramento delle reti neurali profonde, dove i gradienti diventano così piccoli che il modello smette di imparare.
 2. **GRU (Gated Recurrent Unit)**: La GRU è una versione semplificata della LSTM che combina i gate di dimenticanza e di input in un unico "gate di aggiornamento", mantenendo prestazioni simili, ma con minor complessità computazionale.
 
 **Applicazioni delle RNN**:
+
 - **Elaborazione del linguaggio naturale (NLP)**: Le RNN sono utilizzate per compiti come la traduzione automatica, la generazione di testo e l'analisi del sentiment.
 - **Riconoscimento vocale**: Le RNN possono essere utilizzate per convertire il parlato in testo.
 - **Previsione di serie temporali**: Le RNN sono utilizzate per prevedere valori futuri basati su dati storici, come i prezzi delle azioni o le previsioni meteorologiche.

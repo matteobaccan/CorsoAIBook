@@ -38,206 +38,224 @@ class MyDocTemplate(SimpleDocTemplate):
                 self.notify('TOCEntry', (3, text, self.page))
 
 def convert_markdown_to_pdf():
-    # File di output
-    output_file = '../book/Corso_AI_Book.pdf'
+    try:
+        # File di output
+        output_file = '../book/Corso_AI_Book.pdf'
 
-    # Registra i font personalizzati
-    pdfmetrics.registerFont(TTFont('Quicksand'      , '../book/fonts/Quicksand-Regular.ttf'))
-    pdfmetrics.registerFont(TTFont('Quicksand-bold' , '../book/fonts/Quicksand-Bold.ttf'))
-    pdfmetrics.registerFont(TTFont('Roboto'         , '../book/fonts/Roboto-Regular.ttf'))
-    pdfmetrics.registerFont(TTFont('Roboto-Bold'    , '../book/fonts/Roboto-Bold.ttf'))
-    pdfmetrics.registerFont(TTFont('SourceCodePro'  , '../book/fonts/SourceCodePro-Regular.ttf'))
+        # Registra i font personalizzati
+        pdfmetrics.registerFont(TTFont('Quicksand'      , '../book/fonts/Quicksand-Regular.ttf'))
+        pdfmetrics.registerFont(TTFont('Quicksand-bold' , '../book/fonts/Quicksand-Bold.ttf'))
+        pdfmetrics.registerFont(TTFont('Roboto'         , '../book/fonts/Roboto-Regular.ttf'))
+        pdfmetrics.registerFont(TTFont('Roboto-Bold'    , '../book/fonts/Roboto-Bold.ttf'))
+        pdfmetrics.registerFont(TTFont('SourceCodePro'  , '../book/fonts/SourceCodePro-Regular.ttf'))
 
-    # Stili personalizzati per i paragrafi
-    custom_styles = {
-        'header1'   : ParagraphStyle(name='Header1'     , fontName='Roboto-Bold'    , fontSize=16,                  spaceAfter=16   , leading=24                    ),
-        'header2'   : ParagraphStyle(name='Header2'     , fontName='Roboto-Bold'    , fontSize=14,                  spaceAfter=8    , leading=16                    ),
-        'header3'   : ParagraphStyle(name='Header3'     , fontName='Roboto-Bold'    , fontSize=12,                  spaceAfter=8    , leading=14                    ),
-        'header4'   : ParagraphStyle(name='Header4'     , fontName='Roboto-Bold'    , fontSize=10,                  spaceAfter=8    , leading=12                    ),
-        'paragraph': ParagraphStyle(
-            name='Paragraph',
-            fontName='Quicksand',  # Font normale
-            fontSize=12,
-            spaceBefore=10,
-            spaceAfter=10,
-            leading=18,
-            alignment=TA_JUSTIFY,
-            # Aggiungi questa linea per supportare il grassetto
-            allowWidows=1,  # Evita che una riga venga lasciata sola in una pagina
-            allowOrphans=1,  # Evita che una riga venga lasciata sola in una pagina
-        ),
-        'toc_entry' : ParagraphStyle(name='TOCEntry'    , fontName='Roboto'         , fontSize=14, spaceBefore=6,   spaceAfter=6    , leading=14                    ),
-        'code'      : ParagraphStyle(
-            name='Code'        , 
-            fontName='SourceCodePro'  , 
-            fontSize=12, 
-            spaceBefore=10,  
-            spaceAfter=10   , 
-            leading=14    , 
-            # leftIndent=12,
+        # Stili personalizzati per i paragrafi
+        custom_styles = {
+            'header1'   : ParagraphStyle(name='Header1'     , fontName='Roboto-Bold'    , fontSize=16,                  spaceAfter=16   , leading=24                    ),
+            'header2'   : ParagraphStyle(name='Header2'     , fontName='Roboto-Bold'    , fontSize=14,                  spaceAfter=8    , leading=16                    ),
+            'header3'   : ParagraphStyle(name='Header3'     , fontName='Roboto-Bold'    , fontSize=12,                  spaceAfter=8    , leading=14                    ),
+            'header4'   : ParagraphStyle(name='Header4'     , fontName='Roboto-Bold'    , fontSize=10,                  spaceAfter=8    , leading=12                    ),
+            'paragraph': ParagraphStyle(
+                name='Paragraph',
+                fontName='Quicksand',  # Font normale
+                fontSize=12,
+                spaceBefore=10,
+                spaceAfter=10,
+                leading=18,
+                alignment=TA_JUSTIFY,
+                # Aggiungi questa linea per supportare il grassetto
+                allowWidows=1,  # Evita che una riga venga lasciata sola in una pagina
+                allowOrphans=1,  # Evita che una riga venga lasciata sola in una pagina
+            ),
+            'toc_entry' : ParagraphStyle(name='TOCEntry'    , fontName='Roboto'         , fontSize=14, spaceBefore=6,   spaceAfter=6    , leading=14                    ),
+            'code'      : ParagraphStyle(
+                name='Code'        , 
+                fontName='SourceCodePro'  , 
+                fontSize=12, 
+                spaceBefore=10,  
+                spaceAfter=10   , 
+                leading=14    , 
+                # leftIndent=12,
+                textColor=colors.black,
+                backColor=colors.Color(0.93, 0.93, 0.93),  # Grigio estremamente tenue
+                borderColor=colors.Color(0.8, 0.8, 0.8),   # Bordo quasi invisibile
+                borderWidth=0.3,
+                borderPadding=5,
+                borderRadius=2,  # Angoli arrotondati )
+            )
+        }
+
+        # Stile con sfondo e bordo
+        boxed_style = ParagraphStyle(
+            'BoxedStyle',
+            fontName='Helvetica',
+            fontSize=10,
             textColor=colors.black,
-            backColor=colors.Color(0.93, 0.93, 0.93),  # Grigio estremamente tenue
-            borderColor=colors.Color(0.8, 0.8, 0.8),   # Bordo quasi invisibile
-            borderWidth=0.3,
-            borderPadding=5,
-            borderRadius=2,  # Angoli arrotondati )
+            backColor=colors.lightgrey,  # Sfondo grigio chiaro
+            borderColor=colors.darkgrey,  # Colore bordo
+            borderWidth=1,  # Spessore bordo
+            borderPadding=5,  # Padding interno
+            borderRadius=3,  # Angoli arrotondati
         )
-    }
 
-    # Stile con sfondo e bordo
-    boxed_style = ParagraphStyle(
-        'BoxedStyle',
-        fontName='Helvetica',
-        fontSize=10,
-        textColor=colors.black,
-        backColor=colors.lightgrey,  # Sfondo grigio chiaro
-        borderColor=colors.darkgrey,  # Colore bordo
-        borderWidth=1,  # Spessore bordo
-        borderPadding=5,  # Padding interno
-        borderRadius=3,  # Angoli arrotondati
-    )
-
-    # Lista dei capitoli con i rispettivi file markdown
-    capitoli = [
-        ('../book/capitolo01/capitolo01.md', 'Introduzione all\'Intelligenza Artificiale', ''),
-        ('../book/capitolo02/capitolo02.md', 'Cos\'è l\'Intelligenza Artificiale?', ''),
-        ('../book/capitolo03/capitolo03.md', 'Evoluzione dell\'Intelligenza Artificiale', ''),
-        ('../book/capitolo04/capitolo04.md', 'Machine Learning e Deep Learning', ''),
-        ('../book/capitolo05/capitolo05.md', 'Algoritmi Generativi', ''),
-        ('../book/capitolo06/capitolo06.md', 'Applicazioni dell\'AI', ''),
-        ('../book/capitolo07/capitolo07.md', 'Valutazione delle AI', ''),
-        ('../book/capitolo08/capitolo08.md', 'Aziende e Tecnologie AI', ''),
-        ('../book/capitolo09/capitolo09.md', 'Strumenti e Servizi AI', ''),
-        ('../book/capitolo10/capitolo10.md', 'Creazione di Contenuti con le AI', ''),
-        ('../book/capitolo11/capitolo11.md', 'Conclusioni e Risorse', '')
-    ]
-    
-    h1 = ParagraphStyle(name = 'h1',
-       fontSize = 14,
-       leading = 16)
-
-    h2 = ParagraphStyle(name = 'h2',
-       fontSize = 12,
-       leading = 14,
-       leftIndent = 10)
-
-    h3 = ParagraphStyle(name = 'h3',
-       fontSize = 12,
-       leading = 14,
-       leftIndent = 10)
-
-    h4 = ParagraphStyle(name = 'h4',
-       fontSize = 10,
-       leading = 14,
-       leftIndent = 10)
-
-    # Creazione del PDF
-    doc = MyDocTemplate(output_file,
-                            pagesize=letter,
-                            bottomMargin=100) # Lascia spazio per il footer
-
-    page_width, page_height = letter
-    frame_no_margins = Frame(0, 0, page_width, page_height, leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
-    frame_with_margins = Frame(inch, inch, page_width - 2*inch, page_height - 2*inch, leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
-
-    first_page_template = PageTemplate(id="FirstPage", frames=[frame_no_margins])
-    following_pages_template = PageTemplate(id="FollowingPages", frames=[frame_with_margins])
-    doc.addPageTemplates([first_page_template, following_pages_template])
-
-    elements = []
-
-    # Crea l'oggetto TOC
-    toc = TableOfContents()
-    toc.levelStyles = [h1, h2, h3, h4]
-
-    # Copertina
-    cover_image = Image(os.path.join('../book/cover/book-ai-cover.png'), width=9*inch, height=11*inch)    
-    elements.append(cover_image)
-    add_page(elements)
-
-    # Prefazione dell'autore
-    f = open('../book/00-prefazione-it.md', 'r', encoding='utf-8');
-    markdown_content = f.read()
-    elements.extend(process_markdown_content(markdown_content, custom_styles))
-    add_page(elements)
-
-    # Ringraziamenti
-    #ringraziamenti = Paragraph('Ringraziamenti', custom_styles['header1'])
-    #elements.append(ringraziamenti)
-    #elements.append(Paragraph('Grazie alla mia famiglia, che con il suo amore e il suo supporto mi ha permesso di realizzare questo progetto.', custom_styles['paragraph']))
-    #add_page(elements)
-
-    # Introduzione
-    f = open('../book/00-introduzione-it.md', 'r', encoding='utf-8');
-    markdown_content = f.read()
-    elements.extend(process_markdown_content(markdown_content, custom_styles))
-    add_page(elements)
-
-    # Elaborazione capitoli
-    for chapter_info in capitoli:
-        # Gestisci la possibilità di avere 2 o 3 elementi nella tupla
-        if len(chapter_info) == 3:
-            filename, title, image_path = chapter_info
-        else:
-            if len(chapter_info) == 2:
-                filename, title = chapter_info
-                image_path = None
-            else:            
-                filename= chapter_info
-                title = None
-                image_path = None
-
-        # Aggiungi l'intestazione del capitolo
-        if title:
-            elements.append(Paragraph(title, custom_styles['header1']))
-
-            # Aggiungi l'immagine se presente
-            if image_path and os.path.exists(image_path):
-                print(f'Leggo MD {image_path}')
-                try:
-                    img = Image(image_path, width=400*1.2, height=300*1.2)  # Regola dimensioni secondo necessità
-                    img.hAlign = 'CENTER'
-                    elements.append(img)                
-                except Exception as e:
-                    print(f"Errore nel caricamento dell'immagine {image_path}: {e}")
-
-            add_page(elements)
-
-        # Leggi il contenuto del file markdown
-        print(f'Leggo MD {filename}')
-        with open(filename, 'r', encoding='utf-8') as f:
-            markdown_content = f.read()
+        # Lista dei capitoli con i rispettivi file markdown
+        capitoli = [
+            ('../book/capitolo01/capitolo01.md', 'Introduzione all\'Intelligenza Artificiale', ''),
+            ('../book/capitolo02/capitolo02.md', 'Cos\'è l\'Intelligenza Artificiale?', ''),
+            ('../book/capitolo03/capitolo03.md', 'Evoluzione dell\'Intelligenza Artificiale', ''),
+            ('../book/capitolo04/capitolo04.md', 'Machine Learning e Deep Learning', ''),
+            ('../book/capitolo05/capitolo05.md', 'Algoritmi Generativi', ''),
+            ('../book/capitolo06/capitolo06.md', 'Applicazioni dell\'AI', ''),
+            ('../book/capitolo07/capitolo07.md', 'Valutazione delle AI', ''),
+            ('../book/capitolo08/capitolo08.md', 'Aziende e Tecnologie AI', ''),
+            ('../book/capitolo09/capitolo09.md', 'Strumenti e Servizi AI', ''),
+            ('../book/capitolo10/capitolo10.md', 'Creazione di Contenuti con le AI', ''),
+            ('../book/capitolo11/capitolo11.md', 'Conclusioni e Risorse', '')
+        ]
         
-            chapter_elements = process_markdown_content(markdown_content, custom_styles)
-            elements.extend(chapter_elements)
-    
-            add_page(elements)
+        h1 = ParagraphStyle(name = 'h1',
+        fontSize = 14,
+        leading = 16)
 
-    # Biografia
-    f = open('../book/00-biografia-it.md', 'r', encoding='utf-8');
-    markdown_content = f.read()
-    elements.extend(process_markdown_content(markdown_content, custom_styles))
-    add_page(elements)
+        h2 = ParagraphStyle(name = 'h2',
+        fontSize = 12,
+        leading = 14,
+        leftIndent = 10)
 
-    # Inserisci la TOC prima della biografia
-    elements.append(Paragraph('Indice', custom_styles['header1']))
-    elements.append(toc)    
-    add_page(elements)
+        h3 = ParagraphStyle(name = 'h3',
+        fontSize = 12,
+        leading = 14,
+        leftIndent = 10)
 
-    # Dati aziendali personalizzati 
-    now = datetime.now()
-    custom_data = {
-        'oggi': now.strftime("%d/%m/%Y %H:%M")
-    }
+        h4 = ParagraphStyle(name = 'h4',
+        fontSize = 10,
+        leading = 14,
+        leftIndent = 10)
 
-    # Genera PDF
-    doc.multiBuild(elements, 
-          onLaterPages=lambda canvas, doc: (
-              add_footer(canvas, doc, custom_data)
-          ))
+        # Creazione del PDF
+        doc = MyDocTemplate(output_file,
+                                pagesize=letter,
+                                bottomMargin=100) # Lascia spazio per il footer
 
-    # Stampa a video il percorso del file creato
-    print(f'PDF creato: {output_file}')
+        page_width, page_height = letter
+        frame_no_margins = Frame(0, 0, page_width, page_height, leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
+        frame_with_margins = Frame(inch, inch, page_width - 2*inch, page_height - 2*inch, leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
+
+        first_page_template = PageTemplate(id="FirstPage", frames=[frame_no_margins])
+        following_pages_template = PageTemplate(id="FollowingPages", frames=[frame_with_margins])
+        doc.addPageTemplates([first_page_template, following_pages_template])
+
+        elements = []
+
+        # Crea l'oggetto TOC
+        toc = TableOfContents()
+        toc.levelStyles = [h1, h2, h3, h4]
+
+        # Copertina
+        cover_image = Image(os.path.join('../book/cover/book-ai-cover.png'), width=9*inch, height=11*inch)    
+        elements.append(cover_image)
+        add_page(elements)
+
+        # Prefazione dell'autore
+        f = open('../book/00-prefazione-it.md', 'r', encoding='utf-8');
+        markdown_content = f.read()
+        elements.extend(process_markdown_content(markdown_content, custom_styles))
+        add_page(elements)
+
+        # Ringraziamenti
+        #ringraziamenti = Paragraph('Ringraziamenti', custom_styles['header1'])
+        #elements.append(ringraziamenti)
+        #elements.append(Paragraph('Grazie alla mia famiglia, che con il suo amore e il suo supporto mi ha permesso di realizzare questo progetto.', custom_styles['paragraph']))
+        #add_page(elements)
+
+        # Introduzione
+        f = open('../book/00-introduzione-it.md', 'r', encoding='utf-8');
+        markdown_content = f.read()
+        elements.extend(process_markdown_content(markdown_content, custom_styles))
+        add_page(elements)
+
+        # Elaborazione capitoli
+        for chapter_info in capitoli:
+            # Gestisci la possibilità di avere 2 o 3 elementi nella tupla
+            if len(chapter_info) == 3:
+                filename, title, image_path = chapter_info
+            else:
+                if len(chapter_info) == 2:
+                    filename, title = chapter_info
+                    image_path = None
+                else:            
+                    filename= chapter_info
+                    title = None
+                    image_path = None
+
+            # Aggiungi l'intestazione del capitolo
+            if title:
+                elements.append(Paragraph(title, custom_styles['header1']))
+
+                # Aggiungi l'immagine se presente
+                if image_path and os.path.exists(image_path):
+                    print(f'Leggo MD {image_path}')
+                    try:
+                        img = Image(image_path, width=400*1.2, height=300*1.2)  # Regola dimensioni secondo necessità
+                        img.hAlign = 'CENTER'
+                        elements.append(img)                
+                    except Exception as e:
+                        print(f"Errore nel caricamento dell'immagine {image_path}: {e}")
+
+                add_page(elements)
+
+            # Leggi il contenuto del file markdown
+            print(f'Leggo MD {filename}')
+            with open(filename, 'r', encoding='utf-8') as f:
+                markdown_content = f.read()
+            
+                # Salva la directory corrente
+                original_dir = os.getcwd()
+
+                # Ottieni la directory del file Markdown
+                file_dir = os.path.dirname(filename)
+
+                # Cambia directory alla cartella del file Markdown
+                os.chdir(file_dir)
+
+                chapter_elements = process_markdown_content(markdown_content, custom_styles)
+
+                # Torna alla directory originale
+                os.chdir(original_dir)
+
+                elements.extend(chapter_elements)
+        
+                add_page(elements)
+
+        # Biografia
+        f = open('../book/00-biografia-it.md', 'r', encoding='utf-8');
+        markdown_content = f.read()
+        elements.extend(process_markdown_content(markdown_content, custom_styles))
+        add_page(elements)
+
+        # Inserisci la TOC prima della biografia
+        elements.append(Paragraph('Indice', custom_styles['header1']))
+        elements.append(toc)    
+        add_page(elements)
+
+        # Dati aziendali personalizzati 
+        now = datetime.now()
+        custom_data = {
+            'oggi': now.strftime("%d/%m/%Y %H:%M")
+        }
+
+        # Genera PDF
+        doc.multiBuild(elements, 
+            onLaterPages=lambda canvas, doc: (
+                add_footer(canvas, doc, custom_data)
+            ))
+
+        # Stampa a video il percorso del file creato
+        print(f'PDF creato: {output_file}')
+
+    except Exception as e:
+        print(f"Errore durante la generazione del PDF: {e}")
+        exit(1)  # Termina lo script con un codice di errore    
 
 # Resto del codice rimane invariato
 def main():
@@ -247,6 +265,36 @@ def apply_bold(text, style):
     # Cerca il testo tra ** e lo sostituisce con il formato grassetto
     bold_pattern = re.compile(r'\*\*(.*?)\*\*')
     return bold_pattern.sub(lambda match: f'<font name="Quicksand-Bold">{match.group(1)}</font>', text)
+
+def process_images(line, custom_styles):
+    # Cerca il pattern ![didascalia](path_immagine)
+    image_pattern = re.compile(r'!\[(.*?)\]\((.*?)\)')
+    match = image_pattern.search(line)
+    
+    if match:
+        caption = match.group(1)  # Didascalia
+        image_path = os.getcwd() +'\\' +match.group(2)  # Percorso dell'immagine
+        print(f'Immagine: {image_path}')
+        
+        # Verifica se il file esiste
+        if not os.path.exists(image_path):
+            raise Exception(f"Immagine non trovata: {image_path}")
+        
+        try:
+            # Aggiungi l'immagine
+            img = Image(image_path, width=400, height=300)  # Regola le dimensioni secondo necessità
+            img.hAlign = 'CENTER'
+            
+            # Aggiungi la didascalia sotto l'immagine
+            caption_paragraph = Paragraph(f'<font name="Quicksand-Bold">{caption}</font>', custom_styles['paragraph'])
+            caption_paragraph.hAlign = 'CENTER'
+            
+            return [img, caption_paragraph]
+        except Exception as e:
+            raise Exception(f"Errore nel caricamento dell'immagine {image_path}: {e}")
+    
+    # Se non c'è un'immagine, restituisci None
+    return None
 
 def process_markdown_content(content, custom_styles):
     blocks = []
@@ -266,6 +314,12 @@ def process_markdown_content(content, custom_styles):
         elif in_code_block:
             code_lines.append(line)
         else:
+            # Gestisci le immagini
+            image_elements = process_images(line, custom_styles)
+            if image_elements:
+                blocks.extend(image_elements)
+                continue  # Passa alla prossima riga dopo aver gestito l'immagine
+            
             # Applica il grassetto al testo tra **
             line = apply_bold(line, custom_styles['paragraph'])
             

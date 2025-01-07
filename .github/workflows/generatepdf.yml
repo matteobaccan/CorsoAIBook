@@ -17,27 +17,8 @@ jobs:
 
     - name: generate pdf
       run: |
-        cd slide
-        cp Corso_AI.md Corso_AI-backup.md
-        sed -i "s/%date%/$(date +'%Y-%m-%d')/g" Corso_AI.md
-        sed -i "s/%time%/$(date +'%H:%M')/g" Corso_AI.md
-        npx @marp-team/marp-cli@latest Corso_AI.md --pdf --allow-local-files
-        rm Corso_AI.md
-        mv Corso_AI-backup.md Corso_AI.md
-
-        cp Corso_AI_Coder.md Corso_AI_Coder-backup.md
-        sed -i "s/%date%/$(date +'%Y-%m-%d')/g" Corso_AI_Coder.md
-        sed -i "s/%time%/$(date +'%H:%M')/g" Corso_AI_Coder.md
-        npx @marp-team/marp-cli@latest Corso_AI_Coder.md --pdf --allow-local-files
-        rm Corso_AI_Coder.md
-        mv Corso_AI_Coder-backup.md Corso_AI_Coder.md
-
-        cp AI_nuovo_superpotere.md AI_nuovo_superpotere-backup.md
-        sed -i "s/%date%/$(date +'%Y-%m-%d')/g" AI_nuovo_superpotere.md
-        sed -i "s/%time%/$(date +'%H:%M')/g" AI_nuovo_superpotere.md
-        npx @marp-team/marp-cli@latest AI_nuovo_superpotere.md --pdf --allow-local-files
-        rm AI_nuovo_superpotere.md
-        mv AI_nuovo_superpotere-backup.md AI_nuovo_superpotere.md
+        cd book
+        python .\ebook.py
 
     - name: commit & push
       run: |
@@ -45,5 +26,5 @@ jobs:
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .
-        git commit -m "update slides"
+        git commit -m "update ebook"
         git push
