@@ -39,7 +39,7 @@ class MyDocTemplate(SimpleDocTemplate):
 
 def convert_markdown_to_pdf():
     # File di output
-    output_file = '../book/Corso di AI.pdf'
+    output_file = '../book/Corso_AI_Book.pdf'
 
     # Registra i font personalizzati
     pdfmetrics.registerFont(TTFont('Quicksand'      , '../book/fonts/Quicksand-Regular.ttf'))
@@ -80,9 +80,9 @@ def convert_markdown_to_pdf():
 
     # Lista dei capitoli con i rispettivi file markdown
     capitoli = [
-        ('../book/capitolo01/capitolo01.md', 'Introduzione all'Intelligenza Artificiale', ''),
-        ('../book/capitolo02/capitolo02.md', 'Cos'è l'Intelligenza Artificiale?', ''),
-        ('../book/capitolo03/capitolo03.md', 'Evoluzione dell'Intelligenza Artificiale', ''),
+        ('../book/capitolo01/capitolo01.md', 'Introduzione all\'Intelligenza Artificiale', ''),
+        ('../book/capitolo02/capitolo02.md', 'Cos\'è l\'Intelligenza Artificiale?', ''),
+        ('../book/capitolo03/capitolo03.md', 'Evoluzione dell\'Intelligenza Artificiale', '')
     ]
     
     h1 = ParagraphStyle(name = 'h1',
@@ -246,7 +246,7 @@ def process_markdown_content(content, custom_styles):
             elif line.startswith("### "):
                 blocks.append(Paragraph(line[3:], custom_styles['header3']))
             elif line.startswith("#### "):
-                blocks.append(Paragraph(line[3:], custom_styles['header4']))
+                blocks.append(Paragraph(line[4:], custom_styles['header4']))
             else:
                 # Linea normale trattata come paragrafo
                 blocks.append(Paragraph(line, custom_styles['paragraph']))

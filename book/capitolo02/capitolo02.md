@@ -12,17 +12,17 @@ L'AI può essere definita come la capacità di una macchina di imitare le funzio
 
 ### 2.1.2 Differenza tra AI, Machine Learning e Deep Learning
 
-- **AI (Intelligenza Artificiale)**: �^ il campo più ampio che comprende tutte le tecnologie e i metodi per creare macchine intelligenti.
-- **Machine Learning (Apprendimento Automatico)**: �^ una sottobranca dell'AI che si concentra sullo sviluppo di algoritmi che permettono alle macchine di apprendere dai dati senza essere esplicitamente programmate.
-- **Deep Learning (Apprendimento Profondo)**: �^ una sottobranca del Machine Learning che utilizza reti neurali artificiali con molti strati (da qui il termine "deep") per risolvere problemi complessi, come il riconoscimento di immagini o il trattamento del linguaggio naturale.
+- **AI (Intelligenza Artificiale)**: È il campo più ampio che comprende tutte le tecnologie e i metodi per creare macchine intelligenti.
+- **Machine Learning (Apprendimento Automatico)**: È una sottobranca dell'AI che si concentra sullo sviluppo di algoritmi che permettono alle macchine di apprendere dai dati senza essere esplicitamente programmate.
+- **Deep Learning (Apprendimento Profondo)**: È una sottobranca del Machine Learning che utilizza reti neurali artificiali con molti strati (da qui il termine "deep") per risolvere problemi complessi, come il riconoscimento di immagini o il trattamento del linguaggio naturale.
 
 ### 2.1.3 Tipi di Intelligenza Artificiale
 
 L'AI può essere classificata in tre categorie principali, in base alle sue capacità e al livello di autonomia:
 
-1. **ANI (Artificial Narrow Intelligence)**: �^ l'AI specializzata in un compito specifico, come il riconoscimento facciale o la traduzione automatica. �^ la forma di AI più comune oggi.
-2. **AGI (Artificial General Intelligence)**: �^ un'AI che possiede un'intelligenza generale simile a quella umana, in grado di svolgere qualsiasi compito intellettuale che un essere umano può fare. Questo tipo di AI non è ancora stato realizzato.
-3. **ASI (Artificial Super Intelligence)**: �^ un'AI che supera l'intelligenza umana in tutti i campi, compresa la creatività, la risoluzione di problemi e il ragionamento. Questo è un concetto teorico e non è ancora stato raggiunto.
+1. **ANI (Artificial Narrow Intelligence)**: È l'AI specializzata in un compito specifico, come il riconoscimento facciale o la traduzione automatica. È la forma di AI più comune oggi.
+2. **AGI (Artificial General Intelligence)**: È un'AI che possiede un'intelligenza generale simile a quella umana, in grado di svolgere qualsiasi compito intellettuale che un essere umano può fare. Questo tipo di AI non è ancora stato realizzato.
+3. **ASI (Artificial Super Intelligence)**: È un'AI che supera l'intelligenza umana in tutti i campi, compresa la creatività, la risoluzione di problemi e il ragionamento. Questo è un concetto teorico e non è ancora stato raggiunto.
 
 ### 2.2 Cosa contribuisce all'AI?
 
