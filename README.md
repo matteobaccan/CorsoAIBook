@@ -1,10 +1,14 @@
 # Libro sull'Intelligenza Artificiale
 
+[![Genera PDF](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml)
+
 ## Descrizione del Progetto
 
 Questo progetto è dedicato alla creazione di un libro completo e accessibile sull'**Intelligenza Artificiale (AI)**, rivolto a un pubblico eterogeneo che spazia da professionisti del settore a curiosi alle prime armi. Il libro esplora i fondamenti teorici dell'AI, le sue applicazioni pratiche, le sfide etiche e tecniche, e le tendenze future di questa tecnologia rivoluzionaria.
 
 L'obiettivo è fornire una guida chiara, coinvolgente e aggiornata che non solo spieghi come funziona l'AI, ma anche come essa stia trasformando il mondo in cui viviamo. Il libro è pensato per ispirare, educare e stimolare riflessioni critiche sul ruolo dell'AI nella società.
+
+L'idea nasce a valle del [Corso di introduzione alle AI](https://github.com/matteobaccan/CorsoAI) che contiene il materiale per poter erogare corsi introduttivi sulle AI.
 
 ## Struttura del Libro
 
@@ -44,3 +48,7 @@ Questo progetto è rilasciato sotto la licenza [Creative Commons Attribution-Non
 ## Ringraziamenti
 
 Un grazie speciale a tutti coloro che hanno contribuito al progetto, attraverso feedback, suggerimenti e supporto. Questo libro è il risultato di un lavoro di squadra e di una comunità appassionata di tecnologia e innovazione.
+
+## Download
+
+__[Scarica gratuitamente il libro](https://raw.githubusercontent.com/matteobaccan/CorsoAIBook/main/slide/book/Corso_AI_Book.pdf)__
