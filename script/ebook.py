@@ -54,7 +54,7 @@ def convert_markdown_to_pdf():
             'header1'   : ParagraphStyle(name='Header1'     , fontName='Roboto-Bold'    , fontSize=16,                  spaceAfter=16   , leading=24                    ),
             'header2'   : ParagraphStyle(name='Header2'     , fontName='Roboto-Bold'    , fontSize=14,                  spaceAfter=8    , leading=16                    ),
             'header3'   : ParagraphStyle(name='Header3'     , fontName='Roboto-Bold'    , fontSize=12,                  spaceAfter=8    , leading=14                    ),
-            'header4'   : ParagraphStyle(name='Header4'     , fontName='Roboto-Bold'    , fontSize=10,                  spaceAfter=8    , leading=12                    ),
+            'header4'   : ParagraphStyle(name='Header4'     , fontName='Roboto-Bold'    , fontSize=12,                  spaceAfter=8    , leading=12                    ),
             'paragraph': ParagraphStyle(
                 name='Paragraph',
                 fontName='Quicksand',  # Font normale
@@ -125,12 +125,12 @@ def convert_markdown_to_pdf():
         h3 = ParagraphStyle(name = 'h3',
         fontSize = 12,
         leading = 14,
-        leftIndent = 10)
+        leftIndent = 12)
 
         h4 = ParagraphStyle(name = 'h4',
         fontSize = 10,
         leading = 14,
-        leftIndent = 10)
+        leftIndent = 14)
 
         # Creazione del PDF
         doc = MyDocTemplate(output_file,
@@ -369,7 +369,7 @@ def process_markdown_content(content, custom_styles):
     return blocks
 
 def add_footer(canvas, doc, custom_data):
-    print(f'Footer per pagina {doc.page}')
+    print(f'Fine pagina {doc.page}')
    
     canvas.saveState()
 
