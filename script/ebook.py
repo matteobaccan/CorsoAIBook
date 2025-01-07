@@ -101,7 +101,15 @@ def convert_markdown_to_pdf():
     capitoli = [
         ('../book/capitolo01/capitolo01.md', 'Introduzione all\'Intelligenza Artificiale', ''),
         ('../book/capitolo02/capitolo02.md', 'Cos\'è l\'Intelligenza Artificiale?', ''),
-        ('../book/capitolo03/capitolo03.md', 'Evoluzione dell\'Intelligenza Artificiale', '')
+        ('../book/capitolo03/capitolo03.md', 'Evoluzione dell\'Intelligenza Artificiale', ''),
+        ('../book/capitolo04/capitolo04.md', 'Machine Learning e Deep Learning', ''),
+        ('../book/capitolo05/capitolo05.md', 'Algoritmi Generativi', ''),
+        ('../book/capitolo06/capitolo06.md', 'Applicazioni dell\'AI', ''),
+        ('../book/capitolo07/capitolo07.md', 'Valutazione delle AI', ''),
+        ('../book/capitolo08/capitolo08.md', 'Aziende e Tecnologie AI', ''),
+        ('../book/capitolo09/capitolo09.md', 'Strumenti e Servizi AI', ''),
+        ('../book/capitolo10/capitolo10.md', 'Creazione di Contenuti con le AI', ''),
+        ('../book/capitolo11/capitolo11.md', 'Conclusioni e Risorse', '')
     ]
     
     h1 = ParagraphStyle(name = 'h1',
@@ -143,7 +151,7 @@ def convert_markdown_to_pdf():
     toc.levelStyles = [h1, h2, h3, h4]
 
     # Copertina
-    cover_image = Image(os.path.join('../book/cover/book-ai-cover-small.png'), width=9*inch, height=11*inch)    
+    cover_image = Image(os.path.join('../book/cover/book-ai-cover.png'), width=9*inch, height=11*inch)    
     elements.append(cover_image)
     add_page(elements)
 
@@ -154,10 +162,10 @@ def convert_markdown_to_pdf():
     add_page(elements)
 
     # Ringraziamenti
-    ringraziamenti = Paragraph('Ringraziamenti', custom_styles['header1'])
-    elements.append(ringraziamenti)
-    elements.append(Paragraph('Grazie alla mia famiglia, che con il suo amore e il suo supporto mi ha permesso di realizzare questo progetto.', custom_styles['paragraph']))
-    add_page(elements)
+    #ringraziamenti = Paragraph('Ringraziamenti', custom_styles['header1'])
+    #elements.append(ringraziamenti)
+    #elements.append(Paragraph('Grazie alla mia famiglia, che con il suo amore e il suo supporto mi ha permesso di realizzare questo progetto.', custom_styles['paragraph']))
+    #add_page(elements)
 
     # Introduzione
     f = open('../book/00-introduzione-it.md', 'r', encoding='utf-8');
@@ -327,7 +335,7 @@ def add_footer(canvas, doc, custom_data):
     )
 
     # Footer sinistro
-    left_footer = Paragraph("Matteo Baccan", footer_styleL)
+    left_footer = Paragraph("Matteo Baccan e Dario Ferrero", footer_styleL)
     w, h = left_footer.wrap(doc.width, doc.bottomMargin)
     left_footer.drawOn(canvas, doc.leftMargin, h)
     
