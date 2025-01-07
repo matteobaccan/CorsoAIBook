@@ -43,6 +43,7 @@ def convert_markdown_to_pdf():
 
     # Registra i font personalizzati
     pdfmetrics.registerFont(TTFont('Quicksand'      , '../book/fonts/Quicksand-Regular.ttf'))
+    pdfmetrics.registerFont(TTFont('Quicksand-bold' , '../book/fonts/Quicksand-Bold.ttf'))
     pdfmetrics.registerFont(TTFont('Roboto'         , '../book/fonts/Roboto-Regular.ttf'))
     pdfmetrics.registerFont(TTFont('Roboto-Bold'    , '../book/fonts/Roboto-Bold.ttf'))
     pdfmetrics.registerFont(TTFont('SourceCodePro'  , '../book/fonts/SourceCodePro-Regular.ttf'))
@@ -53,9 +54,27 @@ def convert_markdown_to_pdf():
         'header2'   : ParagraphStyle(name='Header2'     , fontName='Roboto-Bold'    , fontSize=14,                  spaceAfter=8    , leading=16                    ),
         'header3'   : ParagraphStyle(name='Header3'     , fontName='Roboto-Bold'    , fontSize=12,                  spaceAfter=8    , leading=14                    ),
         'header4'   : ParagraphStyle(name='Header4'     , fontName='Roboto-Bold'    , fontSize=10,                  spaceAfter=8    , leading=12                    ),
-        'paragraph' : ParagraphStyle(name='Paragraph'   , fontName='Quicksand'      , fontSize=12, spaceBefore=10,  spaceAfter=10   , leading=18    , alignment=TA_JUSTIFY ),
+        'paragraph': ParagraphStyle(
+            name='Paragraph',
+            fontName='Quicksand',  # Font normale
+            fontSize=12,
+            spaceBefore=10,
+            spaceAfter=10,
+            leading=18,
+            alignment=TA_JUSTIFY,
+            # Aggiungi questa linea per supportare il grassetto
+            allowWidows=1,  # Evita che una riga venga lasciata sola in una pagina
+            allowOrphans=1,  # Evita che una riga venga lasciata sola in una pagina
+        ),
         'toc_entry' : ParagraphStyle(name='TOCEntry'    , fontName='Roboto'         , fontSize=14, spaceBefore=6,   spaceAfter=6    , leading=14                    ),
-        'code'      : ParagraphStyle(name='Code'        , fontName='SourceCodePro'  , fontSize=12, spaceBefore=10,  spaceAfter=10   , leading=14    , # leftIndent=12,
+        'code'      : ParagraphStyle(
+            name='Code'        , 
+            fontName='SourceCodePro'  , 
+            fontSize=12, 
+            spaceBefore=10,  
+            spaceAfter=10   , 
+            leading=14    , 
+            # leftIndent=12,
             textColor=colors.black,
             backColor=colors.Color(0.93, 0.93, 0.93),  # Grigio estremamente tenue
             borderColor=colors.Color(0.8, 0.8, 0.8),   # Bordo quasi invisibile
@@ -216,6 +235,11 @@ def convert_markdown_to_pdf():
 def main():
     convert_markdown_to_pdf()
 
+def apply_bold(text, style):
+    # Cerca il testo tra ** e lo sostituisce con il formato grassetto
+    bold_pattern = re.compile(r'\*\*(.*?)\*\*')
+    return bold_pattern.sub(lambda match: f'<font name="Quicksand-Bold">{match.group(1)}</font>', text)
+
 def process_markdown_content(content, custom_styles):
     blocks = []
     in_code_block = False
@@ -234,6 +258,9 @@ def process_markdown_content(content, custom_styles):
         elif in_code_block:
             code_lines.append(line)
         else:
+            # Applica il grassetto al testo tra **
+            line = apply_bold(line, custom_styles['paragraph'])
+            
             # Riconosce le intestazioni
             if line.startswith("# "):
                 blocks.append(Paragraph(line[2:], custom_styles['header1']))
