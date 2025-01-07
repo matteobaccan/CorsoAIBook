@@ -273,7 +273,8 @@ def process_images(line, custom_styles):
     
     if match:
         caption = match.group(1)  # Didascalia
-        image_path = os.getcwd() +'\\' +match.group(2)  # Percorso dell'immagine
+        # Costruisci il percorso dell'immagine in modo compatibile
+        image_path = os.path.join(os.getcwd(), match.group(2))
         print(f'Immagine: {image_path}')
         
         # Verifica se il file esiste
