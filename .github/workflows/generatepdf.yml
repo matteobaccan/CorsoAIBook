@@ -15,6 +15,7 @@ jobs:
     - name: generate pdf
       run: |
         cd script
+        pip install reportlab markdown Pillow
         python ebook.py
 
     - name: commit & push
