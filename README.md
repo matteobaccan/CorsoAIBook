@@ -44,7 +44,3 @@ Questo progetto è rilasciato sotto la licenza [Creative Commons Attribution-Non
 ## Ringraziamenti
 
 Un grazie speciale a tutti coloro che hanno contribuito al progetto, attraverso feedback, suggerimenti e supporto. Questo libro è il risultato di un lavoro di squadra e di una comunità appassionata di tecnologia e innovazione.
-
----
-
-Spero che questo `README.md` sia utile per descrivere il tuo progetto! Se hai bisogno di modifiche o aggiunte, fammelo sapere. 😊
