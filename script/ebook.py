@@ -34,22 +34,25 @@ class MyDocTemplate(SimpleDocTemplate):
                 self.notify('TOCEntry', (1, text, self.page))
             if style == 'Header3':
                 self.notify('TOCEntry', (2, text, self.page))
+            if style == 'Header4':
+                self.notify('TOCEntry', (3, text, self.page))
 
 def convert_markdown_to_pdf():
     # File di output
-    output_file = 'Path to senior developer.pdf'
+    output_file = '../book/Corso di AI.pdf'
 
     # Registra i font personalizzati
-    pdfmetrics.registerFont(TTFont('Quicksand'      , 'fonts/Quicksand-Regular.ttf'))
-    pdfmetrics.registerFont(TTFont('Roboto'         , 'fonts/Roboto-Regular.ttf'))
-    pdfmetrics.registerFont(TTFont('Roboto-Bold'    , 'fonts/Roboto-Bold.ttf'))
-    pdfmetrics.registerFont(TTFont('SourceCodePro'  , 'fonts/SourceCodePro-Regular.ttf'))
+    pdfmetrics.registerFont(TTFont('Quicksand'      , '../book/fonts/Quicksand-Regular.ttf'))
+    pdfmetrics.registerFont(TTFont('Roboto'         , '../book/fonts/Roboto-Regular.ttf'))
+    pdfmetrics.registerFont(TTFont('Roboto-Bold'    , '../book/fonts/Roboto-Bold.ttf'))
+    pdfmetrics.registerFont(TTFont('SourceCodePro'  , '../book/fonts/SourceCodePro-Regular.ttf'))
 
     # Stili personalizzati per i paragrafi
     custom_styles = {
         'header1'   : ParagraphStyle(name='Header1'     , fontName='Roboto-Bold'    , fontSize=16,                  spaceAfter=16   , leading=24                    ),
         'header2'   : ParagraphStyle(name='Header2'     , fontName='Roboto-Bold'    , fontSize=14,                  spaceAfter=8    , leading=16                    ),
         'header3'   : ParagraphStyle(name='Header3'     , fontName='Roboto-Bold'    , fontSize=12,                  spaceAfter=8    , leading=14                    ),
+        'header4'   : ParagraphStyle(name='Header4'     , fontName='Roboto-Bold'    , fontSize=10,                  spaceAfter=8    , leading=12                    ),
         'paragraph' : ParagraphStyle(name='Paragraph'   , fontName='Quicksand'      , fontSize=12, spaceBefore=10,  spaceAfter=10   , leading=18    , alignment=TA_JUSTIFY ),
         'toc_entry' : ParagraphStyle(name='TOCEntry'    , fontName='Roboto'         , fontSize=14, spaceBefore=6,   spaceAfter=6    , leading=14                    ),
         'code'      : ParagraphStyle(name='Code'        , fontName='SourceCodePro'  , fontSize=12, spaceBefore=10,  spaceAfter=10   , leading=14    , # leftIndent=12,
@@ -77,31 +80,9 @@ def convert_markdown_to_pdf():
 
     # Lista dei capitoli con i rispettivi file markdown
     capitoli = [
-        # Fondamenta della Professionalità
-        ('01- fondamenta della professionalità.md', ''),
-        ('../01-ProgrammatoriA40Anni-articolo-it.md', 'Programmatori a 40 Anni', '../foto/01-ProgrammatoriA40Anni-articolo-1-leonardo-ia.jpg'),
-        ('../02-FinireIPropriTask-articolo-it.md', 'Finire i Propri Task', '../foto/02-FinireIPropriTask-articolo-1-leonardo-ai.jpg'),
-        ('../12-SoftSkills-per-Sviluppatori.md', 'Soft Skills per Sviluppatori', '../foto/.jpg'),
-        ('../12-Comunicazione Efficace in Team Tecnici.md', 'Comunicazione Efficace in Team Tecnici', '../foto/.jpg'),
-
-        # Eccellenza Tecnica
-        ('02- eccellenza tecnica.md', ''),
-        ('../04-CondizioneNelCodice-articolo-it.md', 'Cambia quella condizione nel codice', '../foto/04-CondizioneNelCodice-articolo-3-leonardo-ai.jpg'),
-        ('../06-EsplorareNuoviFramework-articolo-it.md', 'Esplorando nuovi framework', '../foto/06-EsplorareNuoviFramework-articolo-4-leonardo-ai.jpg'),
-        ('../03-IlMitodelFullStackDeveloper-articolo-it.md', 'Il mito del FullStack developer', '../foto/03-DALL·E 2024-04-15 15.23.18 - A wide aspect image of a mythical version of a fullstack developer as Medusa. This scene blends ancient and modern elements_ Medusa, with a crown of v.webp'),
-        ('../11-CodeReview-articolo-it.md', 'Code Review', '../foto/11-CodeReview-articolo-1-leonardo-ai.jpg'),
-
-        # Dimensione Professionale
-        ('03- dimensione professionale.md', ''),
-        ('../05-CelodurismoDeiProgrammatori-articolo-it.md', 'Celodurismo dei programmatori', '../foto/05-CelodurismoDeiProgrammatori-articolo-1-leonardo-ai.jpg'),
-        ('../07-ProgrammatoriMercenari-articolo-it.md', 'Programmatori mercenari', '../foto/07-ProgrammatoriMercenari-articolo-2-leonardo-ai.jpg'),
-        ('../09-LaRALMotivaAlCambiamento-articolo-it.md', 'La RAL non motiva al cambiamento', '../foto/09-LaRALMotivaAlCambiamento-articolo-2-leonardo-ai.jpg'),
-        ('../10-ChiPerdeUnProgrammatorePerdeUnTesoro-articolo-it.md', 'Chi perde un programmatore perde un tesoro', '../foto/10-ChiPerdeUnProgrammatorePerdeUnTesoro-articolo-2-dall-e.png'),
-
-        # Dimensioni Personali e Sistemiche
-        ('04- dimensioni personali e sistemiche.md', ''),
-        ('../56-Gestione-del-Burnout-e-Salute-Mentale.md', 'Gestione del Burnout e Salute Mentale', '../foto/.jpg'),
-        ('../58-Etica e Responsabilità nella Programmazione.md', 'Etica e Responsabilità nella Programmazione', '../foto/.jpg')
+        ('../book/capitolo01/capitolo01.md', 'Introduzione all'Intelligenza Artificiale', ''),
+        ('../book/capitolo02/capitolo02.md', 'Cos'è l'Intelligenza Artificiale?', ''),
+        ('../book/capitolo03/capitolo03.md', 'Evoluzione dell'Intelligenza Artificiale', ''),
     ]
     
     h1 = ParagraphStyle(name = 'h1',
@@ -115,6 +96,11 @@ def convert_markdown_to_pdf():
 
     h3 = ParagraphStyle(name = 'h3',
        fontSize = 12,
+       leading = 14,
+       leftIndent = 10)
+
+    h4 = ParagraphStyle(name = 'h4',
+       fontSize = 10,
        leading = 14,
        leftIndent = 10)
 
@@ -135,15 +121,15 @@ def convert_markdown_to_pdf():
 
     # Crea l'oggetto TOC
     toc = TableOfContents()
-    toc.levelStyles = [h1, h2, h3]
+    toc.levelStyles = [h1, h2, h3, h4]
 
     # Copertina
-    cover_image = Image(os.path.join('covers/Path to senior developer - alternative 3.png'), width=9*inch, height=11*inch)    
+    cover_image = Image(os.path.join('../book/cover/book-ai-cover-small.png'), width=9*inch, height=11*inch)    
     elements.append(cover_image)
     add_page(elements)
 
     # Prefazione dell'autore
-    f = open('../00-prefazione-it.md', 'r', encoding='utf-8');
+    f = open('../book/00-prefazione-it.md', 'r', encoding='utf-8');
     markdown_content = f.read()
     elements.extend(process_markdown_content(markdown_content, custom_styles))
     add_page(elements)
@@ -155,7 +141,7 @@ def convert_markdown_to_pdf():
     add_page(elements)
 
     # Introduzione
-    f = open('../00-introduzione-it.md', 'r', encoding='utf-8');
+    f = open('../book/00-introduzione-it.md', 'r', encoding='utf-8');
     markdown_content = f.read()
     elements.extend(process_markdown_content(markdown_content, custom_styles))
     add_page(elements)
@@ -201,7 +187,7 @@ def convert_markdown_to_pdf():
             add_page(elements)
 
     # Biografia
-    f = open('../00-biografia-it.md', 'r', encoding='utf-8');
+    f = open('../book/00-biografia-it.md', 'r', encoding='utf-8');
     markdown_content = f.read()
     elements.extend(process_markdown_content(markdown_content, custom_styles))
     add_page(elements)
@@ -259,6 +245,8 @@ def process_markdown_content(content, custom_styles):
                 blocks.append(Paragraph(line[3:], custom_styles['header2']))
             elif line.startswith("### "):
                 blocks.append(Paragraph(line[3:], custom_styles['header3']))
+            elif line.startswith("#### "):
+                blocks.append(Paragraph(line[3:], custom_styles['header4']))
             else:
                 # Linea normale trattata come paragrafo
                 blocks.append(Paragraph(line, custom_styles['paragraph']))
