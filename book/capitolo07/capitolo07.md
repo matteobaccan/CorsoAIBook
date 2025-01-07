@@ -1,4 +1,4 @@
-## Capitolo 7: Valutazione delle AI
+## Valutazione delle AI
 
 ### 7.1 Introduzione
 

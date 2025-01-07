@@ -1,4 +1,4 @@
-## Capitolo 10: Creazione di Contenuti con le AI
+## Creazione di Contenuti con le AI
 
 ### 10.1 Introduzione
 

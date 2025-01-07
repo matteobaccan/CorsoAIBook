@@ -1,4 +1,4 @@
-## Capitolo 8: Aziende e Tecnologie AI
+## Aziende e Tecnologie AI
 
 ### 8.1 Introduzione
 

@@ -1,4 +1,4 @@
-## Capitolo 6: Applicazioni dell'AI
+## Applicazioni dell'AI
 
 ### 6.1 Introduzione
 

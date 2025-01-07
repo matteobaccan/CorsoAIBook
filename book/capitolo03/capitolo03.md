@@ -1,4 +1,4 @@
-## Capitolo 3: Evoluzione dell'Intelligenza Artificiale
+## Evoluzione dell'Intelligenza Artificiale
 
 ### 3.1 Introduzione
 

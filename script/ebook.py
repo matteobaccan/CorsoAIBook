@@ -100,17 +100,17 @@ def convert_markdown_to_pdf():
 
         # Lista dei capitoli con i rispettivi file markdown
         capitoli = [
-            ('../book/capitolo01/capitolo01.md', 'Introduzione all\'Intelligenza Artificiale', ''),
-            ('../book/capitolo02/capitolo02.md', 'Cos\'è l\'Intelligenza Artificiale?', ''),
-            ('../book/capitolo03/capitolo03.md', 'Evoluzione dell\'Intelligenza Artificiale', ''),
-            ('../book/capitolo04/capitolo04.md', 'Machine Learning e Deep Learning', ''),
-            ('../book/capitolo05/capitolo05.md', 'Algoritmi Generativi', ''),
-            ('../book/capitolo06/capitolo06.md', 'Applicazioni dell\'AI', ''),
-            ('../book/capitolo07/capitolo07.md', 'Valutazione delle AI', ''),
-            ('../book/capitolo08/capitolo08.md', 'Aziende e Tecnologie AI', ''),
-            ('../book/capitolo09/capitolo09.md', 'Strumenti e Servizi AI', ''),
-            ('../book/capitolo10/capitolo10.md', 'Creazione di Contenuti con le AI', ''),
-            ('../book/capitolo11/capitolo11.md', 'Conclusioni e Risorse', '')
+            ('../book/capitolo01/capitolo01.md', '../book/capitolo01/capitolo01.jpg'),
+            ('../book/capitolo02/capitolo02.md', '../book/capitolo02/capitolo02.jpg'),
+            ('../book/capitolo03/capitolo03.md', '../book/capitolo03/capitolo03.jpg'),
+            ('../book/capitolo04/capitolo04.md', '../book/capitolo04/capitolo04.jpg'),
+            ('../book/capitolo05/capitolo05.md', ''),
+            ('../book/capitolo06/capitolo06.md', ''),
+            ('../book/capitolo07/capitolo07.md', ''),
+            ('../book/capitolo08/capitolo08.md', ''),
+            ('../book/capitolo09/capitolo09.md', ''),
+            ('../book/capitolo10/capitolo10.md', ''),
+            ('../book/capitolo11/capitolo11.md', '')
         ]
         
         h1 = ParagraphStyle(name = 'h1',
@@ -177,38 +177,29 @@ def convert_markdown_to_pdf():
         # Elaborazione capitoli
         for chapter_info in capitoli:
             # Gestisci la possibilità di avere 2 o 3 elementi nella tupla
-            if len(chapter_info) == 3:
-                filename, title, image_path = chapter_info
-            else:
-                if len(chapter_info) == 2:
-                    filename, title = chapter_info
-                    image_path = None
-                else:            
-                    filename= chapter_info
-                    title = None
-                    image_path = None
-
-            # Aggiungi l'intestazione del capitolo
-            if title:
-                elements.append(Paragraph(title, custom_styles['header1']))
-
-                # Aggiungi l'immagine se presente
-                if image_path and os.path.exists(image_path):
-                    print(f'Leggo MD {image_path}')
-                    try:
-                        img = Image(image_path, width=400*1.2, height=300*1.2)  # Regola dimensioni secondo necessità
-                        img.hAlign = 'CENTER'
-                        elements.append(img)                
-                    except Exception as e:
-                        print(f"Errore nel caricamento dell'immagine {image_path}: {e}")
-
-                add_page(elements)
+            if len(chapter_info) == 2:
+                filename, image_path = chapter_info
+            else:            
+                filename= chapter_info
+                image_path = None
 
             # Leggi il contenuto del file markdown
             print(f'Leggo MD {filename}')
             with open(filename, 'r', encoding='utf-8') as f:
                 markdown_content = f.read()
             
+                # Estrai la prima riga e il resto del contenuto
+                lines = markdown_content.splitlines()  # Divide il contenuto in righe
+
+                # La prima riga è il titolo
+                title = lines[0].strip()  # Usa strip() per rimuovere spazi bianchi e newline
+                title = title.replace('##', '').strip()
+
+                # Il resto del contenuto (dalla seconda riga in poi)
+                markdown_content = "\n".join(lines[1:]).strip()  # Unisci le righe e trimmale
+
+                process_markdown_title(elements, custom_styles, title, image_path)
+
                 # Salva la directory corrente
                 original_dir = os.getcwd()
 
@@ -229,6 +220,18 @@ def convert_markdown_to_pdf():
 
         # Biografia
         f = open('../book/00-biografia-it.md', 'r', encoding='utf-8');
+        markdown_content = f.read()
+        elements.extend(process_markdown_content(markdown_content, custom_styles))
+        add_page(elements)
+
+        # Glossario
+        f = open('../book/00-glossario-it.md', 'r', encoding='utf-8');
+        markdown_content = f.read()
+        elements.extend(process_markdown_content(markdown_content, custom_styles))
+        add_page(elements)
+
+        # Disclaimer
+        f = open('../book/00-disclaimer-it.md', 'r', encoding='utf-8');
         markdown_content = f.read()
         elements.extend(process_markdown_content(markdown_content, custom_styles))
         add_page(elements)
@@ -260,6 +263,24 @@ def convert_markdown_to_pdf():
 # Resto del codice rimane invariato
 def main():
     convert_markdown_to_pdf()
+
+def process_markdown_title(elements, custom_styles, title, image_path):
+    # Aggiungi l'intestazione del capitolo
+    if title:
+        elements.append(Paragraph(title, custom_styles['header1']))
+
+        # Aggiungi l'immagine se presente
+        if image_path and os.path.exists(image_path):
+            print(f'Leggo MD {image_path}')
+            try:
+                print(f'Leggo immagine {image_path}')
+                img = Image(image_path, width=400*1.2, height=300*1.2)  # Regola dimensioni secondo necessità
+                img.hAlign = 'CENTER'
+                elements.append(img)                
+            except Exception as e:
+                print(f"Errore nel caricamento dell'immagine {image_path}: {e}")
+
+        add_page(elements)
 
 def apply_bold(text, style):
     # Cerca il testo tra ** e lo sostituisce con il formato grassetto

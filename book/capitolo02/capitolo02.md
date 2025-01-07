@@ -1,4 +1,4 @@
-## Capitolo 2: Cos'è l'Intelligenza Artificiale?
+## Cos'è l'Intelligenza Artificiale?
 
 ### 2.1 AI - Di cosa si tratta?
 

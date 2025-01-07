@@ -1,4 +1,4 @@
-## Capitolo 4: Machine Learning e Deep Learning
+## Machine Learning, Deep Learning e Reti Neurali
 
 ### 4.1 Introduzione
 
@@ -48,6 +48,8 @@ Nell'**apprendimento non supervisionato**, il modello viene addestrato su un dat
 - **Principal Component Analysis (PCA)**: Utilizzato per ridurre la dimensionalità dei dati, mantenendo le informazioni più importanti. Immagina di avere un disegno di una mela fatto con tanti puntini sparsi. La PCA lo trasforma in un disegno più semplice, con meno puntini, ma che sembra ancora una mela.
 - **Autoencoder**: Una rete neurale utilizzata per comprimere e ricostruire dati, spesso utilizzata per la riduzione del rumore. Immagina di avere una foto di un gatto. L’autoencoder, la comprime in una versione più piccola (come un’icona), la ricostruisce per farla sembrare di nuovo la foto originale.
 
+![Apprendimento Supervisionato e non Supervisionato](4.3.1.png)
+
 #### 4.3.3 Apprendimento per Rinforzo (Reinforcement Learning)
 
 Nell'**apprendimento per rinforzo**, un agente impara a prendere decisioni interagendo con un ambiente dinamico. L'agente riceve feedback sotto forma di ricompense o punizioni in base alle sue azioni, e l'obiettivo è massimizzare la ricompensa totale nel lungo termine. Questo approccio è particolarmente utile in contesti come i giochi e la robotica.
@@ -55,7 +57,7 @@ Nell'**apprendimento per rinforzo**, un agente impara a prendere decisioni inter
 **Esempi di algoritmi**:
 
 - **Q-Learning**: Un algoritmo che impara una politica ottimale per prendere decisioni in un ambiente.
-mmagina un robot in un labirinto:
+Immagina un robot in un labirinto:
 - Il robot prova a muoversi in direzioni casuali.
 - Se trova l’uscita, impara che quelle mosse erano buone (Q-Value aumenta).
 - Ripete il processo fino a trovare il percorso migliore.

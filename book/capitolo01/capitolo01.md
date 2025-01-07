@@ -1,19 +1,23 @@
-## Capitolo 1: Introduzione all'Intelligenza Artificiale
+## Introduzione all'Intelligenza Artificiale
 
 ### 1.1 Come nasce questo libro
 
 In risposta alla rapida diffusione di prodotti basati sull'Intelligenza Artificiale, ho elaborato una presentazione che ripercorre l'evoluzione di questa tecnologia e illustra i termini chiave utilizzati nel settore. Nel corso della mia attività professionale, ho sperimentato diverse soluzioni AI che mi hanno permesso di ottimizzare i processi lavorativi, aumentando sia l'efficienza che la qualità dei risultati. Ho quindi arricchito la presentazione con una sezione pratica dedicata ai vari strumenti AI, specificando per ciascuno il campo di applicazione ideale.
 
-L'obiettivo di questo lavoro è duplice: da un lato, far conoscere i benefici concreti che l'Intelligenza Artificiale può apportare nella vita professionale, dall'altro, fornire una guida pratica per la scelta degli strumenti AI più adatti alle diverse esigenze lavorative quotidiane.
+L'obiettivo di questo lavoro è stato duplice: da un lato, far conoscere i benefici concreti che l'Intelligenza Artificiale può apportare nella vita professionale, dall'altro, fornire una guida pratica per la scelta degli strumenti AI più adatti alle diverse esigenze lavorative quotidiane.
 
 Da questa presentazione è nato il libro che state leggendo, arricchito con nuovi contenuti e approfondimenti, per offrire una panoramica completa sull'Intelligenza Artificiale e sulle sue applicazioni pratiche.
 
-Per approfondire ulteriormente l'argomento, vi invito a visitare il progetto GitHub associato a questo libro, dove troverete risorse aggiuntive ed approfondimenti su vari aspetti dell'Intelligenza Artificiale.
+Per approfondire ulteriormente l'argomento, vi invito a visitare il progetto GitHub associato alla presentazione che abbiamo usato come base per questo libro, dove troverete risorse aggiuntive ed approfondimenti su vari aspetti dell'Intelligenza Artificiale.
 
 <https://github.com/matteobaccan/CorsoAI>
 
-### 1.2 Chi sono?
+### 1.2 Dove trovare l'ultima versione di questo libro
 
-Matteo Baccan è un ingegnere del software e formatore professionista con oltre 30 anni di esperienza nel settore IT. Ha lavorato per diverse aziende e organizzazioni, occupandosi di progettazione, sviluppo, testing e gestione di applicazioni web e desktop, utilizzando vari linguaggi e tecnologie. È anche un appassionato divulgatore e insegnante di informatica, autore di numerosi articoli, libri e corsi online rivolti a tutti i livelli di competenza.
+La versione che state leggendo di questo libro potrebbe essere non aggiornata. Per scaricare l'ultima versione disponibile, vi invito a visitare il progetto GitHub associato a questo libro, all'indirizzo
 
-Gestisce un sito internet e un canale YouTube dove condivide video tutorial, interviste, recensioni e consigli sulla programmazione. Attivo nelle community open source, partecipa regolarmente a eventi e concorsi di programmazione. Si definisce un "sognatore realista" che ama sperimentare, innovare e condividere le sue conoscenze e passioni, seguendo il motto: "Non smettere mai di imparare, perché la vita non smette mai di insegnare".
+<https://github.com/matteobaccan/CorsoAIBook>
+
+### 1.3 Versioni in altre lingue
+
+Questo libro è disponibile anche in altre lingue. Fate sempre riferimento al progetto GitHub ufficiale per scaricare la versione in altre lingue.

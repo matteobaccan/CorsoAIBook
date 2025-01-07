@@ -1,4 +1,4 @@
-## Capitolo 5: Algoritmi Generativi
+## Algoritmi Generativi
 
 ### 5.1 Introduzione
 
@@ -30,6 +30,7 @@ Una **Rete Generativa Avversaria (GAN)** è un'architettura di apprendimento aut
 #### 5.3.2 Come funziona una GAN?
 
 Le due reti si allenano simultaneamente:
+
 - Il Generatore migliora progressivamente la qualità dei dati sintetici.
 - Il Discriminatore affina la sua capacità di rilevare le falsificazioni.
 

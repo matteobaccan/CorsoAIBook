@@ -1,4 +1,4 @@
-## Capitolo 9: Strumenti e Servizi AI
+## Strumenti e Servizi AI
 
 ### 9.1 Introduzione
 
