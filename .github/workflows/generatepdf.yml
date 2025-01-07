@@ -3,9 +3,6 @@ name: Genera PDF
 on:
   push:
     branches: [ main ]
-    paths:
-      - 'slide/*.*'
-      - '.github/workflows/generatepdf.yml'
 
 jobs:
   build:
