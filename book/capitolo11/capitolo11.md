@@ -1,6 +1,6 @@
 ## L'Intelligenza Artificiale e il Futuro dell'Umanità: Riflessioni Filosofiche ed Etiche
 
-### 11.1Introduzione
+### 11.1 Introduzione
 
 Nel panorama contemporaneo, l'intelligenza artificiale non è più solo una questione tecnologica, ma si è trasformata in un fenomeno che tocca profondamente le radici della nostra esistenza come esseri umani. Questo capitolo esplora le riflessioni di importanti pensatori contemporanei sulle implicazioni etiche, filosofiche e psicologiche dell'AI nella società.
 
