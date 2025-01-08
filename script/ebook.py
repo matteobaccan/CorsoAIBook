@@ -111,13 +111,14 @@ def convert_markdown_to_pdf():
             ('../book/capitolo02/capitolo02.md', '../book/capitolo02/capitolo02.jpg'),
             ('../book/capitolo03/capitolo03.md', '../book/capitolo03/capitolo03.jpg'),
             ('../book/capitolo04/capitolo04.md', '../book/capitolo04/capitolo04.jpg'),
-            ('../book/capitolo05/capitolo05.md', ''),
-            ('../book/capitolo06/capitolo06.md', ''),
-            ('../book/capitolo07/capitolo07.md', ''),
-            ('../book/capitolo08/capitolo08.md', ''),
-            ('../book/capitolo09/capitolo09.md', ''),
-            ('../book/capitolo10/capitolo10.md', ''),
-            ('../book/capitolo11/capitolo11.md', '')
+            ('../book/capitolo05/capitolo05.md', '../book/capitolo05/capitolo05.jpg'),
+            ('../book/capitolo06/capitolo06.md', '../book/capitolo06/capitolo06.jpg'),
+            ('../book/capitolo07/capitolo07.md', '../book/capitolo07/capitolo07.jpg'),
+            ('../book/capitolo08/capitolo08.md', '../book/capitolo08/capitolo08.jpg'),
+            ('../book/capitolo09/capitolo09.md', '../book/capitolo09/capitolo09.jpg'),
+            ('../book/capitolo10/capitolo10.md', '../book/capitolo04/capitolo10.jpg'),
+            ('../book/capitolo11/capitolo11.md', '../book/capitolo10/capitolo11.jpg'),
+            ('../book/capitolo12/capitolo12.md', '../book/capitolo11/capitolo12.jpg')
         ]
         
         h1 = ParagraphStyle(name = 'h1',
