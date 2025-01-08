@@ -38,6 +38,8 @@ Nell'**apprendimento supervisionato**, il modello viene addestrato su un dataset
 - **Alberi di Decisione**: Utilizzati per la classificazione e la regressione, basati su una serie di decisioni binarie.
 - **Support Vector Machines (SVM)**: Utilizzati per la classificazione, trovando il confine ottimale tra diverse classi.
 
+  ![Confronto tra algoritmi di Machine Learning](4.3.1(2).png)
+
 #### 4.3.2 Apprendimento Non Supervisionato (Unsupervised Learning)
 
 Nell'**apprendimento non supervisionato**, il modello viene addestrato su un dataset non etichettato, dove non ci sono output desiderati. L'obiettivo è identificare pattern o strutture nascoste nei dati. Esempi comuni includono il clustering e la riduzione della dimensionalità.
