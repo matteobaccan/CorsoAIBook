@@ -108,7 +108,7 @@ Le CNN sono composte da più strati di neuroni artificiali, ognuno dei quali tra
 - **Elaborazione video**: Le CNN possono analizzare video per rilevare movimenti, oggetti o eventi specifici.
 - **Analisi medica**: Le CNN sono utilizzate per analizzare immagini mediche, come radiografie e risonanze magnetiche, e aiutare i medici a diagnosticare malattie.
 
-![Reti Neurali Covoluzionali](4.5.1.png)
+![Reti Neurali Covoluzionali](4.5.1.jpg)
 
 #### 4.5.2 Reti Neurali Ricorrenti (RNN)
 
