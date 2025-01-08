@@ -165,9 +165,13 @@ Immagina di studiare per un esame:
     Modello Corretto: Studia i concetti e riesce a rispondere a domande simili, anche se formulate in modo
 diverso
 
+![Sovradattamento (Overfitting)](4.7.1.png)
+
 #### 4.7.2 Bias nei Dati
 
 I modelli di Machine Learning possono essere influenzati da bias presenti nei dati di addestramento, portando a decisioni discriminatorie o ingiuste. È importante garantire che i dati siano rappresentativi e privi di pregiudizi. Immagina un modello di AI utilizzato per selezionare i candidati per un lavoro. Se i dati di addestramento provengono da aziende che in passato hanno assunto principalmente uomini, o una determinata etnia o religione, il modello potrebbe imparare a favorire quel tipo di candidati, anche se questo non è giusto o intenzionale. Questo è un classico caso di bias nei dati che porta a discriminazione algoritmica.
+
+![Bias dei dati](4.7.2.png)
 
 #### 4.7.3 Complessità Computazionale
 
