@@ -108,6 +108,8 @@ Le CNN sono composte da più strati di neuroni artificiali, ognuno dei quali tra
 - **Elaborazione video**: Le CNN possono analizzare video per rilevare movimenti, oggetti o eventi specifici.
 - **Analisi medica**: Le CNN sono utilizzate per analizzare immagini mediche, come radiografie e risonanze magnetiche, e aiutare i medici a diagnosticare malattie.
 
+![Reti Neurali Covoluzionali](4.5.1.png)
+
 #### 4.5.2 Reti Neurali Ricorrenti (RNN)
 
 Le **Reti Neurali Ricorrenti** (RNN) sono progettate per elaborare sequenze di dati, come il testo o le serie temporali. Mantengono uno "stato interno" che funziona come una forma di memoria, permettendo di considerare le informazioni precedenti per elaborare l'input corrente.
@@ -126,6 +128,8 @@ Le RNN elaborano i dati sequenziali passo dopo passo, mantenendo uno stato inter
 - **Riconoscimento vocale**: Le RNN possono essere utilizzate per convertire il parlato in testo.
 - **Previsione di serie temporali**: Le RNN sono utilizzate per prevedere valori futuri basati su dati storici, come i prezzi delle azioni o le previsioni meteorologiche.
 - **Generazione di testo**: Le RNN possono generare testo coerente e contestualmente rilevante, come poesie, articoli o codici di programmazione.
+
+![Reti Neurali Ricorrenti](4.5.2.png)
 
 ### 4.6 Applicazioni Pratiche del Machine Learning e Deep Learning
 
