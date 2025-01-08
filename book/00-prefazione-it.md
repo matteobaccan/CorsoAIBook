@@ -10,7 +10,9 @@ Il **Capitolo 6** è dedicato alle applicazioni pratiche dell’AI, dalla medici
 
 I **Capitoli 8 e 9** offrono una panoramica sulle aziende leader nel campo dell’AI e sugli strumenti e servizi disponibili per sviluppatori e ricercatori, da TensorFlow e PyTorch alle piattaforme cloud come Google Cloud AI e Microsoft Azure. Infine, nel **Capitolo 10**, esploriamo il potenziale dell’AI nella creazione di contenuti, dalla generazione di immagini e musica alla sintesi di video, aprendo nuove frontiere per la creatività e l’innovazione.
 
-Concludiamo con il **Capitolo 11**, che riassume i punti chiave del libro e offre risorse per approfondire ulteriormente l’argomento, inclusi corsi online, libri consigliati e piattaforme di apprendimento.
+Nel **Capitolo 11** esploriamo il complesso rapporto tra intelligenza artificiale e società umana attraverso le riflessioni di filosofi, psicologi e pensatori contemporanei. Dalle trasformazioni cognitive alle questioni etiche, il testo affronta le sfide e le opportunità che l'AI presenta per la nostra comprensione dell'essere umano. Attraverso esempi concreti, il capitolo riflette su come l'AI stia ridefinendo il nostro modo di vivere e la nostra essenza come specie, offrendo sia sfide che opportunità.
+
+Concludiamo con il **Capitolo 12**, che riassume i punti chiave del libro e offre risorse per approfondire ulteriormente l’argomento, inclusi corsi online, libri consigliati e piattaforme di apprendimento.
 
 Questo libro non è solo una raccolta di nozioni tecniche, ma una guida pratica per chi vuole comprendere come l’AI stia trasformando il mondo e come possiamo sfruttare al meglio questa tecnologia per affrontare le sfide del futuro. Che tu sia un programmatore esperto, un ricercatore o semplicemente un appassionato di tecnologia, spero che queste pagine ti ispirino a esplorare, innovare e contribuire al progresso dell’Intelligenza Artificiale.
 
