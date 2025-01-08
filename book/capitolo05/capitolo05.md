@@ -4,6 +4,8 @@
 
 Gli **algoritmi generativi** come le reti neurali sono tra le tecnologie più avanzate e rivoluzionarie nel campo dell'Intelligenza Artificiale (AI). Questi strumenti permettono alle macchine di creare nuovi contenuti, come immagini, suoni e testo, che sono indistinguibili da quelli prodotti dagli esseri umani. Questo capitolo esplora i concetti fondamentali degli algoritmi generativi e le sue  applicazioni pratiche.
 
+![Neurone Biologico e Neurone Artificiale](5.1.png)
+
 ### 5.2 Cosa sono gli Algoritmi Generativi?
 
 #### 5.2.1 Definizione di Algoritmi Generativi
