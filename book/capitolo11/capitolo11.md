@@ -60,7 +60,7 @@ Papa Francesco ha più volte affrontato il tema dell'AI, sottolineando la necess
 
 L'impatto dell'AI sulla società non è solo tecnologico ma profondamente umano. Come suggerisce il filosofo Nick Bostrom, ci troviamo in un momento cruciale della storia umana, dove le decisioni che prendiamo oggi sulla governance dell'AI avranno ripercussioni fondamentali sul futuro della nostra specie.
 
-La sfida per il futuro non è tanto quella di limitare o temere l'AI, quanto di integrarla in modo consapevole nella società, preservando e valorizzando ciò che ci rende uniquemente umani. Come sostiene il filosofo Max Tegmark, il vero obiettivo dovrebbe essere quello di utilizzare l'AI per potenziare e arricchire l'esperienza umana, non per sostituirla.
+La sfida per il futuro non è tanto quella di limitare o temere l'AI, quanto di integrarla in modo consapevole nella società, preservando e valorizzando ciò che ci rende unicamente umani. Come sostiene il filosofo Max Tegmark, il vero obiettivo dovrebbe essere quello di utilizzare l'AI per potenziare e arricchire l'esperienza umana, non per sostituirla.
 
 Per concludere, possiamo dire che l'AI ci sta offrendo uno specchio attraverso cui riflettere sulla nostra natura umana. In questo processo di auto-riflessione, emerge l'opportunità di ridefinire non solo il nostro rapporto con la tecnologia, ma anche la nostra comprensione di cosa significhi essere umani nel XXI secolo.
 
