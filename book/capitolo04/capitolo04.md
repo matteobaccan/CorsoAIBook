@@ -141,6 +141,8 @@ Il riconoscimento di immagini è una delle applicazioni più comuni del Deep Lea
 
 L'NLP è un campo dell'AI che si occupa dell'interazione tra macchine e linguaggio umano. Modelli come le RNN e i Transformer sono utilizzati per compiti come la traduzione automatica, la generazione di testo e l'analisi del sentiment.
 
+![Elaborazione del Linguaggio Naturale (NLP)](4.6.2.png)
+
 #### 4.6.3 Guida Autonoma
 
 Le auto a guida autonoma utilizzano il Machine Learning e il Deep Learning per percepire l'ambiente circostante, prendere decisioni e navigare in modo sicuro. Modelli come le CNN sono utilizzati per il riconoscimento di oggetti e la pianificazione del percorso.
