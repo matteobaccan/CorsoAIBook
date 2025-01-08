@@ -52,10 +52,6 @@ L'AI è utilizzata per riconoscere oggetti, volti e scene in immagini e video. A
 
 Le auto a guida autonoma utilizzano l'AI per percepire l'ambiente circostante, prendere decisioni e navigare in modo sicuro senza l'intervento umano. Modelli di visione artificiale, come le **Reti Neurali Convoluzionali (CNN)**, sono utilizzati per identificare oggetti, segnali stradali e pedoni, mentre algoritmi di pianificazione determinano il percorso ottimale.
 
-#### 6.5.3 Analisi Medica
-
-L'AI è utilizzata per analizzare immagini mediche, come radiografie, risonanze magnetiche e tomografie, per identificare malattie e anomalie. Modelli di visione artificiale possono rilevare tumori, fratture e altre condizioni con una precisione che rivaleggia con quella dei radiologi umani. Questo aiuta i medici a diagnosticare malattie in modo più rapido e accurato.
-
 ### 6.6 Riconoscimento Facciale e Vocale
 
 #### 6.6.1 Riconoscimento Facciale
