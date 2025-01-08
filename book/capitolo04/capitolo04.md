@@ -68,6 +68,8 @@ Immagina un robot in un labirinto:
 - Se mangia un fantasma, impara che quella mossa è buona (ricompensa).
 - Usa le esperienze passate per migliorare le decisioni future.
 
+![Apprendimento per Rinforzo](4.3.3.png)
+
 ### 4.4 Cos'è il Deep Learning?
 
 #### 4.4.1 Definizione di Deep Learning
