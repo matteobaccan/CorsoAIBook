@@ -64,6 +64,8 @@ L'AI generativa sta trasformando il modo in cui produciamo e consumiamo arte, mu
 
 - **GitHub**: <https://github.com/matteobaccan/awesome-ai> - Una lista ragionata di risorse AI.
 - **ChatGPT**: <https://chat.openai.com> - Utilizzato per generare contenuti e rispondere a domande.
+- **Claude**: <https://claude.ai> - Utilizzato per generare contenuti e rispondere a domande.
+- **DeepSeek**: <https://chat.deepseek.com> - Utilizzato per ottimizzare i testi.
 - **Wikipedia**: <https://it.wikipedia.org> - Per definizioni e argomenti generali.
 - **Tutorialspoint**: <https://www.tutorialspoint.com/artificial_intelligence/> - Tutorial e guide su AI.
 
