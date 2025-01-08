@@ -110,6 +110,8 @@ L'AI generativa ha una vasta gamma di applicazioni, tra cui:
 - **"Crea un video di presentazione per un nuovo prodotto"**: Synthesia può generare un video di presentazione con un avatar virtuale che descrive le caratteristiche del prodotto.
 - **"Genera un video tutorial su come usare un software"**: Synthesia può creare un video tutorial con un avatar virtuale che spiega come usare un software, passo dopo passo.
 
+[Guarda il nostro minicorso video sull'AI fatto con Synthesia](https://www.youtube.com/playlist?list=PLtdxdM_5QcHL38q9PYC-Ln_bdDl9Ma4_W)
+
 #### 10.6.2 Runway ML
 
 **Runway ML** è una piattaforma che offre strumenti per la creazione di video con AI. Runway ML permette agli utenti di generare video basati su descrizioni testuali, immagini o sequenze di video esistenti.
