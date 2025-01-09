@@ -57,6 +57,3 @@ Questo progetto è rilasciato sotto la licenza [Creative Commons Attribution-Non
 - **Matteo Baccan**: Ingegnere del software e formatore con oltre 30 anni di esperienza nel settore IT. Autore di numerosi articoli, libri e corsi online.
 - **Dario Ferrero**: Collaboratore e co-autore del progetto, con una passione per la divulgazione tecnologica e l'innovazione.
 
-### 1.8 Ringraziamenti
-
-Un grazie speciale a tutti coloro che hanno contribuito al progetto, attraverso feedback, suggerimenti e supporto. Questo libro è il risultato di un lavoro di squadra e di una comunità appassionata di tecnologia e innovazione.
