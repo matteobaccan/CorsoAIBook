@@ -2,7 +2,7 @@ import os
 import argparse
 from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Image, Frame
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Image, Frame, Table, TableStyle
 from reportlab.platypus.doctemplate import PageTemplate, BaseDocTemplate
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import inch, cm
@@ -47,7 +47,9 @@ def convert_markdown_to_pdf():
         pdfmetrics.registerFont(TTFont('Quicksand-bold' , '../book/fonts/Quicksand-Bold.ttf'))
         pdfmetrics.registerFont(TTFont('Roboto'         , '../book/fonts/Roboto-Regular.ttf'))
         pdfmetrics.registerFont(TTFont('Roboto-Bold'    , '../book/fonts/Roboto-Bold.ttf'))
+        pdfmetrics.registerFont(TTFont('Roboto-Italic'  , '../book/fonts/Roboto-Italic.ttf'))
         pdfmetrics.registerFont(TTFont('SourceCodePro'  , '../book/fonts/SourceCodePro-Regular.ttf'))
+        print(pdfmetrics.getRegisteredFontNames())
 
         # Stili personalizzati per i paragrafi
         custom_styles = {
@@ -89,6 +91,15 @@ def convert_markdown_to_pdf():
                 borderWidth=0.3,
                 borderPadding=5,
                 borderRadius=2,  # Angoli arrotondati )
+            ),
+            'caption': ParagraphStyle(
+                name='Caption',
+                fontName='Quicksand-Bold',  # Usa il font Quicksand-Bold
+                fontSize=12,                # Dimensione del font
+                textColor=colors.black,     # Colore del testo
+                alignment=TA_CENTER,        # Allineamento centrato
+                spaceBefore=5,              # Spazio prima della didascalia
+                spaceAfter=10,              # Spazio dopo la didascalia
             )
         }
 
@@ -116,9 +127,9 @@ def convert_markdown_to_pdf():
             ('../book/capitolo07/capitolo07.md', '../book/capitolo07/capitolo07.jpg'),
             ('../book/capitolo08/capitolo08.md', '../book/capitolo08/capitolo08.jpg'),
             ('../book/capitolo09/capitolo09.md', '../book/capitolo09/capitolo09.jpg'),
-            ('../book/capitolo10/capitolo10.md', '../book/capitolo04/capitolo10.jpg'),
-            ('../book/capitolo11/capitolo11.md', '../book/capitolo10/capitolo11.jpg'),
-            ('../book/capitolo12/capitolo12.md', '../book/capitolo11/capitolo12.jpg')
+            ('../book/capitolo10/capitolo10.md', '../book/capitolo10/capitolo10.jpg'),
+            ('../book/capitolo11/capitolo11.md', '../book/capitolo11/capitolo11.jpg'),
+            ('../book/capitolo12/capitolo12.md', '../book/capitolo12/capitolo12.jpg')
         ]
         
         h1 = ParagraphStyle(name = 'h1',
@@ -165,16 +176,16 @@ def convert_markdown_to_pdf():
         add_page(elements)
 
         # Prefazione dell'autore
-        f = open('../book/00-prefazione-it.md', 'r', encoding='utf-8');
-        markdown_content = f.read()
-        elements.extend(process_markdown_content(markdown_content, custom_styles))
-        add_page(elements)
+        with open('../book/paragrafi/00-prefazione-it.md', 'r', encoding='utf-8') as f:
+            markdown_content = f.read()
+            elements.extend(process_markdown_content(markdown_content, custom_styles))
+            add_page(elements)
 
         # Ringraziamenti
-        ringraziamenti = Paragraph('Ringraziamenti', custom_styles['header1'])
-        elements.append(ringraziamenti)
-        elements.append(Paragraph('Grazie alle nostre famiglie, che con il loro amore e il loro supporto ci hanno permesso di realizzare questo progetto.', custom_styles['paragraph']))
-        add_page(elements)
+        with open('../book/paragrafi/00-ringraziamenti-it.md', 'r', encoding='utf-8') as f:
+            markdown_content = f.read()
+            elements.extend(process_markdown_content(markdown_content, custom_styles))
+            add_page(elements)
 
         # Elaborazione capitoli
         for chapter_info in capitoli:
@@ -221,25 +232,25 @@ def convert_markdown_to_pdf():
                 add_page(elements)
 
         # Biografia
-        with open('../book/00-biografia-it.md', 'r', encoding='utf-8') as f:
+        with open('../book/paragrafi/00-biografia-it.md', 'r', encoding='utf-8') as f:
             markdown_content = f.read()
             elements.extend(process_markdown_content(markdown_content, custom_styles))
             add_page(elements)
 
         # Glossario
-        with open('../book/00-glossario-it.md', 'r', encoding='utf-8') as f:
+        with open('../book/paragrafi/00-glossario-it.md', 'r', encoding='utf-8') as f:
             markdown_content = f.read()
             elements.extend(process_markdown_content(markdown_content, custom_styles))
             add_page(elements)
 
         # Bibliografia
-        with open('../book/00-bibliografia-it.md', 'r', encoding='utf-8') as f:
+        with open('../book/paragrafi/00-bibliografia-it.md', 'r', encoding='utf-8') as f:
             markdown_content = f.read()
             elements.extend(process_markdown_content(markdown_content, custom_styles))
             add_page(elements)
 
         # Disclaimer
-        with open('../book/00-disclaimer-it.md', 'r', encoding='utf-8') as f:
+        with open('../book/paragrafi/00-disclaimer-it.md', 'r', encoding='utf-8') as f:
             markdown_content = f.read()
             elements.extend(process_markdown_content(markdown_content, custom_styles))
             add_page(elements)
@@ -265,7 +276,7 @@ def convert_markdown_to_pdf():
         print(f'PDF creato: {output_file}')
 
     except Exception as e:
-        print(f"Errore durante la generazione del PDF: {e}")
+        print(f"Errore durante la generazione del PDF: {e}", exc_info=True)
         exit(1)  # Termina lo script con un codice di errore    
 
 # Resto del codice rimane invariato
@@ -287,6 +298,8 @@ def process_markdown_title(elements, custom_styles, title, image_path):
                 elements.append(img)                
             except Exception as e:
                 print(f"Errore nel caricamento dell'immagine {image_path}: {e}")
+        else:
+            raise Exception(f"Immagine non trovata: {image_path}")
 
         add_page(elements)
 
@@ -295,7 +308,19 @@ def apply_bold(text):
     bold_pattern = re.compile(r'\*\*(.*?)\*\*')
     return bold_pattern.sub(lambda match: f'<font name="Quicksand-Bold">{match.group(1)}</font>', text)
 
+def apply_italic(text):
+    """
+    Trasforma il testo in corsivo da Markdown a ReportLab.
+    Riconosce il testo tra * o _ e lo sostituisce con <i>.
+    """
+    # Cerca il testo tra * o _ e lo sostituisce con <i>
+    italic_pattern = re.compile(r'(\*)(.*?)\1')
+    return italic_pattern.sub(lambda match: f'<font name="Roboto-Italic">{match.group(2)}</font>', text)
+
 def process_images(line, custom_styles):
+    """
+    Gestisce le immagini Markdown, aggiunge un bordo, centra la didascalia e aggiunge uno sfondo tenue.
+    """
     # Cerca il pattern ![didascalia](path_immagine)
     image_pattern = re.compile(r'!\[(.*?)\]\((.*?)\)')
     match = image_pattern.search(line)
@@ -309,15 +334,28 @@ def process_images(line, custom_styles):
             raise Exception(f"Immagine non trovata: {image_path}")
         
         try:
-            # Aggiungi l'immagine con un bordo
+            # Aggiungi l'immagine
             img = Image(image_path, width=400, height=300)  # Regola le dimensioni secondo necessità
-            img.hAlign = 'CENTER'
             
-            # Aggiungi la didascalia sotto l'immagine
-            caption_paragraph = Paragraph(f'<font name="Quicksand-Bold">{caption}</font>', custom_styles['paragraph'])
-            caption_paragraph.hAlign = 'CENTER'
+            # Crea una tabella per il bordo, la didascalia e lo sfondo
+            table_data = [
+                [img],  # Immagine
+                [Paragraph(caption, custom_styles['caption'])]  # Didascalia con stile personalizzato
+            ]
             
-            return [img, caption_paragraph]
+            # Crea la tabella
+            table = Table(table_data, colWidths=400)  # Larghezza della tabella uguale a quella dell'immagine
+            
+            # Aggiungi uno stile alla tabella per il bordo, il centramento e lo sfondo
+            table.setStyle(TableStyle([
+                ('ALIGN', (0, 0), (-1, -1), 'CENTER'),  # Centra tutto il contenuto
+                ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),  # Allinea verticalmente al centro
+                ('BOX', (0, 0), (-1, -1), 1, colors.black),  # Aggiungi un bordo nero
+                ('BACKGROUND', (0, 0), (-1, -1), colors.Color(0.95, 0.95, 0.95)),  # Sfondo grigio chiaro
+                ('PADDING', (0, 0), (-1, -1), 10),  # Aggiungi un po' di padding
+            ]))
+            
+            return [table]  # Restituisci la tabella con l'immagine e la didascalia
         except Exception as e:
             raise Exception(f"Errore nel caricamento dell'immagine {image_path}: {e}")
     
@@ -392,6 +430,9 @@ def process_markdown_content(content, custom_styles):
         else:
             # Applica il grassetto al testo tra **
             line = apply_bold(line)
+
+            # Applica il corsivo al testo tra * o _
+            line = apply_italic(line)            
 
             # Gestisci le immagini
             image_elements = process_images(line, custom_styles)

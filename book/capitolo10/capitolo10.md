@@ -32,6 +32,8 @@ L'AI generativa ha una vasta gamma di applicazioni, tra cui:
 - **"Un'anatra con occhiali da sole su una spiaggia tropicale"**: DALL-E può generare un'immagine di un'anatra con occhiali da sole su una spiaggia tropicale, con dettagli realistici.
 - **"Un salotto in stile futuristico con mobili minimalisti"**: DALL-E può creare un'immagine di un salotto futuristico con mobili minimalisti, seguendo la descrizione testuale.
 
+![DALL-E](10.3.1.jpg)
+
 #### 10.3.2 Midjourney
 
 **Midjourney** è un laboratorio di ricerca indipendente che produce un programma di intelligenza artificiale che crea immagini da descrizioni testuali. Midjourney è noto per la sua capacità di generare immagini artistiche e fotorealistiche.
@@ -40,6 +42,8 @@ L'AI generativa ha una vasta gamma di applicazioni, tra cui:
 - **"Un paesaggio surreale con montagne fluttuanti e un cielo viola"**: Midjourney può generare un'immagine di un paesaggio surreale con montagne fluttuanti e un cielo viola, con dettagli artistici.
 - **"Un ritratto di un uomo di mezza età con un'espressione intensa"**: Midjourney può creare un ritratto fotorealistico di un uomo di mezza età con un'espressione intensa.
 
+![Midjourney](10.3.2.jpg)
+
 #### 10.3.3 Leonardo AI
 
 **Leonardo AI** è un modello di intelligenza artificiale che può generare immagini realistiche a partire da una descrizione testuale. Leonardo è stato addestrato su un ampio set di dati di immagini e testi, e può generare immagini in una varietà di stili e storie.
@@ -47,6 +51,8 @@ L'AI generativa ha una vasta gamma di applicazioni, tra cui:
 **Esempi di Leonardo AI**:
 - **"Una giovane donna in bikini su una spiaggia cubana"**: Leonardo AI può generare un'immagine fotorealistica di una giovane donna in bikini su una spiaggia cubana, con dettagli realistici.
 - **"Un interno lussuoso con un letto morbido e cuscini bianchi"**: Leonardo AI può creare un'immagine di un interno lussuoso con un letto morbido e cuscini bianchi, seguendo la descrizione testuale.
+
+![Leonardo](10.3.3.jpg)
 
 ### 10.4 Generazione di Musica con AI
 
@@ -76,21 +82,107 @@ L'AI generativa ha una vasta gamma di applicazioni, tra cui:
 
 ### 10.5 Generazione di Testo con AI
 
-#### 10.5.1 GPT-3
+#### 10.5.1 GPT-4
 
-**GPT-3** è un modello di linguaggio sviluppato da OpenAI che può generare testo coerente e contestualmente rilevante. GPT-3 è utilizzato per compiti come la scrittura di articoli, la generazione di codice e la creazione di contenuti creativi.
+**GPT-4** è un modello di linguaggio sviluppato da OpenAI che può generare testo coerente e contestualmente rilevante. GPT-3 è utilizzato per compiti come la scrittura di articoli, la generazione di codice e la creazione di contenuti creativi.
 
-**Esempi di GPT-3**:
-- **"Scrivi una poesia sull'amore"**: GPT-3 può generare una poesia sull'amore, con versi romantici e metafore evocative.
+**Esempi di GPT-4**:
+- **"Scrivi una poesia sull'amore"**: GPT-4 può generare una poesia sull'amore, con versi romantici e metafore evocative.
+
+```text
+L'amore è un fiore che sboccia lento,  
+Nel silenzio del cuore, sotto il vento,  
+Scivola dolce, come acqua chiara,  
+Una luce che accende la sera amara.
+
+Non chiede, non impone, si fa strada,  
+Tra ombre e luci, là dove si spera,  
+Un incontro furtivo, un respiro rubato,  
+Un battito forte, un sogno condiviso.
+
+Si intreccia tra i giorni, come radici,  
+Insegna la pazienza, tra mille sacrifici,  
+Un abbraccio che scalda, una carezza che guarisce,  
+Ogni dolore, ogni paura che svanisce.
+
+Eppure, l'amore non è solo gioia,  
+È anche silenzio, è anche paura,  
+Un cammino condiviso, in cui ogni passo  
+Diventa certezza, ma mai il passo passo.
+
+Nel suo mistero, c'è l'infinito,  
+Nel suo abbraccio, il mondo è riflesso,  
+Amare è come il cielo che crolla e svela,  
+Che alla fine, tutto è uno, sotto la sua stella.
+```
+
 - **"Genera un codice Python per ordinare una lista di numeri"**: GPT-3 può creare un codice Python per ordinare una lista di numeri, con commenti esplicativi.
 
-#### 10.5.2 ChatGPT
+```python
+# Lista di numeri da ordinare
+numeri = [42, 17, 8, 99, 23, 5, 11]
 
-**ChatGPT** è un modello di linguaggio basato su GPT-3, progettato per interagire con gli utenti in modo conversazionale. ChatGPT è utilizzato per creare chatbot, assistenti virtuali e strumenti di supporto alla scrittura.
+# Ordinamento in ordine crescente
+numeri.sort()
+print("Lista ordinata in ordine crescente:", numeri)
 
-**Esempi di ChatGPT**:
-- **"Aiutami a scrivere una lettera di presentazione"**: ChatGPT può generare una lettera di presentazione professionale, basata sulle informazioni fornite dall'utente.
+# Ordinamento in ordine decrescente
+numeri.sort(reverse=True)
+print("Lista ordinata in ordine decrescente:", numeri)
+```
+
+#### 10.5.2 Claude AI
+
+**Claude** è un assistente di intelligenza artificiale sviluppato da Anthropic, un'azienda specializzata in AI. Questo modello linguistico avanzato fa parte della famiglia Claude 3 ed è progettato per assistere gli utenti in una vasta gamma di attività: dalla programmazione all'analisi dei dati, dalla scrittura creativa alla risoluzione di problemi matematici complessi, fino alla generazione di contenuti e all'insegnamento. Claude si distingue per la sua capacità di comprendere e comunicare in diverse lingue, mantenendo sempre un approccio equilibrato e rigoroso nel fornire informazioni accurate e pertinenti.
+
+**Esempi di Claude**:
+- **"Aiutami a scrivere una lettera di presentazione a un'azienda di trasporti. Sono un mulettista con patentino con 10 anni di esperienza"**: Claude può generare una lettera di presentazione professionale, basata sulle informazioni fornite dall'utente.
+
+```text
+Spett.le [Nome Azienda],
+
+Mi presento, sono [Il Tuo Nome], un mulettista qualificato con 10 anni di esperienza nel settore della logistica e della movimentazione merci. Scrivo questa lettera per manifestare il mio interesse a entrare a far parte del vostro team.
+
+Nel corso della mia carriera decennale, ho sviluppato una solida esperienza nella gestione del carrello elevatore, nel rispetto rigoroso delle normative sulla sicurezza e delle procedure operative. Sono in possesso di regolare patentino per la conduzione di carrelli elevatori, costantemente rinnovato, e ho operato in diversi contesti logistici che mi hanno permesso di affinare le mie competenze.
+
+Le mie principali competenze includono:
+- Movimentazione precisa delle merci in spazi ristretti
+- Gestione ottimale del magazzino e delle scaffalature
+- Utilizzo di sistemi informatici di gestione magazzino
+- Manutenzione ordinaria dei mezzi
+- Ottima capacità di lavorare in team
+
+La sicurezza è sempre stata una mia priorità assoluta, e in questi anni ho mantenuto un record impeccabile, senza incidenti.
+
+Sarei entusiasta di poter contribuire alla crescita della vostra azienda mettendo a disposizione la mia esperienza e professionalità.
+
+Resto a disposizione per un colloquio in cui poter approfondire il mio profilo.
+
+Cordiali saluti,
+[Il Tuo Nome]
+[Contatti]
+```
+
 - **"Spiegami la teoria della relatività in termini semplici"**: ChatGPT può spiegare la teoria della relatività in modo semplice e comprensibile, con esempi pratici.
+
+```text
+La teoria della relatività di Einstein può essere spiegata in modo semplice partendo da alcuni concetti fondamentali:
+
+Immagina di essere su un treno in movimento e di far rimbalzare una palla. Per te che sei sul treno, la palla va solo su e giù. Ma per qualcuno che ti guarda dalla stazione, la palla si muove seguendo una traiettoria diagonale, perché combina il movimento verticale con quello orizzontale del treno. Entrambi avete ragione: il movimento è "relativo" al punto di osservazione.
+
+Einstein ha esteso questo concetto dimostrando che:
+
+1. La velocità della luce è costante per tutti gli osservatori, indipendentemente dal loro movimento
+2. Il tempo non scorre allo stesso modo per tutti, ma dipende dal movimento e dalla gravità. Più ti muovi velocemente o più sei vicino a un oggetto molto massivo (come un pianeta), più il tempo scorre lentamente per te rispetto a chi è fermo o lontano dalla gravità
+3. Massa ed energia sono due facce della stessa medaglia (E = mc^2). Un oggetto può trasformare la sua massa in energia e viceversa
+
+In pratica, questo significa che:
+- Non esiste un tempo "assoluto" uguale per tutti nell'universo
+- Lo spazio e il tempo sono intrecciati in un unico "tessuto" chiamato spazio-tempo
+- La gravità non è una forza misteriosa, ma una curvatura di questo tessuto causata dalla presenza di massa
+
+Questa teoria ha rivoluzionato la nostra comprensione dell'universo e ha portato a molte applicazioni pratiche, come il GPS che deve tenere conto degli effetti relativistici per funzionare con precisione.
+```
 
 #### 10.5.3 Jasper AI
 
