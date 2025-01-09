@@ -384,32 +384,6 @@ def process_lists(line, custom_styles):
         return Paragraph(line, custom_styles['paragraph'])
     return None
 
-def process_code_blocks(content, custom_styles):
-    blocks = []
-    in_code_block = False
-    code_lines = []
-
-    for line in content.splitlines():
-        if line.strip().startswith("```"):
-            if not in_code_block:
-                in_code_block = True
-                code_lines = []
-            else:
-                in_code_block = False
-                code_text = "\n".join(code_lines)
-                blocks.append(Paragraph(code_text, custom_styles['code']))
-                code_lines = []
-        elif in_code_block:
-            code_lines.append(line)
-        else:
-            blocks.append(Paragraph(line, custom_styles['paragraph']))
-
-    if code_lines:
-        code_text = "\n".join(code_lines)
-        blocks.append(Paragraph(code_text, custom_styles['code']))
-
-    return blocks
-
 def process_markdown_content(content, custom_styles):
     blocks = []
     in_code_block = False
@@ -422,7 +396,7 @@ def process_markdown_content(content, custom_styles):
                 code_lines = []
             else:
                 in_code_block = False
-                code_text = "\n".join(code_lines)
+                code_text = "<br/>".join(code_lines)
                 blocks.append(Paragraph(code_text, custom_styles['code']))
                 code_lines = []
         elif in_code_block:
@@ -431,7 +405,7 @@ def process_markdown_content(content, custom_styles):
             # Applica il grassetto al testo tra **
             line = apply_bold(line)
 
-            # Applica il corsivo al testo tra * o _
+            # Applica il corsivo al testo tra *
             line = apply_italic(line)            
 
             # Gestisci le immagini
