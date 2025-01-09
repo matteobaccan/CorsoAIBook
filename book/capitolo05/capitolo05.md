@@ -38,6 +38,8 @@ Le due reti si allenano simultaneamente:
 
 Questo processo continua fino a quando il Generatore produce dati che il Discriminatore non è più in grado di distinguere da quelli reali.
 
+![Generazione di Immagini con una GAN](4.5.3.png)
+
 #### 5.3.3 Applicazioni delle GAN
 
 Le GAN hanno una vasta gamma di applicazioni, tra cui:
