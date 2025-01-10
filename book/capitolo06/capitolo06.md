@@ -30,7 +30,7 @@ Assistenti virtuali come **Siri**, **Alexa** e **Google Assistant** utilizzano l
 
 #### 6.3.3 Generazione di Testo
 
-L'AI è utilizzata per generare testo coerente e contestualmente rilevante, come articoli, poesie, codici di programmazione e molto altro. Modelli come **GPT-3** di OpenAI sono in grado di produrre testi di alta qualità basati su input testuali, aprendo nuove possibilità per la creazione di contenuti e l'automazione di processi di scrittura.
+L'AI è utilizzata per generare testo coerente e contestualmente rilevante, come articoli, poesie, codici di programmazione e molto altro. Modelli come **ChatGPT** di OpenAI sono in grado di produrre testi di alta qualità basati su input testuali, aprendo nuove possibilità per la creazione di contenuti e l'automazione di processi di scrittura.
 
 ### 6.4 Sistemi Esperti
 

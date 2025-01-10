@@ -16,7 +16,7 @@ Meta, la società madre di Facebook, ha investito pesantemente nello sviluppo di
 
 #### 8.2.2 OpenAI
 
-OpenAI è una delle aziende più influenti nel campo dell'AI, nota per lo sviluppo di modelli di linguaggio avanzati come **GPT-3** e **GPT-4**. OpenAI è guidata da **Sam Altman** e ha l'obiettivo di creare un'AI generale (AGI) che sia sicura e benefica per l'umanità.
+OpenAI è una delle aziende più influenti nel campo dell'AI, nota per lo sviluppo di modelli di linguaggio avanzati come **ChatGPT**. OpenAI è guidata da **Sam Altman** e ha l'obiettivo di creare un'AI generale (AGI) che sia sicura e benefica per l'umanità.
 
 **Modelli di OpenAI**:
 - **GPT-3**: Un modello di linguaggio con 175 miliardi di parametri, in grado di generare testo coerente e contestualmente rilevante.
@@ -97,7 +97,7 @@ Amazon utilizza l'AI in molti dei suoi prodotti e servizi, dal riconoscimento vo
 
 #### 8.5.1 AI Generativa
 
-L'AI generativa è una delle aree più innovative nel campo dell'AI, con applicazioni che vanno dalla creazione di immagini e musica alla generazione di testo. Modelli come **DALL-E** e **GPT-3** hanno dimostrato la capacità di creare contenuti originali e di alta qualità.
+L'AI generativa è una delle aree più innovative nel campo dell'AI, con applicazioni che vanno dalla creazione di immagini e musica alla generazione di testo. Modelli come **DALL-E** e **ChatGPT** hanno dimostrato la capacità di creare contenuti originali e di alta qualità.
 
 **Applicazioni dell'AI Generativa**:
 - **Arte e Design**: Creazione di opere d'arte e design originali basati su descrizioni testuali.

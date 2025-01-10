@@ -88,7 +88,7 @@ Un modello che riconosce perfettamente i volti delle persone nel dataset di adde
 Una richiesta o un'istruzione data a un'AI per generare un output specifico. Può essere una domanda, un comando o una descrizione testuale.
 
 Esempio pratico:
-"Scrivi una poesia sull'autunno" è un prompt che puoi dare a un'AI generativa di testo come GPT-3.
+"Scrivi una poesia sull'autunno" è un prompt che puoi dare a un'AI generativa di testo come ChatGPT.
 
 -**Rete Neurale**
 Un modello computazionale ispirato al funzionamento del cervello umano, composto da strati di "neuroni" artificiali che elaborano informazioni. Le reti neurali sono alla base del Deep Learning.

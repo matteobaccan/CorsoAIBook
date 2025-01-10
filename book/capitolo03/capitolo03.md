@@ -22,6 +22,8 @@ Dopo il lavoro di Turing, altri ricercatori iniziarono a sviluppare programmi di
 
 Nel 1956, si tenne la **Conferenza di Dartmouth**, organizzata da John McCarthy, Marvin Minsky, Nathaniel Rochester e Claude Shannon. Questo evento è considerato il momento in cui l'AI è stata formalmente riconosciuta come una disciplina scientifica. Durante la conferenza, i partecipanti discussero la possibilità di creare macchine in grado di simulare l'intelligenza umana, gettando le basi per la ricerca futura.
 
+![Conferenza di Dartmouth - fonte ieee.org](ConferenzaDiDartmouth.webp)
+
 ### 3.3 Il periodo della simulazione (1965-1980)
 
 #### 3.3.1 L'era dei sistemi esperti
@@ -31,6 +33,8 @@ Durante questo periodo, i ricercatori iniziarono a sviluppare **sistemi esperti*
 #### 3.3.2 Elaborazione del linguaggio naturale
 
 Negli anni '70, l'elaborazione del linguaggio naturale (NLP) divenne un'area di ricerca importante. Uno dei primi esempi di NLP fu **ELIZA**, un chatbot sviluppato da **Joseph Weizenbaum** nel 1966. ELIZA simulava una conversazione con un terapeuta rogersiano, utilizzando semplici regole per analizzare e rispondere alle frasi dell'utente. Nonostante la sua semplicità, ELIZA dimostrò che le macchine potevano interagire con gli esseri umani in modo apparentemente intelligente.
+
+![Eliza - fonte Wikipedia](eliza.png)
 
 #### 3.3.3 Visione artificiale
 
@@ -70,7 +74,7 @@ Il **deep learning**, una sottobranca del Machine Learning che utilizza reti neu
 
 #### 3.5.3 AI Generativa
 
-L'AI generativa, che utilizza algoritmi per creare nuovi contenuti come immagini, musica e testo, ha visto una rapida crescita negli ultimi anni. Modelli come **GPT-3** e **DALL-E** hanno dimostrato la capacità di generare contenuti di alta qualità, aprendo nuove possibilità per l'arte, la creatività e l'intrattenimento.
+L'AI generativa, che utilizza algoritmi per creare nuovi contenuti come immagini, musica e testo, ha visto una rapida crescita negli ultimi anni. Modelli come **ChatGPT** e **DALL-E** hanno dimostrato la capacità di generare contenuti di alta qualità, aprendo nuove possibilità per l'arte, la creatività e l'intrattenimento.
 
 #### 3.5.4 Guida autonoma e robotica
 

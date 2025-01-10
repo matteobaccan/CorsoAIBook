@@ -153,7 +153,7 @@ L'AI è utilizzata in campo medico per analizzare immagini mediche, come radiogr
 
 #### 4.6.5 Generazione di Contenuti
 
-L'AI generativa, come le GAN, è utilizzata per creare nuovi contenuti, come immagini, musica e testo. Modelli come GPT-3 e DALL-E hanno dimostrato la capacità di generare contenuti di alta qualità, aprendo nuove possibilità per l'arte e l'intrattenimento.
+L'AI generativa, come le GAN, è utilizzata per creare nuovi contenuti, come immagini, musica e testo. Modelli come ChatGPT e DALL-E hanno dimostrato la capacità di generare contenuti di alta qualità, aprendo nuove possibilità per l'arte e l'intrattenimento.
 
 ### 4.7 Sfide e Limiti del Machine Learning e Deep Learning
 

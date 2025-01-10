@@ -14,19 +14,19 @@ Preparati a un viaggio che ti porterà oltre il codice, oltre i dati, oltre le m
 
 ### 1.1 Come nasce questo libro
 
-In risposta alla rapida diffusione di prodotti basati sull'Intelligenza Artificiale, ho elaborato una presentazione che ripercorre l'evoluzione di questa tecnologia e illustra i termini chiave utilizzati nel settore. Nel corso della mia attività professionale, ho sperimentato diverse soluzioni AI che mi hanno permesso di ottimizzare i processi lavorativi, aumentando sia l'efficienza che la qualità dei risultati. Ho quindi arricchito la presentazione con una sezione pratica dedicata ai vari strumenti AI, specificando per ciascuno il campo di applicazione ideale.
+In risposta alla rapida diffusione di prodotti basati sull'Intelligenza Artificiale, abbiamo elaborato una presentazione che ripercorre l'evoluzione di questa tecnologia e illustra i termini chiave utilizzati nel settore. Nel corso della nostra attività professionale, abbiamo sperimentato diverse soluzioni AI che ci hanno permesso di ottimizzare i processi lavorativi, aumentando sia l'efficienza che la qualità dei risultati. Abbiamo quindi arricchito la presentazione con una sezione pratica dedicata ai vari strumenti AI, specificando per ciascuno il campo di applicazione ideale.
 
 L'obiettivo di questo lavoro è stato duplice: da un lato, far conoscere i benefici concreti che l'Intelligenza Artificiale può apportare nella vita professionale, dall'altro, fornire una guida pratica per la scelta degli strumenti AI più adatti alle diverse esigenze lavorative quotidiane.
 
-Da questa presentazione è nato il libro che state leggendo, arricchito con nuovi contenuti e approfondimenti, per offrire una panoramica completa sull'Intelligenza Artificiale e sulle sue applicazioni pratiche.
+Da questa presentazione è nato il libro che state leggendo, nel quale abbiamo usato un linguaggio più semplice e descrittivo e nel quale arricchito con nuovi contenuti e approfondimenti, per offrire una panoramica completa sull'Intelligenza Artificiale e sulle sue applicazioni pratiche.
 
-Per approfondire ulteriormente l'argomento, vi invito a visitare il progetto GitHub associato alla presentazione che abbiamo usato come base per questo libro, dove troverete risorse aggiuntive ed approfondimenti su vari aspetti dell'Intelligenza Artificiale.
+Se siete curiosi e volete approfondire ulteriormente l'argomento, vi invitiamo a visitare il progetto GitHub associato alla presentazione che abbiamo usato come punto di partenza, dove troverete risorse aggiuntive ed approfondimenti su vari aspetti dell'Intelligenza Artificiale.
 
 [https://github.com/matteobaccan/CorsoAI](https://github.com/matteobaccan/CorsoAI)
 
 ### 1.2 Dove trovare l'ultima versione di questo libro
 
-La versione che state leggendo di questo libro potrebbe essere non aggiornata. Per scaricare l'ultima versione disponibile, vi invito a visitare il progetto **GitHub ufficiale** di questo libro, all'indirizzo
+La versione che state leggendo di questo libro potrebbe essere non aggiornata. Per scaricare l'ultima versione disponibile, vi invitiamo a visitare il progetto **GitHub ufficiale** di questo libro, all'indirizzo
 
 [https://github.com/matteobaccan/CorsoAIBook](https://github.com/matteobaccan/CorsoAIBook)
 
@@ -34,7 +34,7 @@ La versione che state leggendo di questo libro potrebbe essere non aggiornata. P
 
 Questo libro è disponibile anche in altre lingue. Fate sempre riferimento al progetto GitHub ufficiale per scaricare la versione in altre lingue.
 
-### 1.4 Obiettivi del Progetto
+### 1.4 Obiettivi del progetto
 
 - **Educare**: Fornire una comprensione solida e accessibile dell'AI, dalle basi teoriche alle applicazioni avanzate.
 - **Ispirare**: Stimolare la curiosità e la creatività, mostrando come l'AI possa essere utilizzata per risolvere problemi complessi e aprire nuove opportunità.
@@ -56,4 +56,3 @@ Questo progetto è rilasciato sotto la licenza [Creative Commons Attribution-Non
 
 - **Matteo Baccan**: Ingegnere del software e formatore con oltre 30 anni di esperienza nel settore IT. Autore di numerosi articoli, libri e corsi online.
 - **Dario Ferrero**: Collaboratore e co-autore del progetto, con una passione per la divulgazione tecnologica e l'innovazione.
-

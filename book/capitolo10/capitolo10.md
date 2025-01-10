@@ -84,7 +84,7 @@ L'AI generativa ha una vasta gamma di applicazioni, tra cui:
 
 #### 10.5.1 GPT-4
 
-**GPT-4** è un modello di linguaggio sviluppato da OpenAI che può generare testo coerente e contestualmente rilevante. GPT-3 è utilizzato per compiti come la scrittura di articoli, la generazione di codice e la creazione di contenuti creativi.
+**GPT-4** è un modello di linguaggio sviluppato da OpenAI che può generare testo coerente e contestualmente rilevante. GPT-4 è utilizzato per compiti come la scrittura di articoli, la generazione di codice e la creazione di contenuti creativi.
 
 **Esempi di GPT-4**:
 - **"Scrivi una poesia sull'amore"**: GPT-4 può generare una poesia sull'amore, con versi romantici e metafore evocative.
@@ -116,7 +116,7 @@ Amare è come il cielo che crolla e svela,
 Che alla fine, tutto è uno, sotto la sua stella.
 ```
 
-- **"Genera un codice Python per ordinare una lista di numeri"**: GPT-3 può creare un codice Python per ordinare una lista di numeri, con commenti esplicativi.
+- **"Genera un codice Python per ordinare una lista di numeri"**: GPT-4 può creare un codice Python per ordinare una lista di numeri, con commenti esplicativi.
 
 ```python
 # Lista di numeri da ordinare

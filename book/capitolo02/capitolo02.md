@@ -21,7 +21,7 @@ L'AI può essere definita come la capacità di una macchina di imitare le funzio
 L'AI può essere classificata in tre categorie principali, in base alle sue capacità e al livello di autonomia:
 
 1. **ANI (Artificial Narrow Intelligence)**: È l'AI specializzata in un compito specifico, come il riconoscimento facciale o la traduzione automatica. È la forma di AI più comune oggi.
-2. **AGI (Artificial General Intelligence)**: È un'AI che possiede un'intelligenza generale simile a quella umana, in grado di svolgere qualsiasi compito intellettuale che un essere umano può fare. Questo tipo di AI non è ancora stato realizzato.
+2. **AGI (Artificial General Intelligence)**: È un'AI che possiede un'intelligenza generale simile a quella umana, in grado di svolgere qualsiasi compito intellettuale che un essere umano può fare. Questo tipo di AI non è ancora stato realizzato, ma è l'obiettivo che si stanno ponendo molti ricercatori e aziende impegnate nello sviluppo dell'AI.
 3. **ASI (Artificial Super Intelligence)**: È un'AI che supera l'intelligenza umana in tutti i campi, compresa la creatività, la risoluzione di problemi e il ragionamento. Questo è un concetto teorico e non è ancora stato raggiunto.
 
 ### 2.2 Cosa contribuisce all'AI?

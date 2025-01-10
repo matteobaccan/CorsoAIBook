@@ -290,7 +290,6 @@ def process_markdown_title(elements, custom_styles, title, image_path):
 
         # Aggiungi l'immagine se presente
         if image_path and os.path.exists(image_path):
-            print(f'Leggo MD {image_path}')
             try:
                 print(f'Leggo immagine {image_path}')
                 img = Image(image_path, width=400*1.2, height=300*1.2)  # Regola dimensioni secondo necessità
