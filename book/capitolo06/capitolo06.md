@@ -77,6 +77,7 @@ Il riconoscimento della scrittura a mano è utilizzato per l'autenticazione biom
 #### 6.8.1 Robotica Industriale
 
 I robot intelligenti sono utilizzati in contesti industriali per automatizzare processi di produzione, come l'assemblaggio, la saldatura e la verniciatura. Questi robot utilizzano l'AI per percepire l'ambiente circostante, adattarsi a cambiamenti e ottimizzare le operazioni. Questo migliora l'efficienza, riduce i costi e aumenta la qualità dei prodotti.
+![Robot industriali per automatizzazione dei processi](roboindustriale.jpg)
 
 #### 6.8.2 Robotica di Servizio
 
