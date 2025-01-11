@@ -19,6 +19,7 @@ Il Test di Turing è stato utilizzato come punto di riferimento per valutare la 
 - **Superficialità**: Il test si concentra sull'imitazione del comportamento umano, ma non valuta la comprensione o la consapevolezza.
 - **Soggettività**: Il risultato del test dipende dalla percezione del giudice, che può essere influenzata da pregiudizi o aspettative.
 - **Mancanza di misurazione della creatività**: Il test non valuta la capacità della macchina di creare nuove idee o soluzioni.
+![Alan Mathison Turing è considerato uno dei padri dell'informatica. Foto di libero utilizzo da Wikipedia](turing.jpg)
 
 ### 7.3 Come valutiamo oggi le AI?
 
