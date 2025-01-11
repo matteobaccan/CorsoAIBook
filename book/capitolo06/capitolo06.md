@@ -37,7 +37,7 @@ L'AI è utilizzata per generare testo coerente e contestualmente rilevante, come
 #### 6.4.1 Diagnostica Medica
 
 I sistemi esperti basati su AI sono utilizzati in campo medico per analizzare dati clinici e fornire diagnosi accurate. Ad esempio, modelli di AI possono analizzare immagini mediche, come radiografie e risonanze magnetiche, per identificare anomalie e suggerire trattamenti. Questi sistemi aiutano i medici a prendere decisioni informate e migliorare l'efficienza delle cure.
-![Strumenti per alisi e diagnosi mediche](medico.jpg)
+![Strumenti per alisi e diagnosi mediche. Foto generata con Leonardo AI](medico.jpg)
 
 #### 6.4.2 Supporto Decisionale
 
@@ -78,7 +78,7 @@ Il riconoscimento della scrittura a mano è utilizzato per l'autenticazione biom
 #### 6.8.1 Robotica Industriale
 
 I robot intelligenti sono utilizzati in contesti industriali per automatizzare processi di produzione, come l'assemblaggio, la saldatura e la verniciatura. Questi robot utilizzano l'AI per percepire l'ambiente circostante, adattarsi a cambiamenti e ottimizzare le operazioni. Questo migliora l'efficienza, riduce i costi e aumenta la qualità dei prodotti.
-![Robot industriali per automatizzazione dei processi](roboindustriale.jpg)
+![Robot industriali per automatizzazione dei processi. Foto generata con Leonardo AI](roboindustriale.jpg)
 
 #### 6.8.2 Robotica di Servizio
 

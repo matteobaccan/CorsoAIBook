@@ -79,7 +79,7 @@ L'**ARC Benchmark** (AI2 Reasoning Challenge) è stato sviluppato per testare le
 - **Domande Complesse**: Include 7.787 domande a scelta multipla, suddivise in "Easy Set" e "Challenge Set".
 - **Integrazione delle Informazioni**: Valuta come i modelli integrano informazioni sparse per rispondere a domande complesse.
 - **Scoring**: Ogni risposta corretta guadagna un punto, con punteggi distribuiti equamente in caso di pareggio.
-![Un benchmark è uno standard di riferimento](benchmark.jpg)
+![Un benchmark è uno standard di riferimento. Grafico fatto con Claude](benchmark.jpg)
 
 ### 7.5 Sfide nella Valutazione delle AI
 
