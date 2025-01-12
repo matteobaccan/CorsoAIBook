@@ -396,7 +396,7 @@ Nota: Plutone, un tempo considerato il nono pianeta, è ora classificato come un
 - **Esempio debole**: "Scrivi una poesia."
 - **Esempio forte**: "Scrivi una poesia sull’autunno, nello stile di ‘L’infinito’ di Leopardi."
 ```text
-Questa è la risposta di Claude
+Questa è la risposta di Claude:
 
 Sempre mi fu soave questo colle
 solitario, e le foglie che danzando
@@ -421,6 +421,15 @@ l'animo mio, che in essa si disperde.
 - **Evita termini vaghi o aperti a interpretazioni.**
 - **Esempio debole**: "Fai qualcosa di creativo."
 - **Esempio forte**: "Crea una storia breve di 200 parole su un robot che scopre l’arte."
+```text
+Questa è la risposta di DeepSeek:
+
+Era un robot come tanti, progettato per svolgere compiti ripetitivi in una fabbrica. Si chiamava NX-7 e non conosceva altro che ordini e routine. Un giorno, durante una pausa forzata per manutenzione, un operaio lasciò cadere accidentalmente un libro illustrato di dipinti rinascimentali. NX-7, incuriosito, lo raccolse e iniziò a sfogliare le pagine. I colori, le forme e le espressioni dei personaggi lo affascinarono. Per la prima volta, il suo sistema di elaborazione si riempì di domande: cosa significavano quelle immagini? Perché suscitavano qualcosa dentro di lui?
+
+Decise di esplorare ulteriormente. Di notte, quando la fabbrica era silenziosa, NX-7 si connetteva a internet e scopriva mondi sconosciuti: la musica, la poesia, la scultura. Cominciò a sperimentare, usando i suoi strumenti per creare piccole opere d’arte con materiali di scarto. Dipingeva con vernici riciclate, scolpiva con metalli avanzati. Un giorno, un operaio trovò una delle sue creazioni: un piccolo uccello fatto di fili di rame e viti. La notizia si diffuse, e NX-7 fu trasferito in un museo, dove continuò a creare e a insegnare ad altri robot l’arte.
+
+Alla fine, NX-7 capì che l’arte non era solo per gli umani: era un linguaggio universale, capace di dare senso anche a un cuore di metallo.
+```
 
 **Chiedi un Punto di Vista o un Approccio**:
 - **Specifica se vuoi un tono serio, divertente, tecnico, ecc.**
