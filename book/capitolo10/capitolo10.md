@@ -435,11 +435,44 @@ Alla fine, NX-7 capì che l’arte non era solo per gli umani: era un linguaggio
 - **Specifica se vuoi un tono serio, divertente, tecnico, ecc.**
 - **Esempio debole**: "Parlami dell’AI."
 - **Esempio forte**: "Spiega cos’è l’intelligenza artificiale in modo divertente e adatto a un pubblico di bambini."
+```text
+Questa è la risposta di ChatGPT 4o mini:
+
+Immagina di avere un robot che sa fare tante cose, come rispondere alle domande, giocare a scacchi, scrivere storie o anche disegnare. Questo robot non ha un cervello come noi, ma ha qualcosa di speciale dentro di sé che lo rende intelligente: si chiama intelligenza artificiale (o IA per abbreviare!).
+
+Pensa all'intelligenza artificiale come a una specie di "cervello digitale" che può imparare e migliorare con il tempo, proprio come noi quando impariamo qualcosa di nuovo a scuola. La differenza è che questo cervello non è fatto di neuroni come il nostro, ma di computer e programmi.
+
+Per esempio:
+
+    Se chiedi al tuo assistente vocale (come Alexa o Siri) "Che tempo fa oggi?", lui ti risponde subito! Questo è un esempio di IA che sa riconoscere le parole e darti informazioni.
+    Oppure, se giochi a un videogioco contro un computer, e il computer sembra sempre migliorare, ecco un altro esempio di IA che "impara" a giocare meglio man mano che va avanti.
+
+L'intelligenza artificiale è come un superpotere per i computer: con questo superpotere, i computer possono riconoscere immagini, capire il linguaggio, prendere decisioni e risolvere problemi, proprio come facciamo noi. Ma attenzione: l'IA non è davvero "intelligente" come un essere umano. Non ha emozioni, non pensa da solo e non sa cosa sia giusto o sbagliato, ma è molto brava a seguire le istruzioni che le vengono date.
+
+Quindi, l'intelligenza artificiale è come un aiutante invisibile che lavora dietro le quinte, rendendo la vita più facile e divertente!
+```
 
 **Includi Vincoli o Parametri**:
 - **Specifica limiti di lunghezza, dettagli richiesti o esclusioni.**
 - **Esempio debole**: "Scrivi un articolo sulla salute."
 - **Esempio forte**: "Scrivi un articolo di 300 parole sui benefici dell’esercizio fisico, senza menzionare la dieta."
+```text
+Questa è la risposta di Claude:
+
+I benefici dell'esercizio fisico per corpo e mente
+
+L'esercizio fisico regolare rappresenta uno dei pilastri fondamentali per il mantenimento di una buona salute e per il miglioramento della qualità della vita. Le ricerche scientifiche continuano a confermare i suoi molteplici benefici, che vanno ben oltre il semplice aspetto estetico.
+
+Dal punto di vista cardiovascolare, l'attività fisica rafforza il cuore e migliora la circolazione sanguigna. Questo si traduce in una riduzione del rischio di malattie cardiache e in un migliore controllo della pressione arteriosa. L'esercizio regolare aumenta anche la capacità polmonare, permettendo una migliore ossigenazione di tutti i tessuti.
+
+Per quanto riguarda il sistema muscolo-scheletrico, l'allenamento costante aumenta la forza e la resistenza muscolare, migliora la densità ossea e la flessibilità articolare. Questi benefici sono particolarmente importanti con l'avanzare dell'età, quando il nostro corpo tende naturalmente a perdere massa muscolare e densità ossea.
+
+Sul fronte mentale, l'esercizio fisico si rivela un potente alleato contro stress, ansia e depressione. Durante l'attività fisica, il cervello rilascia endorfine, i cosiddetti "ormoni del benessere", che migliorano l'umore e riducono la percezione del dolore. Inoltre, l'esercizio regolare migliora la qualità del sonno e aumenta i livelli di energia durante il giorno.
+
+L'attività fisica contribuisce anche al potenziamento delle funzioni cognitive. Studi recenti dimostrano che l'esercizio regolare migliora la memoria, la concentrazione e la creatività. Questo effetto è particolarmente evidente negli anziani, dove l'attività fisica aiuta a prevenire il declino cognitivo.
+
+Non è mai troppo tardi per iniziare a fare esercizio. Anche modeste quantità di attività fisica, come una camminata quotidiana di 30 minuti, possono portare benefici significativi per la salute. L'importante è trovare un'attività che si adatti alle proprie preferenze e al proprio stile di vita, rendendola così una piacevole abitudine quotidiana.
+```
 
 ### 10.8 Implicazioni della Creazione di Contenuti con AI
 
