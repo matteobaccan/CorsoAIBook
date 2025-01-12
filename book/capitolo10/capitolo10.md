@@ -395,6 +395,27 @@ Nota: Plutone, un tempo considerato il nono pianeta, è ora classificato come un
 - **Mostra all’IA cosa intendi con un esempio concreto.**
 - **Esempio debole**: "Scrivi una poesia."
 - **Esempio forte**: "Scrivi una poesia sull’autunno, nello stile di ‘L’infinito’ di Leopardi."
+```text
+Questa è la risposta di Claude
+
+Sempre mi fu soave questo colle
+solitario, e le foglie che danzando
+scendono in questo tempo antico e molle.
+
+Ma sedendo e mirando, nel profondo
+silenzio della sera che s'avanza,
+scorgo i colori che tingono il mondo.
+
+E come il vento tra i rami si posa,
+odo stormir le foglie rosseggianti,
+e questa pace antica e maestosa
+
+mi sovvien nell'animo. E in questi istanti
+d'infinita dolcezza, io mi confondo;
+e il naufragar m'è dolce in questo mare
+di malinconica bellezza che circonda
+l'animo mio, che in essa si disperde.
+```
 
 **Limita le Ambiguità**:
 - **Evita termini vaghi o aperti a interpretazioni.**
