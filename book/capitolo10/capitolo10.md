@@ -301,6 +301,27 @@ Il cambiamento climatico è principalmente causato dall'aumento delle concentraz
 - **Fornisci informazioni di base per aiutare l’AI a capire il contesto.**
 - **Esempio debole**: "Spiega la teoria della relatività."
 - **Esempio forte**: "Spiega la teoria della relatività di Einstein in modo semplice, come se stessi parlando a uno studente delle superiori."
+```text
+Questa è la risposta di ChatGPT 4o mini:
+
+La teoria della relatività di Einstein è un concetto che cambia il nostro modo di vedere il tempo, lo spazio e la gravità. Ci sono due parti principali: la relatività ristretta e la relatività generale.
+
+    Relatività ristretta (1905) Immagina di essere in un treno che va molto veloce, vicino alla velocità della luce. Secondo la relatività ristretta, due cose molto importanti succedono:
+
+        Il tempo rallenta: Se viaggi a velocità molto alta, il tempo per te rallenta rispetto a chi è fermo. Questo fenomeno si chiama dilatazione temporale. Ad esempio, se tu fossi in un treno superveloce e guardassi un orologio che si trova sulla terra, vedresti che l'orologio sulla terra va più velocemente del tuo. Se tornassi indietro dopo aver viaggiato a velocità quasi luce, troveresti che sulla Terra sono passati molti più anni di quanto ne siano passati per te.
+
+        La lunghezza si accorcia: Se ti muovi a velocità molto vicine a quella della luce, le cose che vedi davanti a te appaiono più corte nella direzione del movimento. Questo si chiama contrazione delle lunghezze.
+
+    Inoltre, una delle scoperte più famose della relatività ristretta è che la velocità della luce è sempre la stessa per tutti. Che tu sia fermo o in movimento, la luce viaggia sempre alla stessa velocità, circa 300.000 km al secondo.
+
+    Relatività generale (1915) La relatività generale è un'estensione della relatività ristretta, e riguarda la gravità. Einstein ha spiegato la gravità non come una forza che tira oggetti verso la Terra (come pensavano Newton), ma come una curvatura dello spazio-tempo.
+
+    Immagina di stendere un lenzuolo teso. Se metti una palla pesante al centro, il lenzuolo si incurva. Ora, se metti una pallina più piccola vicino alla palla pesante, la pallina seguirà una traiettoria curva, come se fosse "attratta" dalla palla grande. Nella relatività generale, la stessa cosa succede nello spazio-tempo: i corpi massicci, come la Terra o il Sole, deformano lo spazio-tempo intorno a loro, e i pianeti e le stelle si muovono seguendo queste curvature, che noi percepiamo come gravità.
+
+    La relatività generale ha spiegato fenomeni come il movimento dei pianeti, la curvatura della luce vicino a oggetti molto massicci (come i buchi neri) e ha confermato che il tempo passa più lentamente in luoghi con forte gravità (per esempio, vicino a un buco nero).
+
+In sintesi, la relatività ci dice che il tempo e lo spazio non sono fissi, ma si "curvano" in base alla velocità e alla gravità, e che la luce viaggia sempre alla stessa velocità, qualunque cosa accada.
+```
 
 **Indica il Formato o la Struttura**:
 - **Specifica se vuoi un elenco, un paragrafo, una tabella, ecc.**
