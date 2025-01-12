@@ -327,6 +327,69 @@ In sintesi, la relatività ci dice che il tempo e lo spazio non sono fissi, ma s
 - **Specifica se vuoi un elenco, un paragrafo, una tabella, ecc.**
 - **Esempio debole**: "Parlami dei pianeti."
 - **Esempio forte**: "Fai un elenco dei pianeti del sistema solare in ordine di distanza dal Sole, con una breve descrizione di ciascuno."
+```text
+Questa è la risposta di Gemini:
+
+I Pianeti del Sistema Solare
+
+Mercurio
+Mercurio, il pianeta più vicino al Sole
+
+    Il più piccolo e più vicino al Sole.
+    Ha un'atmosfera molto sottile e temperature estreme: di giorno fa caldissimo, di notte fa freddissimo.
+    La sua superficie è piena di crateri, un po' come la Luna.
+
+Venere
+Venere, il pianeta più caldo del Sistema Solare
+
+    Spesso chiamato "pianeta gemello" della Terra per dimensioni e massa, ma è molto diverso.
+    Ha un'atmosfera densa e tossica, fatta principalmente di anidride carbonica, che intrappola il calore e lo rende il pianeta più caldo del sistema solare.
+    La sua superficie è nascosta da dense nubi.
+
+Terra
+La Terra, il nostro pianeta
+
+    Il nostro pianeta, l'unico finora conosciuto a ospitare la vita.
+    Ha un'atmosfera ricca di ossigeno e un'abbondanza di acqua liquida, elementi essenziali per la vita come la conosciamo.
+    La sua superficie è diversificata, con oceani, montagne, foreste e deserti.
+
+Marte
+Marte, il Pianeta Rosso
+
+    Spesso chiamato "Pianeta Rosso" per il suo colore caratteristico.
+    Ha un'atmosfera molto sottile e una superficie fredda e desertica.
+    È stato oggetto di molte missioni spaziali e gli scienziati continuano a studiarlo per cercare segni di vita passata o presente.
+
+Giove
+Giove, il gigante gassoso
+
+    Il pianeta più grande del sistema solare, un gigante gassoso composto principalmente da idrogeno ed elio.
+    Ha una grande macchia rossa, una tempesta che dura da secoli.
+    È circondato da molti satelliti, tra cui Europa, che potrebbe nascondere un oceano sotto la sua crosta ghiacciata.
+
+Saturno
+Saturno, il pianeta con gli anelli
+
+    Famoso per i suoi anelli spettacolari, composti da ghiaccio e roccia.
+    Un altro gigante gassoso, leggermente più piccolo di Giove.
+    Ha molti satelliti, tra cui Titano, la luna più grande di Saturno e l'unico corpo celeste nel sistema solare oltre alla Terra con liquidi stabili sulla sua superficie.
+
+Urano
+Urano, il pianeta ghiacciato
+
+    Un gigante ghiacciato, con una composizione interna molto diversa da Giove e Saturno.
+    Rota su un lato, quasi come se fosse rotolato.
+    Ha un sistema di anelli, ma meno spettacolare di quello di Saturno.
+
+Nettuno
+Nettuno, il pianeta più lontano dal Sole
+
+    Il pianeta più lontano dal Sole, un altro gigante ghiacciato.
+    Ha venti molto forti e tempeste violente.
+    Il suo colore blu intenso è dovuto al metano presente nella sua atmosfera.
+
+Nota: Plutone, un tempo considerato il nono pianeta, è ora classificato come un pianeta nano.
+```
 
 **Usa Esempi**:
 - **Mostra all’IA cosa intendi con un esempio concreto.**
