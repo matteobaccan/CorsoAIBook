@@ -294,7 +294,11 @@ Un **prompt** è una richiesta o un’istruzione che dai a un’AI per fargli fa
 ```text
 Questa è la risposta di DeepSeek:
 
-Il cambiamento climatico è principalmente causato dall'aumento delle concentrazioni di gas serra nell'atmosfera, un fenomeno noto come effetto serra. Questi gas, tra cui l'anidride carbonica (CO₂), il metano (CH₄) e il protossido di azoto (N₂O), intrappolano il calore proveniente dal sole, impedendogli di disperdersi nello spazio. Le attività umane, come la combustione di combustibili fossili (carbone, petrolio e gas naturale), la deforestazione, l'agricoltura intensiva e i processi industriali, hanno significativamente incrementato la quantità di questi gas nell'atmosfera. Di conseguenza, la temperatura media globale è aumentata, portando a una serie di effetti negativi come lo scioglimento dei ghiacciai, l'innalzamento del livello del mare e l'aumento della frequenza e dell'intensità di eventi meteorologici estremi. L'effetto serra, sebbene naturale e necessario per la vita sulla Terra, è stato amplificato dall'azione umana, diventando una delle principali cause del riscaldamento globale e del cambiamento climatico.
+Il cambiamento climatico è principalmente causato dall'aumento delle concentrazioni di gas serra nell'atmosfera, un fenomeno noto come effetto serra. Questi gas, tra cui l'anidride carbonica (CO₂), il metano (CH₄) e il protossido di azoto (N₂O), intrappolano il calore proveniente dal sole, impedendogli di disperdersi nello spazio.
+
+Le attività umane, come la combustione di combustibili fossili (carbone, petrolio e gas naturale), la deforestazione, l'agricoltura intensiva e i processi industriali, hanno significativamente incrementato la quantità di questi gas nell'atmosfera. Di conseguenza, la temperatura media globale è aumentata, portando a una serie di effetti negativi come lo scioglimento dei ghiacciai, l'innalzamento del livello del mare e l'aumento della frequenza e dell'intensità di eventi meteorologici estremi.
+
+L'effetto serra, sebbene naturale e necessario per la vita sulla Terra, è stato amplificato dall'azione umana, diventando una delle principali cause del riscaldamento globale e del cambiamento climatico.
 ```
 
 **Definisci il Contesto**:
