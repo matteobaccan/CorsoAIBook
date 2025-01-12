@@ -37,8 +37,7 @@ L'AI è utilizzata per generare testo coerente e contestualmente rilevante, come
 #### 6.4.1 Diagnostica Medica
 
 I sistemi esperti basati su AI sono utilizzati in campo medico per analizzare dati clinici e fornire diagnosi accurate. Ad esempio, modelli di AI possono analizzare immagini mediche, come radiografie e risonanze magnetiche, per identificare anomalie e suggerire trattamenti. Questi sistemi aiutano i medici a prendere decisioni informate e migliorare l'efficienza delle cure.
-
-[Strumenti per analisi e diagnosi mediche. Foto generata con Leonardo AI](medico.jpg)
+![Strumenti per analisi e diagnosi mediche. Foto generata con Leonardo AI](medico.jpg)
 
 #### 6.4.2 Supporto Decisionale
 
