@@ -2,7 +2,7 @@ import os
 import argparse
 from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Image, Frame, Table, TableStyle
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Image, Frame, Table, TableStyle, HRFlowable
 from reportlab.platypus.doctemplate import PageTemplate, BaseDocTemplate
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import inch, cm
@@ -37,10 +37,11 @@ class MyDocTemplate(SimpleDocTemplate):
             if style == 'Header4':
                 self.notify('TOCEntry', (3, text, self.page))
 
-def convert_markdown_to_pdf():
+def convert_markdown_to_pdf( lang = 'it' ):
     try:
         # File di output
-        output_file = '../book/Corso_AI_Book.pdf'
+        output_file = '../book/Corso_AI_Book-' +lang +'.pdf'
+        output_file_md = '../book/Corso_AI_Book-' +lang +'.md'
 
         # Registra i font personalizzati
         pdfmetrics.registerFont(TTFont('Quicksand'      , '../book/fonts/Quicksand-Regular.ttf'))
@@ -118,43 +119,28 @@ def convert_markdown_to_pdf():
 
         # Lista dei capitoli con i rispettivi file markdown
         capitoli = [
-            ('../book/capitolo01/capitolo01.md', '../book/capitolo01/capitolo01.jpg'),
-            ('../book/capitolo02/capitolo02.md', '../book/capitolo02/capitolo02.jpg'),
-            ('../book/capitolo03/capitolo03.md', '../book/capitolo03/capitolo03.jpg'),
-            ('../book/capitolo04/capitolo04.md', '../book/capitolo04/capitolo04.jpg'),
-            ('../book/capitolo05/capitolo05.md', '../book/capitolo05/capitolo05.jpg'),
-            ('../book/capitolo06/capitolo06.md', '../book/capitolo06/capitolo06.jpg'),
-            ('../book/capitolo07/capitolo07.md', '../book/capitolo07/capitolo07.jpg'),
-            ('../book/capitolo08/capitolo08.md', '../book/capitolo08/capitolo08.jpg'),
-            ('../book/capitolo09/capitolo09.md', '../book/capitolo09/capitolo09.jpg'),
-            ('../book/capitolo10/capitolo10.md', '../book/capitolo10/capitolo10.jpg'),
-            ('../book/capitolo11/capitolo11.md', '../book/capitolo11/capitolo11.jpg'),
-            ('../book/capitolo12/capitolo12.md', '../book/capitolo12/capitolo12.jpg')
+            ('../book/paragrafi/00-prefazione-' +lang +'.md'),
+            ('../book/paragrafi/00-ringraziamenti-' +lang +'.md'),
+            ('../book/capitolo01/capitolo01-' +lang +'.md', '../book/capitolo01/capitolo01.jpg'),
+            ('../book/capitolo02/capitolo02-' +lang +'.md', '../book/capitolo02/capitolo02.jpg'),
+            ('../book/capitolo03/capitolo03-' +lang +'.md', '../book/capitolo03/capitolo03.jpg'),
+            ('../book/capitolo04/capitolo04-' +lang +'.md', '../book/capitolo04/capitolo04.jpg'),
+            ('../book/capitolo05/capitolo05-' +lang +'.md', '../book/capitolo05/capitolo05.jpg'),
+            ('../book/capitolo06/capitolo06-' +lang +'.md', '../book/capitolo06/capitolo06.jpg'),
+            ('../book/capitolo07/capitolo07-' +lang +'.md', '../book/capitolo07/capitolo07.jpg'),
+            ('../book/capitolo08/capitolo08-' +lang +'.md', '../book/capitolo08/capitolo08.jpg'),
+            ('../book/capitolo09/capitolo09-' +lang +'.md', '../book/capitolo09/capitolo09.jpg'),
+            ('../book/capitolo10/capitolo10-' +lang +'.md', '../book/capitolo10/capitolo10.jpg'),
+            ('../book/capitolo11/capitolo11-' +lang +'.md', '../book/capitolo11/capitolo11.jpg'),
+            ('../book/capitolo12/capitolo12-' +lang +'.md', '../book/capitolo12/capitolo12.jpg'),
+            ('../book/paragrafi/00-biografia-' +lang +'.md'),
+            ('../book/paragrafi/00-glossario-' +lang +'.md'),
+            ('../book/paragrafi/00-bibliografia-' +lang +'.md'),
+            ('../book/paragrafi/00-disclaimer-' +lang +'.md')
         ]
         
-        h1 = ParagraphStyle(name = 'h1',
-        fontSize = 14,
-        leading = 16)
-
-        h2 = ParagraphStyle(name = 'h2',
-        fontSize = 12,
-        leading = 14,
-        leftIndent = 10)
-
-        h3 = ParagraphStyle(name = 'h3',
-        fontSize = 12,
-        leading = 14,
-        leftIndent = 14)
-
-        h4 = ParagraphStyle(name = 'h4',
-        fontSize = 10,
-        leading = 14,
-        leftIndent = 18)
-
         # Creazione del PDF
-        doc = MyDocTemplate(output_file,
-                                pagesize=letter,
-                                bottomMargin=100) # Lascia spazio per il footer
+        doc = MyDocTemplate(output_file, pagesize=letter, bottomMargin=100) # Lascia spazio per il footer
 
         page_width, page_height = letter
         frame_no_margins = Frame(0, 0, page_width, page_height, leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
@@ -167,6 +153,11 @@ def convert_markdown_to_pdf():
         elements = []
 
         # Crea l'oggetto TOC
+        h1 = ParagraphStyle(name = 'h1', fontSize = 14, leading = 16)
+        h2 = ParagraphStyle(name = 'h2', fontSize = 12, leading = 14, leftIndent = 10)
+        h3 = ParagraphStyle(name = 'h3', fontSize = 12, leading = 14, leftIndent = 14)
+        h4 = ParagraphStyle(name = 'h4', fontSize = 10, leading = 14, leftIndent = 18)
+        
         toc = TableOfContents()
         toc.levelStyles = [h1, h2, h3, h4]
 
@@ -175,17 +166,8 @@ def convert_markdown_to_pdf():
         elements.append(cover_image)
         add_page(elements)
 
-        # Prefazione dell'autore
-        with open('../book/paragrafi/00-prefazione-it.md', 'r', encoding='utf-8') as f:
-            markdown_content = f.read()
-            elements.extend(process_markdown_content(markdown_content, custom_styles))
-            add_page(elements)
-
-        # Ringraziamenti
-        with open('../book/paragrafi/00-ringraziamenti-it.md', 'r', encoding='utf-8') as f:
-            markdown_content = f.read()
-            elements.extend(process_markdown_content(markdown_content, custom_styles))
-            add_page(elements)
+        # Creo un MD unico per tutto il libro
+        all_book = ""
 
         # Elaborazione capitoli
         for chapter_info in capitoli:
@@ -200,18 +182,22 @@ def convert_markdown_to_pdf():
             print(f'Leggo MD {filename}')
             with open(filename, 'r', encoding='utf-8') as f:
                 markdown_content = f.read()
+                
+                all_book += markdown_content
             
-                # Estrai la prima riga e il resto del contenuto
-                lines = markdown_content.splitlines()  # Divide il contenuto in righe
+                # Se è presente l'immagine, estrai il titolo e l'immagine
+                if image_path and os.path.exists(image_path):                    
+                    # Estrai la prima riga e il resto del contenuto
+                    lines = markdown_content.splitlines()  # Divide il contenuto in righe
 
-                # La prima riga è il titolo
-                title = lines[0].strip()  # Usa strip() per rimuovere spazi bianchi e newline
-                title = title.replace('##', '').strip()
+                    # La prima riga è il titolo
+                    title = lines[0].strip()  # Usa strip() per rimuovere spazi bianchi e newline
+                    title = title.replace('##', '').strip()
 
-                # Il resto del contenuto (dalla seconda riga in poi)
-                markdown_content = "\n".join(lines[1:]).strip()  # Unisci le righe e trimmale
+                    # Il resto del contenuto (dalla seconda riga in poi)
+                    markdown_content = "\n".join(lines[1:]).strip()  # Unisci le righe e trimmale
 
-                process_markdown_title(elements, custom_styles, title, image_path)
+                    process_markdown_title(elements, custom_styles, title, image_path)                    
 
                 # Salva la directory corrente
                 original_dir = os.getcwd()
@@ -230,30 +216,6 @@ def convert_markdown_to_pdf():
                 elements.extend(chapter_elements)
         
                 add_page(elements)
-
-        # Biografia
-        with open('../book/paragrafi/00-biografia-it.md', 'r', encoding='utf-8') as f:
-            markdown_content = f.read()
-            elements.extend(process_markdown_content(markdown_content, custom_styles))
-            add_page(elements)
-
-        # Glossario
-        with open('../book/paragrafi/00-glossario-it.md', 'r', encoding='utf-8') as f:
-            markdown_content = f.read()
-            elements.extend(process_markdown_content(markdown_content, custom_styles))
-            add_page(elements)
-
-        # Bibliografia
-        with open('../book/paragrafi/00-bibliografia-it.md', 'r', encoding='utf-8') as f:
-            markdown_content = f.read()
-            elements.extend(process_markdown_content(markdown_content, custom_styles))
-            add_page(elements)
-
-        # Disclaimer
-        with open('../book/paragrafi/00-disclaimer-it.md', 'r', encoding='utf-8') as f:
-            markdown_content = f.read()
-            elements.extend(process_markdown_content(markdown_content, custom_styles))
-            add_page(elements)
 
         # Inserisci la TOC prima della biografia
         elements.append(Paragraph('Indice', custom_styles['header1']))
@@ -274,6 +236,13 @@ def convert_markdown_to_pdf():
 
         # Stampa a video il percorso del file creato
         print(f'PDF creato: {output_file}')
+        
+        # Salva il file MD
+        with open(output_file_md, 'w', encoding='utf-8') as f:
+            f.write(all_book)
+            
+        # Restituisci il percorso del file creato
+        print(f'File MD creato: {output_file_md}')        
 
     except Exception as e:
         print(f"Errore durante la generazione del PDF: {e}", exc_info=True)
@@ -401,6 +370,14 @@ def process_markdown_content(content, custom_styles):
         elif in_code_block:
             code_lines.append(line)
         else:
+            # Gestisci le linee orizzontali (---)
+            if line.strip() == "---":
+                # Aggiungi una linea orizzontale
+                blocks.append(Spacer(1, 12))  # Aggiungi un po' di spazio prima della linea
+                blocks.append(HRFlowable(width="100%", thickness=1, color=colors.grey))
+                blocks.append(Spacer(1, 12))  # Aggiungi un po' di spazio dopo la linea
+                continue  # Passa alla prossima riga
+
             # Applica il grassetto al testo tra **
             line = apply_bold(line)
 
@@ -451,6 +428,9 @@ def process_markdown_content(content, custom_styles):
 def add_footer(canvas, doc, custom_data):
     print(f'Fine pagina {doc.page}')
    
+    # Aggiungi il testo "DRAFT" come sfondo
+    add_draft_watermark(canvas, doc)
+
     canvas.saveState()
 
     # Disegna una riga orizzontale
@@ -504,6 +484,33 @@ def add_footer(canvas, doc, custom_data):
     right_footer = Paragraph(f"Pagina {doc.page}", footer_styleR)
     w, h = right_footer.wrap(doc.width, doc.bottomMargin)
     right_footer.drawOn(canvas, doc.leftMargin, h)
+    
+    canvas.restoreState()
+
+def add_draft_watermark(canvas, doc):
+    canvas.saveState()
+    
+    # Imposta il colore del testo in grigio chiaro (trasparente)
+    canvas.setFillColor(colors.Color(0.9, 0.9, 0.9, alpha=0.3))  # Grigio chiaro con trasparenza
+    
+    # Imposta il font e la dimensione del testo
+    canvas.setFont("Helvetica-Bold", 60)
+    
+    # Ruota il testo di 45 gradi
+    canvas.rotate(45)
+    
+    # Posizioni multiple per il testo "DRAFT"
+    positions = [
+        (doc.width / 2 + 100, doc.height / 2 - 200),  # Posizione centrale
+        (doc.width / 2 - 200, doc.height / 2 + 100),  # Spostato in alto a sinistra
+        (doc.width / 2 + 400, doc.height / 2 - 500),  # Spostato in basso a destra
+        (doc.width / 2 - 500, doc.height / 2 + 400),  # Spostato in alto a destra
+        (doc.width / 2 + 300, doc.height / 2 + 300),  # Altra posizione
+    ]
+    
+    # Disegna il testo "DRAFT" in tutte le posizioni
+    for x, y in positions:
+        canvas.drawCentredString(x, y, "DRAFT DRAFT DRAFT")
     
     canvas.restoreState()
 
