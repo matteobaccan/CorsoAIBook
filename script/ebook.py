@@ -255,6 +255,9 @@ def main():
 def process_markdown_title(elements, custom_styles, title, image_path):
     # Aggiungi l'intestazione del capitolo
     if title:
+        # Applica il grassetto al testo tra **
+        title = apply_bold(title)
+            
         elements.append(Paragraph(title, custom_styles['header1']))
 
         # Aggiungi l'immagine se presente
