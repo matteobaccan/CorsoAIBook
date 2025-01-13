@@ -3,6 +3,7 @@
 ### **5.1 Introduzione**
 
 Gli **algoritmi generativi** rappresentano una delle frontiere più avanzate e rivoluzionarie nel campo dell'Intelligenza Artificiale (AI). Questi strumenti permettono alle macchine di creare nuovi contenuti, come immagini, suoni e testo, che sono indistinguibili da quelli prodotti dagli esseri umani. Questo capitolo esplora i concetti fondamentali degli algoritmi generativi, le loro applicazioni pratiche e le implicazioni per il futuro della creatività e dell'innovazione.
+![Neurone biologico e Neurone artificiale](5.1.png)
 
 ### **5.2 Cosa sono gli Algoritmi Generativi?**
 
