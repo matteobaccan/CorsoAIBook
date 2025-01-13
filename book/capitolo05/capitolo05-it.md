@@ -47,7 +47,9 @@ Le GAN hanno una vasta gamma di applicazioni, tra cui:
 ![Disegno di partenza](schizzo.jpg)
 ![Immagine realizzata con Fotor, e un filtro in stile distopico](schizzi2.png)
 - **Invecchiamento/ringiovanimento di volti**: Le GAN possono modificare l'età apparente di una persona in una foto.
+![Filtri per invecchiare o ringiovanire un ritratto fotografico, realizzato con FaceApp](invecchiamento.png)
 - **Creazione di opere d'arte**: Le GAN possono generare opere d'arte originali in vari stili.
+
 - **Sintesi di video**: Le GAN possono creare video realistici partendo da descrizioni testuali.
 
 #### **5.3.4 Sfide delle GAN**
