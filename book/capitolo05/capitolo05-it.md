@@ -51,15 +51,9 @@ Le GAN hanno una vasta gamma di applicazioni, tra cui:
 - **Creazione di opere d'arte**: Le GAN possono generare opere d'arte originali in vari stili.
 ```text
 Ecco l'immagine ottenuta con il prompt seguente:
-Un paesaggio onirico al tramonto, dove il cielo è dipinto con
-sfumature di arancione, viola e oro. Al centro, un grande
-albero antico con radici che si intrecciano nel terreno e rami
-che si estendono verso il cielo, illuminati da luci magiche.
-Intorno all'albero, piccole creature fatate con ali trasparenti
-volano in un'atmosfera scintillante. Sullo sfondo, montagne
-innevate si stagliano contro l'orizzonte, con un fiume
-cristallino che serpeggia attraverso la scena. L'immagine è
-ricca di dettagli, con texture realistiche e un'atmosfera da
+Un paesaggio onirico al tramonto, dove il cielo è dipinto con sfumature di arancione, viola e oro. Al centro, un grande albero antico con radici che si intrecciano nel terreno e rami
+che si estendono verso il cielo, illuminati da luci magiche. Intorno all'albero, piccole creature fatate con ali trasparenti volano in un'atmosfera scintillante. Sullo sfondo, montagne
+innevate si stagliano contro l'orizzonte, con un fiume cristallino che serpeggia attraverso la scena. L'immagine è ricca di dettagli, con texture realistiche e un'atmosfera da
 favola.
 ```
 ![Creazione di foto artistica con Leonardo AI](arte.jpg)
