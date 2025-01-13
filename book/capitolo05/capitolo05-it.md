@@ -44,6 +44,8 @@ Le GAN hanno una vasta gamma di applicazioni, tra cui:
 
 - **Generazione di immagini fotorealistiche**: Le GAN possono creare immagini di volti, paesaggi e oggetti che sembrano reali.
 - **Conversione di schizzi in fotografie**: Le GAN possono trasformare disegni o schizzi in immagini fotorealistiche.
+![Disegno di partenza](schizzo.jpg)
+![Immagine realizzata con Fotor, e un filtro in stile distopico](schizzi2.png)
 - **Invecchiamento/ringiovanimento di volti**: Le GAN possono modificare l'età apparente di una persona in una foto.
 - **Creazione di opere d'arte**: Le GAN possono generare opere d'arte originali in vari stili.
 - **Sintesi di video**: Le GAN possono creare video realistici partendo da descrizioni testuali.
