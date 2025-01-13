@@ -13,6 +13,7 @@ Il **Test di Turing**, proposto da Alan Turing nel 1950, è stato uno dei primi 
 #### **7.2.2 Applicazioni e Limiti del Test di Turing**
 
 Mentre il Test di Turing è stato un punto di riferimento storico, oggi è considerato un metodo limitato per valutare l'intelligenza delle macchine. Il test si concentra principalmente sulla capacità di imitare il comportamento umano, ma non valuta aspetti come la comprensione profonda, la creatività o la capacità di risolvere problemi complessi. Inoltre, il test è soggettivo e dipende dalla percezione del giudice, il che lo rende poco adatto per valutazioni oggettive.
+![Alan Mathison Turing è considerato uno dei padri dell'informatica. Foto di libero utilizzo da Wikipedia](turing.jpg)
 
 #### **7.2.3 Alternative Moderne al Test di Turing**
 
@@ -63,6 +64,7 @@ L'interpretabilità è la capacità di un sistema di AI di spiegare le sue decis
 #### **7.4.2 ARC Benchmark**
 
 L'**ARC Benchmark** (AI2 Reasoning Challenge) è stato sviluppato per testare le capacità di ragionamento dei modelli di linguaggio di grandi dimensioni (LLM). Questo benchmark include domande complesse a scelta multipla, progettate per valutare la comprensione profonda del linguaggio e il ragionamento.
+![Un benchmark è uno standard di riferimento. Grafico fatto con Claude](benchmark.jpg)
 
 ### **7.5 Sfide nella Valutazione delle AI**
 
