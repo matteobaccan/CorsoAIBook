@@ -19,7 +19,7 @@ The book is organized into chapters that cover a wide range of topics, including
 -   **Practical applications**: How AI is used in industries like medicine, finance, gaming, robotics, and content creation.
 -   **Ethics and challenges**: Ethical issues related to AI, such as algorithmic bias, privacy and impact on jobs.
 -   **Tools and technologies**: An overview of the most used platforms and tools to develop AI models, such as TensorFlow, PyTorch and cloud platforms.
--   **Creating content with AI**: How generative algorithms are revolutionizing creativity, from image and music generation to video synthesis.
+-   **Creating content with AI**: Come gli algoritmi generativi stanno rivoluzionando la creatività, dalla generazione di immagini e musica alla sintesi di video.
 -   **Future of AI**: Emerging trends and long-term prospects, including Artificial General Intelligence (AGI) and human-machine collaboration.
 
 ## Project Objectives
