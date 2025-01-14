@@ -207,5 +207,3 @@
   **Esempio**: Un sistema di diagnosi medica che spiega perché ha classificato un'immagine come "tumore benigno".
 
 ---
-
-Questo glossario cumulativo è ordinato alfabeticamente e semplificato per una lettura più chiara e accessibile.

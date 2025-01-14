@@ -2,7 +2,7 @@
 
 Questo libro è un viaggio attraverso il vasto e dinamico mondo dell’Intelligenza Artificiale (AI), una tecnologia che sta ridefinendo il modo in cui viviamo, lavoriamo e interagiamo con il mondo. Nasce dalla necessità di fornire una guida chiara e accessibile a chiunque voglia comprendere le basi, le applicazioni e le implicazioni dell’AI, sia che tu sia un professionista esperto o un curioso alle prime armi.
 
-Dall’introduzione ai concetti fondamentali dell’AI nel **Capitolo 1**, passando per l’evoluzione storica di questa disciplina nel **Capitolo 3**, fino ad arrivare alle applicazioni pratiche e agli strumenti più avanzati nei capitoli successivi, questo libro si propone di offrire una panoramica completa e aggiornata su una delle tecnologie più rivoluzionarie del nostro tempo. 
+Dall’introduzione ai concetti fondamentali dell’AI nel **Capitolo 1**, passando per l’evoluzione storica di questa disciplina nel **Capitolo 3**, fino ad arrivare alle applicazioni pratiche e agli strumenti più avanzati nei capitoli successivi, questo libro si propone di offrire una panoramica completa e aggiornata su una delle tecnologie più rivoluzionarie del nostro tempo.
 
 Nel **Capitolo 2**, esploriamo cos’è l’Intelligenza Artificiale, distinguendo tra AI, Machine Learning e Deep Learning, e analizzando le diverse tipologie di AI, dalle applicazioni ristrette (ANI) alle ambiziose prospettive dell’Intelligenza Artificiale Generale (AGI). Nei **Capitoli 4 e 5**, ci addentriamo nel cuore del Machine Learning e del Deep Learning, esaminando come queste tecnologie permettono alle macchine di apprendere dai dati e di risolvere problemi complessi, fino alla creazione di contenuti generativi attraverso algoritmi avanzati come le GAN (Reti Generative Avversariali).
 

@@ -1,6 +1,6 @@
 # **Disclaimer**
 
-Il presente libro è stato realizzato con il supporto di tecnologie avanzate di Intelligenza Artificiale (AI). In particolare, l'autore ha utilizzato **GPT**, il modello di generazione del linguaggio su larga scala sviluppato da OpenAI, **Claude**, un assistente AI avanzato, e **DeepSeek**, un modello specializzato nella ricerca e riscrittura di testi. 
+Il presente libro è stato realizzato con il supporto di tecnologie avanzate di Intelligenza Artificiale (AI). In particolare, l'autore ha utilizzato **GPT**, il modello di generazione del linguaggio su larga scala sviluppato da OpenAI, **Claude**, un assistente AI avanzato, e **DeepSeek**, un modello specializzato nella ricerca e riscrittura di testi.
 
 Dopo la generazione della bozza iniziale, l'autore ha rivisto, modificato e perfezionato il contenuto per garantire accuratezza, coerenza e qualità. Le immagini introduttive dei capitoli sono state create utilizzando **LeonardoAI**, una piattaforma di generazione di immagini basata su AI.
 
