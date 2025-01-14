@@ -1,10 +1,10 @@
-# Libro sobre inteligencia artificial
+# Libro sull'Intelligenza Artificiale
 
 [![Genera PDF](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml)
 
 ## Descripción del proyecto
 
-Este proyecto está dedicado a la creación de un libro completo y accesible sobre**Inteligencia artificial (IA)**, dirigido a un público heterogéneo que va desde profesionales de la industria hasta novatos curiosos. El libro explora los fundamentos teóricos de la IA, sus aplicaciones prácticas, los desafíos éticos y técnicos y las tendencias futuras de esta tecnología revolucionaria.
+Questo progetto è dedicato alla creazione di un libro completo e accessibile sull'**Inteligencia artificial (IA)**, rivolto a un pubblico eterogeneo che spazia da professionisti del settore a curiosi alle prime armi. Il libro esplora i fondamenti teorici dell'AI, le sue applicazioni pratiche, le sfide etiche e tecniche, e le tendenze future di questa tecnologia rivoluzionaria.
 
 El objetivo es proporcionar una guía clara, atractiva y actualizada que no sólo explique cómo funciona la IA, sino también cómo está transformando el mundo en el que vivimos. El libro está diseñado para inspirar, educar y estimular la reflexión crítica sobre el papel de la IA en la sociedad.
 
@@ -17,16 +17,16 @@ El libro está organizado en capítulos que cubren una amplia gama de temas, que
 -   **Introducción a la IA**: Qué es la Inteligencia Artificial, cómo funciona y cuáles son sus principales ramas (Machine Learning, Deep Learning, etc.).
 -   **Evolución histórica**: Desde los orígenes teóricos de la IA hasta los desarrollos modernos, pasando por los períodos de auge y "invierno".
 -   **Aplicaciones prácticas**: Cómo se utiliza la IA en industrias como la medicina, las finanzas, los juegos, la robótica y la creación de contenidos.
--   **Ética y desafíos**: Cuestiones éticas relacionadas con la IA, como el sesgo algorítmico, la privacidad y el impacto en los puestos de trabajo.
+-   **Etica e sfide**: Cuestiones éticas relacionadas con la IA, como el sesgo algorítmico, la privacidad y el impacto en los puestos de trabajo.
 -   **Herramientas y tecnologías**: Una descripción general de las plataformas y herramientas más utilizadas para desarrollar modelos de IA, como TensorFlow, PyTorch y plataformas en la nube.
 -   **Creando contenido con IA**: Cómo los algoritmos generativos están revolucionando la creatividad, desde la generación de imágenes y música hasta la síntesis de vídeos.
 -   **El futuro de la IA**: Tendencias emergentes y perspectivas a largo plazo, incluida la Inteligencia General Artificial (AGI) y la colaboración entre humanos y máquinas.
 
 ## Objetivos del proyecto
 
--   **Educar**: Proporcionar una comprensión sólida y accesible de la IA, desde los fundamentos teóricos hasta las aplicaciones avanzadas.
+-   **Educare**: Proporcionar una comprensión sólida y accesible de la IA, desde los fundamentos teóricos hasta las aplicaciones avanzadas.
 -   **Inspirar**: Estimular la curiosidad y la creatividad, mostrando cómo se puede utilizar la IA para resolver problemas complejos y abrir nuevas oportunidades.
--   **Reflejar**: Promover una discusión crítica sobre las implicaciones éticas y sociales de la IA, fomentando el uso responsable de esta tecnología.
+-   **Riflettere**: Promover una discusión crítica sobre las implicaciones éticas y sociales de la IA, fomentando el uso responsable de esta tecnología.
 
 ## Cómo contribuir
 
@@ -49,6 +49,6 @@ Este proyecto está publicado bajo la licencia.[Creative Commons Atribución-No 
 
 Un agradecimiento especial a todos los que contribuyeron al proyecto, a través de comentarios, sugerencias y apoyo. Este libro es el resultado del trabajo en equipo y de una comunidad apasionada por la tecnología y la innovación.
 
-## Descargar
+## Download
 
-**[Descarga el libro gratis](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book.pdf)**
+**[Scarica gratuitamente il libro](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book.pdf)**
