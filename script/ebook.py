@@ -182,7 +182,7 @@ def convert_markdown_to_pdf( lang = 'it' ):
             if not os.path.exists(filename):
                 print(f"File non trovato: {filename}")
                 continue
-                
+
             print(f'Leggo MD {filename}')
             with open(filename, 'r', encoding='utf-8') as f:
                 markdown_content = f.read()
@@ -254,7 +254,7 @@ def convert_markdown_to_pdf( lang = 'it' ):
 
 # Resto del codice rimane invariato
 def main():
-    #convert_markdown_to_pdf('it')
+    convert_markdown_to_pdf('it')
     convert_markdown_to_pdf('es')
     convert_markdown_to_pdf('en')
 
