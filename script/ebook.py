@@ -162,7 +162,7 @@ def convert_markdown_to_pdf( lang = 'it' ):
         toc.levelStyles = [h1, h2, h3, h4]
 
         # Copertina
-        cover_image = Image(os.path.join('../book/cover/book-ai-cover-it.png'), width=9*inch, height=11*inch)    
+        cover_image = Image(os.path.join('../book/cover/book-ai-cover-' +lang +'.png'), width=9*inch, height=11*inch)    
         elements.append(cover_image)
         add_page(elements)
 
@@ -179,6 +179,10 @@ def convert_markdown_to_pdf( lang = 'it' ):
                 image_path = None
 
             # Leggi il contenuto del file markdown
+            if not os.path.exists(filename):
+                print(f"File non trovato: {filename}")
+                continue
+                
             print(f'Leggo MD {filename}')
             with open(filename, 'r', encoding='utf-8') as f:
                 markdown_content = f.read()
@@ -250,7 +254,9 @@ def convert_markdown_to_pdf( lang = 'it' ):
 
 # Resto del codice rimane invariato
 def main():
-    convert_markdown_to_pdf()
+    #convert_markdown_to_pdf('it')
+    convert_markdown_to_pdf('es')
+    convert_markdown_to_pdf('en')
 
 def process_markdown_title(elements, custom_styles, title, image_path):
     # Aggiungi l'intestazione del capitolo
