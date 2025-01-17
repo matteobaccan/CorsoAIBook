@@ -1,4 +1,4 @@
-# Book on Artificial Intelligence
+# Book on the use of Artificial Intelligence
 
 [![Genera PDF](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml)[![Translate README](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/translatereadme.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/translatereadme.yml)
 
@@ -6,13 +6,13 @@
 
 This project is dedicated to creating a comprehensive and accessible book on**Artificial Intelligence (AI)**, aimed at a heterogeneous audience ranging from industry professionals to curious novices. The book explores the theoretical foundations of AI, its practical applications, ethical and technical challenges, and future trends of this revolutionary technology.
 
-L'obiettivo è fornire una guida chiara, coinvolgente e aggiornata che non solo spieghi come funziona l'AI, ma anche come essa stia trasformando il mondo in cui viviamo. Il libro è pensato per ispirare, educare e stimolare riflessioni critiche sul ruolo dell'AI nella società.
+The goal is to provide a clear, engaging and up-to-date guide that not only explains how AI works, but also how it is transforming the world we live in. The book is designed to inspire, educate and stimulate critical reflection on the role of AI in society.
 
 The idea was born downstream of[Introduction to AI course](https://github.com/matteobaccan/CorsoAI)which contains the material to be able to provide introductory courses on AI.
 
 ## Structure of the Book
 
-The book is organized into chapters that cover a wide range of topics, including:
+Il libro è organizzato in capitoli che coprono un'ampia gamma di argomenti, tra cui:
 
 -   **Introduction to AI**: What is Artificial Intelligence, how it works and what are its main branches (Machine Learning, Deep Learning, etc.).
 -   **Historical evolution**: From the theoretical origins of AI to modern developments, passing through the boom and "winter" periods.
@@ -34,7 +34,7 @@ If you are interested in contributing to the project, you are welcome! Here's ho
 
 1.  **Feedback**: If you have suggestions or corrections, please open one_issue_on GitHub or submit a pull request.
 2.  **Translations**: If you want to contribute to the translation of the book into other languages, contact us.
-3.  **Contents**: If you have ideas for new chapters or insights, please share with us.
+3.  **Contents**: Se hai idee per nuovi capitoli o approfondimenti, condividile con noi.
 
 ## License
 
