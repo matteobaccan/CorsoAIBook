@@ -1,4 +1,4 @@
-# Libro sull'Intelligenza Artificiale
+# Libro sull'uso delle Intelligenze Artificiali
 
 [![Genera PDF](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml)
 [![Translate README](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/translatereadme.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/translatereadme.yml)
