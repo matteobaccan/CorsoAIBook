@@ -1,6 +1,6 @@
 # Book on Artificial Intelligence
 
-[![Genera PDF](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml)
+[![Genera PDF](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml)[![Translate README](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/translatereadme.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/translatereadme.yml)
 
 ## Project Description
 
@@ -14,10 +14,10 @@ The idea was born downstream of[Introduction to AI course](https://github.com/ma
 
 The book is organized into chapters that cover a wide range of topics, including:
 
--   **Introduction to AI**: What is Artificial Intelligence, how it works and what are its main branches (Machine Learning, Deep Learning, etc.).
--   **Historical evolution**: From the theoretical origins of AI to modern developments, passing through the boom and "winter" periods.
+-   **Introduzione all'AI**: What is Artificial Intelligence, how it works and what are its main branches (Machine Learning, Deep Learning, etc.).
+-   **Historical evolution**: Dalle origini teoriche dell'AI agli sviluppi moderni, passando per i periodi di boom e di "inverno".
 -   **Practical applications**: How AI is used in industries like medicine, finance, gaming, robotics, and content creation.
--   **Ethics and challenges**: Ethical issues related to AI, such as algorithmic bias, privacy and impact on jobs.
+-   **Etica e sfide**: Ethical issues related to AI, such as algorithmic bias, privacy and impact on jobs.
 -   **Tools and technologies**: An overview of the most used platforms and tools to develop AI models, such as TensorFlow, PyTorch and cloud platforms.
 -   **Creating content with AI**: How generative algorithms are revolutionizing creativity, from image and music generation to video synthesis.
 -   **Future of AI**: Emerging trends and long-term prospects, including Artificial General Intelligence (AGI) and human-machine collaboration.
@@ -25,7 +25,7 @@ The book is organized into chapters that cover a wide range of topics, including
 ## Project Objectives
 
 -   **Educate**: Provide a solid and accessible understanding of AI, from theoretical foundations to advanced applications.
--   **Inspire**: Stimulate curiosity and creativity, showing how AI can be used to solve complex problems and open up new opportunities.
+-   **Inspire**: Stimolare la curiosità e la creatività, mostrando come l'AI possa essere utilizzata per risolvere problemi complessi e aprire nuove opportunità.
 -   **Reflect**: Promote a critical discussion on the ethical and social implications of AI, encouraging responsible use of this technology.
 
 ## How to Contribute
