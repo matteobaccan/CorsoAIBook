@@ -1,4 +1,4 @@
-# Libro sobre inteligencia artificial
+# Libro sobre el uso de la Inteligencia Artificial
 
 [![Genera PDF](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml)[![Translate README](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/translatereadme.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/translatereadme.yml)
 
@@ -32,7 +32,7 @@ El libro está organizado en capítulos que cubren una amplia gama de temas, que
 
 Si estás interesado en contribuir al proyecto, ¡eres bienvenido! Así es como puedes hacerlo:
 
-1.  **Comentario**: Si tiene sugerencias o correcciones, abra una._issue_en GitHub o envíe una solicitud de extracción.
+1.  **Comentario**: Si tiene sugerencias o correcciones, abra una._asunto_en GitHub o envíe una solicitud de extracción.
 2.  **Traducciones**: Si quieres contribuir a la traducción del libro a otros idiomas, contáctanos.
 3.  **Contenido**: Si tiene ideas para nuevos capítulos o ideas, compártalas con nosotros.
 
