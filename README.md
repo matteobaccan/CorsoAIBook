@@ -52,4 +52,4 @@ Un grazie speciale a tutti coloro che hanno contribuito al progetto, attraverso 
 
 ## Download
 
-__[Scarica gratuitamente il libro](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book.pdf)__
+__[Scarica gratuitamente il libro](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-it.pdf)__
