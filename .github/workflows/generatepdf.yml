@@ -3,6 +3,9 @@ name: Genera PDF
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'book/**'  
+      - 'script/**'
 
 jobs:
   build:
