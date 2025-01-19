@@ -18,7 +18,7 @@ In risposta alla rapida diffusione di prodotti basati sull'Intelligenza Artifici
 
 L'obiettivo di questo lavoro è stato duplice: da un lato, far conoscere i benefici concreti che l'Intelligenza Artificiale può apportare nella vita professionale, dall'altro, fornire una guida pratica per la scelta degli strumenti AI più adatti alle diverse esigenze lavorative quotidiane.
 
-Da questa presentazione è nato il libro che state leggendo, nel quale abbiamo usato un linguaggio più semplice e descrittivo e nel quale arricchito con nuovi contenuti e approfondimenti, per offrire una panoramica completa sull'Intelligenza Artificiale e sulle sue applicazioni pratiche.
+Questa presentazione ha dato vita al libro che state leggendo, in cui abbiamo adottato un linguaggio più semplice e descrittivo, arricchendolo con nuovi contenuti e approfondimenti, per fornire una panoramica completa sull'Intelligenza Artificiale e sulle sue applicazioni pratiche.
 
 Se siete curiosi e volete approfondire ulteriormente l'argomento, vi invitiamo a visitare il progetto GitHub associato alla presentazione che abbiamo usato come punto di partenza, dove troverete risorse aggiuntive ed approfondimenti su vari aspetti dell'Intelligenza Artificiale.
 
