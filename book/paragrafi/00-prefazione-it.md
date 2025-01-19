@@ -1,6 +1,6 @@
 # Prefazione
 
-Questo libro è un viaggio attraverso il vasto e dinamico mondo dell’Intelligenza Artificiale (AI), una tecnologia che sta ridefinendo il modo in cui viviamo, lavoriamo e interagiamo con il mondo. Nasce dalla necessità di fornire una guida chiara e accessibile a chiunque voglia comprendere le basi, le applicazioni e le implicazioni dell’AI, sia che tu sia un professionista esperto o un curioso alle prime armi.
+Questo libro è un viaggio attraverso il vasto e dinamico mondo dell’Intelligenza Artificiale (AI), una tecnologia che sta ridefinendo il modo in cui viviamo, lavoriamo e interagiamo con il mondo. Nasce dalla necessità di fornire una guida chiara e accessibile a chiunque voglia comprendere le basi, le applicazioni e le implicazioni dell’AI, sia al professionista esperto che al curioso alle prime armi.
 
 Dall’introduzione ai concetti fondamentali dell’AI nel **Capitolo 1**, passando per l’evoluzione storica di questa disciplina nel **Capitolo 3**, fino ad arrivare alle applicazioni pratiche e agli strumenti più avanzati nei capitoli successivi, questo libro si propone di offrire una panoramica completa e aggiornata su una delle tecnologie più rivoluzionarie del nostro tempo.
 
