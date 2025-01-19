@@ -2,7 +2,7 @@
 
 Benvenuto in un viaggio straordinario nel mondo dell’Intelligenza Artificiale (AI), una delle tecnologie più rivoluzionarie e trasformative del nostro tempo. Questo libro nasce dalla passione per l’innovazione e dalla convinzione che l’AI non sia solo uno strumento tecnico, ma una forza capace di ridefinire il modo in cui viviamo, lavoriamo e interagiamo con il mondo che ci circonda.
 
-L’AI è ovunque: nei nostri smartphone, nelle auto a guida autonoma, nei sistemi di diagnosi medica, nelle piattaforme che ci consigliano film o musica. Eppure, dietro a queste applicazioni quotidiane si nasconde un universo complesso e affascinante, fatto di algoritmi, reti neurali, dati e sfide etiche. Questo libro è una guida per esplorare quel universo, per comprendere come funziona l’AI, come è nata, come si è evoluta e, soprattutto, come sta plasmando il futuro.
+L’AI è ovunque: nei nostri smartphone, nelle auto a guida autonoma, nei sistemi di diagnosi medica, nelle piattaforme che ci consigliano film o musica. Eppure, dietro a queste applicazioni quotidiane si nasconde un universo complesso e affascinante, fatto di algoritmi, reti neurali, dati e sfide etiche. Questo libro è una guida per esplorare quell'universo, per comprendere come funziona l’AI, come è nata, come si è evoluta e, soprattutto, come sta plasmando il futuro.
 
 Ma non è solo una questione di tecnologia. L’AI è anche una storia di persone: ricercatori, ingegneri, sognatori che hanno dedicato la loro vita a creare macchine in grado di imparare, ragionare e, in qualche modo, “pensare”. È una storia di successi, fallimenti e scoperte che hanno portato a risultati straordinari, ma che sollevano anche domande profonde su cosa significhi essere umani in un mondo sempre più dominato dalle macchine.
 
