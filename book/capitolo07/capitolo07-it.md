@@ -71,7 +71,7 @@ L'**ARC Benchmark** (AI2 Reasoning Challenge) è stato sviluppato per testare le
 
 #### **7.5.1 Bias nei Dati di Addestramento**
 
-I modelli di AI possono essere influenzati da bias presenti nei dati di addestramento, portando a decisioni discriminatorie o ingiuste. È essenziale garantire che i dati siano rappresentativi e privi di pregiudizi.
+I modelli di AI possono essere influenzati da bias presenti nei dati di addestramento, portando a decisioni discriminatorie o ingiuste. È essenziale garantire che i dati siano rappresentativi e privi di pregiudizi. I bias, o meglio bias cognitivi, sono delle distorsioni che le persone attuano nelle valutazioni di fatti e avvenimenti. Tali distorsioni ci spingono a ricreare una propria visione soggettiva che non corrisponde fedelmente alla realtà. Nel caso dell'AI il bias (o pregiudizio) si riferisce a errori sistematici nei risultati di un modello di AI, causati da ipotesi errate o incomplete presenti nei dati di addestramento o nel processo di sviluppo del modello.
 
 #### **7.5.2 Complessità Computazionale**
 
