@@ -85,7 +85,7 @@ I modelli di AI, in particolare quelli basati su deep learning, sono spesso cons
 
 La valutazione delle AI deve considerare le implicazioni etiche e sociali dell'uso di questa tecnologia. È essenziale garantire che i sistemi di AI siano utilizzati in modo responsabile e che le decisioni siano giustificabili e trasparenti.
 
-#### **7.5.5 Etica o morale? La cultura e la nazzionalità degli sviluppatori**
+#### **7.5.5 Etica o morale? La cultura e la nazionalità degli sviluppatori**
 
 Lo human feedback nell'intelligenza artificiale è un processo mediante il quale gli esseri umani forniscono valutazioni, correzioni e indicazioni ai modelli di apprendimento automatico, aiutandoli a migliorare le loro prestazioni e a raffinarsi. Questo meccanismo permette di allineare l'AI con valori etici, ridurre bias, migliorare la precisione delle risposte e garantire che l'intelligenza artificiale risponda in modo più coerente e appropriato alle aspettative umane.
 
