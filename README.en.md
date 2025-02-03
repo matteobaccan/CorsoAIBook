@@ -25,7 +25,7 @@ The book is organized in chapters that cover a wide range of topics, including:
 ## Objectives of the project
 
 -   **Educate**: Provide a solid and accessible understanding of the AI, from the theoretical basis to the advanced applications.
--   **Ispirare**: Stimulate curiosity and creativity, showing how AI can be used to solve complex problems and open new opportunities.
+-   **Inspire**: Stimulate curiosity and creativity, showing how AI can be used to solve complex problems and open new opportunities.
 -   **Reflect**: Promote a critical discussion on the ethical and social implications of the AI, encouraging a responsible use of this technology.
 
 ## How to contribute
@@ -51,4 +51,6 @@ A special thanks to all those who contributed to the project, through feedback, 
 
 ## Download
 
-**[Download the book for free - Italian](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-it.pdf)****[Download the book for free - English](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-en.pdf)****[Download the book for free - Spanish](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-es.pdf)**
+-   **[Download the book for free - Italian](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-it.pdf)**
+-   **[Download the book for free - English](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-en.pdf)**
+-   **[Download the book for free - Spanish](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-es.pdf)**
