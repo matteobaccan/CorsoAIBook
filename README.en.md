@@ -1,4 +1,4 @@
-# Book on the use of artificial intelligence
+# Guida pratica all'uso delle Intelligenze Artificiali
 
 [![Genera PDF](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml)[![Translate README](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/translatereadme.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/translatereadme.yml)
 
@@ -40,7 +40,7 @@ If you are interested in contributing to the project, you are welcome! Here's ho
 
 This project is released under the license[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). This means that you can share and adapt the material, provided that the authors are given credit, not to be used for commercial purposes and any changes are shared under the same license.
 
-## Authors
+## Autori
 
 -   **Matteo Baccan**: Software engineer and trainer with over 30 years of experience in the IT sector. Author of numerous articles, books and courses online.
 -   **Dario Ferrero**: Collaborator and co-author of the project, with a passion for technological dissemination and innovation.
