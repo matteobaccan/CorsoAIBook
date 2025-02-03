@@ -22,7 +22,7 @@ Después del trabajo de Turing, otros investigadores comenzaron a desarrollar pr
 
 En 1956, se celebró la **Conferencia de Dartmouth**, organizada por John McCarthy, Marvin Minsky, Nathaniel Rochester y Claude Shannon. Este evento es considerado el momento en que la IA fue formalmente reconocida como una disciplina científica. Durante la conferencia, los participantes discutieron la posibilidad de crear máquinas capaces de simular la inteligencia humana, sentando las bases para la investigación futura.
 
-![Conferencia de Dartmouth - fuente ieee.org](ConferenciaDiDartmouth.webp)
+![Conferencia de Dartmouth - fuente ieee.org](ConferenzaDiDartmouth.webp)
 
 ### **3.3 El período de la simulación (1965-1980)**
 
