@@ -20,8 +20,6 @@ class MyDocTemplate(SimpleDocTemplate):
     def __init__(self, filename, **kw):
         self.allowSplitting = 0
         SimpleDocTemplate.__init__(self, filename, **kw)
-        #template = PageTemplate('normal', [Frame(2.5*cm, 2.5*cm, 15*cm, 25*cm, id='F1')])
-        #self.addPageTemplates(template)
 
     def afterFlowable(self, flowable):
         "Registers TOC entries."
@@ -52,16 +50,18 @@ def convert_markdown_to_pdf( lang = 'it' ):
         pdfmetrics.registerFont(TTFont('SourceCodePro'  , '../book/fonts/SourceCodePro-Regular.ttf'))
         print(pdfmetrics.getRegisteredFontNames())
 
+        base_size = 14
+
         # Stili personalizzati per i paragrafi
         custom_styles = {
-            'header1'   : ParagraphStyle(name='Header1'     , fontName='Roboto-Bold'    , fontSize=16,                  spaceAfter=16   , leading=24                    ),
-            'header2'   : ParagraphStyle(name='Header2'     , fontName='Roboto-Bold'    , fontSize=14,                  spaceAfter=8    , leading=16                    ),
-            'header3'   : ParagraphStyle(name='Header3'     , fontName='Roboto-Bold'    , fontSize=12,                  spaceAfter=8    , leading=14                    ),
-            'header4'   : ParagraphStyle(name='Header4'     , fontName='Roboto-Bold'    , fontSize=12,                  spaceAfter=8    , leading=12                    ),
+            'header1'   : ParagraphStyle(name='Header1'     , fontName='Roboto-Bold'    , fontSize=base_size+4,                  spaceAfter=16   , leading=24                    ),
+            'header2'   : ParagraphStyle(name='Header2'     , fontName='Roboto-Bold'    , fontSize=base_size+2,                  spaceAfter=8    , leading=16                    ),
+            'header3'   : ParagraphStyle(name='Header3'     , fontName='Roboto-Bold'    , fontSize=base_size,                  spaceAfter=8    , leading=14                    ),
+            'header4'   : ParagraphStyle(name='Header4'     , fontName='Roboto-Bold'    , fontSize=base_size,                  spaceAfter=8    , leading=12                    ),
             'paragraph': ParagraphStyle(
                 name='Paragraph',
                 fontName='Quicksand',  # Font normale
-                fontSize=12,
+                fontSize=base_size,
                 spaceBefore=10,
                 spaceAfter=10,
                 leading=18,
@@ -73,15 +73,15 @@ def convert_markdown_to_pdf( lang = 'it' ):
             'link': ParagraphStyle(
                 name='Link',
                 fontName='Helvetica',
-                fontSize=12,
+                fontSize=base_size,
                 textColor=colors.blue,
                 underline=True,
             ),
-            'toc_entry' : ParagraphStyle(name='TOCEntry'    , fontName='Roboto'         , fontSize=14, spaceBefore=6,   spaceAfter=6    , leading=14                    ),
+            'toc_entry' : ParagraphStyle(name='TOCEntry'    , fontName='Roboto'         , fontSize=base_size+2, spaceBefore=6,   spaceAfter=6    , leading=14                    ),
             'code'      : ParagraphStyle(
                 name='Code'        , 
                 fontName='SourceCodePro'  , 
-                fontSize=12, 
+                fontSize=base_size, 
                 spaceBefore=10,  
                 spaceAfter=10   , 
                 leading=14    , 
@@ -108,7 +108,7 @@ def convert_markdown_to_pdf( lang = 'it' ):
         boxed_style = ParagraphStyle(
             'BoxedStyle',
             fontName='Helvetica',
-            fontSize=10,
+            fontSize=base_size-2,
             textColor=colors.black,
             backColor=colors.lightgrey,  # Sfondo grigio chiaro
             borderColor=colors.darkgrey,  # Colore bordo
@@ -438,7 +438,7 @@ def add_footer(canvas, doc, custom_data):
     print(f'Fine pagina {doc.page}')
    
     # Aggiungi il testo "DRAFT" come sfondo
-    add_draft_watermark(canvas, doc)
+    # add_draft_watermark(canvas, doc)
 
     canvas.saveState()
 
