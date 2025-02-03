@@ -43,7 +43,7 @@ def convert_markdown_to_pdf( lang = 'it' ):
 
         # Registra i font personalizzati
         pdfmetrics.registerFont(TTFont('Quicksand'      , '../book/fonts/Quicksand-Regular.ttf'))
-        pdfmetrics.registerFont(TTFont('Quicksand-bold' , '../book/fonts/Quicksand-Bold.ttf'))
+        pdfmetrics.registerFont(TTFont('Quicksand-Bold' , '../book/fonts/Quicksand-Bold.ttf'))
         pdfmetrics.registerFont(TTFont('Roboto'         , '../book/fonts/Roboto-Regular.ttf'))
         pdfmetrics.registerFont(TTFont('Roboto-Bold'    , '../book/fonts/Roboto-Bold.ttf'))
         pdfmetrics.registerFont(TTFont('Roboto-Italic'  , '../book/fonts/Roboto-Italic.ttf'))
