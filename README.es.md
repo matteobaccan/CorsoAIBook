@@ -51,4 +51,6 @@ Un agradecimiento especial a todos los que contribuyeron al proyecto, a través 
 
 ## Descargar
 
-**[Descargue el libro gratis - italiano](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-it.pdf)****[Descargue el libro gratis - inglés](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-en.pdf)****[Descargue el libro gratis - español](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-es.pdf)**
+-   **[Descargue el libro gratis - italiano](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-it.pdf)**
+-   **[Descargue el libro gratis - inglés](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-en.pdf)**
+-   **[Descargue el libro gratis - español](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-es.pdf)**
