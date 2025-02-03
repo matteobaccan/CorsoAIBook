@@ -1,4 +1,4 @@
-# Libro sobre el uso de la inteligencia artificial
+# Guía práctica para el uso de inteligencia artificial
 
 [![Genera PDF](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/generatepdf.yml)[![Translate README](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/translatereadme.yml/badge.svg)](https://github.com/matteobaccan/CorsoAIBook/actions/workflows/translatereadme.yml)
 
@@ -38,7 +38,7 @@ Si está interesado en contribuir al proyecto, ¡es bienvenido! Así es como pue
 
 ## Licencia
 
-Este proyecto se publica bajo la licencia[Creative Commons Attribution-No Commercial-Sharealike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). Esto significa que puede compartir y adaptar el material, siempre que los autores reciban crédito, que no se utilizarán con fines comerciales y cualquier cambio se comparte bajo la misma licencia.
+Este proyecto se publica bajo la licencia[Creative Commons Attribution-No Commercial-Sharealike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). Ciò significa che puoi condividere e adattare il materiale, purché venga dato credito agli autori, non venga utilizzato per scopi commerciali e vengano condivise eventuali modifiche sotto la stessa licenza.
 
 ## Autores
 
