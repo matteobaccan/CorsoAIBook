@@ -294,6 +294,7 @@ def apply_italic(text):
     italic_pattern = re.compile(r'(\*)(.*?)\1')
     return italic_pattern.sub(lambda match: f'<font name="Roboto-Italic">{match.group(2)}</font>', text)
 
+# FIXME: evitare che l'immagine e la didascalia vengano spezzate fra una pagina e l'altra
 def process_images(line, custom_styles):
     """
     Gestisce le immagini Markdown, aggiunge un bordo, centra la didascalia e aggiunge uno sfondo tenue.
