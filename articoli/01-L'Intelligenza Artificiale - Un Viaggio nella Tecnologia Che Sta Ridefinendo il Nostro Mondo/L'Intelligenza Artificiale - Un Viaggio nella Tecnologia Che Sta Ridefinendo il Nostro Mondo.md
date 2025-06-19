@@ -1,4 +1,5 @@
 # L'Intelligenza Artificiale: Un Viaggio nella Tecnologia Che Sta Ridefinendo il Nostro Mondo
+
 di: *Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_1.jpg](Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_1.jpg)
 
