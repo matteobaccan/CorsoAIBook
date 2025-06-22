@@ -58,23 +58,19 @@ Questa sezione raccoglie una serie di articoli di approfondimento su vari aspett
     -   [Italiano](articoli/01-L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo/L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo.md)
     -   [English](articoli/01-L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo/L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo_en.md)
     -   [Español](articoli/01-L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo/L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo_es.md)
-2.  **Machine Learning, Deep Learning e Algoritmi Generativi: Il Cuore Pulsante dell'Intelligenza Artificiale Moderna** (dalla cartella `01-...`)
-    -   [Italiano](articoli/01-L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo/Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna.md)
-    -   [English](articoli/01-L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo/Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna_en.md)
-    -   [Español](articoli/01-L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo/Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna_es.md)
-3.  **Machine Learning, Deep Learning e Algoritmi Generativi: Il Cuore Pulsante dell'Intelligenza Artificiale Moderna** (dalla cartella `02-...`)
+2.  **Machine Learning, Deep Learning e Algoritmi Generativi: Il Cuore Pulsante dell'Intelligenza Artificiale Moderna**
     -   [Italiano](articoli/02-Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna/Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna.md)
     -   [English](articoli/02-Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna/Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna_en.md)
     -   [Español](articoli/02-Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna/Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna_es.md)
-4.  **Dalle Applicazioni Consolidate alle Frontiere del Futuro**
+3.  **Dalle Applicazioni Consolidate alle Frontiere del Futuro**
     -   [Italiano](articoli/03-Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro/Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro.md)
     -   [English](articoli/03-Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro/Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro_en.md)
     -   [Español](articoli/03-Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro/Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro_es.md)
-5.  **AI e Creazione di Contenuti: Il Presente e il Futuro della Creatività Digitale**
+4.  **AI e Creazione di Contenuti: Il Presente e il Futuro della Creatività Digitale**
     -   [Italiano](articoli/04-AI_Creazione_Contenuti/AI_Creazione_Contenuti.md)
     -   [English](articoli/04-AI_Creazione_Contenuti/AI_Creazione_Contenuti_en.md)
     -   [Español](articoli/04-AI_Creazione_Contenuti/AI_Creazione_Contenuti_es.md)
-6.  **Il Panorama dell'Intelligenza Artificiale: Giganti Tecnologici, Sfide Competitive e gli Strumenti che Democratizzano l'IA**
+5.  **Il Panorama dell'Intelligenza Artificiale: Giganti Tecnologici, Sfide Competitive e gli Strumenti che Democratizzano l'IA**
     -   [Italiano](articoli/05-AI%20Aziende%20e%20Servizi/IA_Aziende_e_Servizi%20.md)
     -   [English](articoli/05-AI%20Aziende%20e%20Servizi/IA_Aziende_e_Servizi_en.md)
     -   [Español](articoli/05-AI%20Aziende%20e%20Servizi/IA_Aziende_e_Servizi_es.md)
