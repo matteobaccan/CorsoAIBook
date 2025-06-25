@@ -74,6 +74,10 @@ Questa sezione raccoglie una serie di articoli di approfondimento su vari aspett
     -   [Italiano](articoli/05-AI%20Aziende%20e%20Servizi/IA_Aziende_e_Servizi%20.md)
     -   [English](articoli/05-AI%20Aziende%20e%20Servizi/IA_Aziende_e_Servizi_en.md)
     -   [Español](articoli/05-AI%20Aziende%20e%20Servizi/IA_Aziende_e_Servizi_es.md)
+6.  **Valutare l'Intelligenza Artificiale: Quando i Numeri Incontrano l'Etica**
+    -   [Italiano](articoli/06-AI%20Valutazione%20ed%20Etica/AI_Valutazione_ed_etica.md)
+    -   [English](articoli/06-AI%20Valutazione%20ed%20Etica/AI_Valutazione_ed_etica_en.md)
+    -   [Español](articoli/06-AI%20Valutazione%20ed%20Etica/AI_Valutazione_ed_etica_es.md)
 
 ## Download
 
