@@ -80,3 +80,5 @@ Questa sezione raccoglie una serie di articoli di approfondimento su vari aspett
 - __[Scarica gratuitamente il libro - Italiano](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-it.pdf)__
 - __[Scarica gratuitamente il libro - Inglese](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-en.pdf)__
 - __[Scarica gratuitamente il libro - Spagnolo](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-es.pdf)__
+- __[Scarica gratuitamente il libro - Francese](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-fr.pdf)__
+- __[Scarica gratuitamente il libro - Tedesco](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-de.pdf)__
