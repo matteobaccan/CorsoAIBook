@@ -233,13 +233,13 @@ def convert_markdown_to_pdf( lang = 'it' ):
         }
 
         # Genera PDF
-        # doc.multiBuild(elements,
-        #     onLaterPages=lambda canvas, doc: (
-        #         add_footer(canvas, doc, custom_data)
-        #     ))
+        doc.multiBuild(elements, 
+            onLaterPages=lambda canvas, doc: (
+                add_footer(canvas, doc, custom_data)
+            ))
 
         # Stampa a video il percorso del file creato
-        # print(f'PDF creato: {output_file}')
+        print(f'PDF creato: {output_file}')
         
         # Salva il file MD
         with open(output_file_md, 'w', encoding='utf-8') as f:

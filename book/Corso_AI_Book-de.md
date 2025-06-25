@@ -1917,7 +1917,7 @@ Thank you for following this course on AI. We hope this information has been use
 7. **Additional Resources**
    - TensorFlow: Open-source platform for developing AI models. Available at: [https://www.tensorflow.org](https://www.tensorflow.org)
    - PyTorch: Open-source platform for developing AI models. Available at: [https://pytorch.org](https://pytorch.org)
-   - Kaggle: Platform for data science and Machine Learning competitions. Available at: [https://www.kaggle.com](https://www.kaggle.com)  # **Disclaimer**
+   - Kaggle: Platform for data science and Machine Learning competitions. Available at: [https://www.kaggle.com](https://www.kaggle.com)# **Disclaimer**
 
 This book was created with the support of advanced Artificial Intelligence (AI) technologies. Specifically, the author utilized **GPT**, the large-scale language generation model developed by OpenAI, **Claude**, an advanced AI assistant, and **DeepSeek**, a model specialized in text research and rewriting.
 
