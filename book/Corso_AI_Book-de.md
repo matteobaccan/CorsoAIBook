@@ -1,3 +1,9 @@
+
+
+![](../book/cover/book-ai-cover-de.png)
+
+
+
 # Vorwort
 
 Dieses Buch ist eine Reise durch die riesige und dynamische Welt der Künstlichen Intelligenz (KI), einer Technologie, die die Art und Weise, wie wir leben, arbeiten und mit der Welt interagieren, neu definiert. Es entstand aus der Notwendigkeit heraus, jedem, der die Grundlagen, Anwendungen und Auswirkungen von KI verstehen möchte, einen klaren und zugänglichen Leitfaden zu bieten, sei es dem erfahrenen Fachmann oder dem neugierigen Anfänger.
@@ -17,6 +23,8 @@ Wir schließen mit **Kapitel 12**, das die wichtigsten Punkte des Buches zusamme
 Dieses Buch ist nicht nur eine Sammlung technischen Wissens, sondern ein praktischer Leitfaden für diejenigen, die verstehen wollen, wie KI die Welt verändert und wie wir diese Technologie am besten nutzen können, um die Herausforderungen der Zukunft zu meistern. Ob Sie ein erfahrener Programmierer, ein Forscher oder einfach nur ein Technikbegeisterter sind, ich hoffe, diese Seiten inspirieren Sie dazu, zu erforschen, zu innovieren und zum Fortschritt der Künstlichen Intelligenz beizutragen.
 
 Viel Spaß beim Lesen und eine gute Reise in die Welt der KI!
+
+
 # Acknowledgments
 
 We are deeply grateful to our families, whose love and unwavering support have made this project possible. Without their patience, understanding, and encouragement, reaching this milestone would not have been achievable.
@@ -27,7 +35,11 @@ Finally, we want to express our gratitude to everyone who, directly or indirectl
 
 *"Gratitude is not only the memory of the heart but also the light that illuminates the path ahead."* – Anonymous
 
-Thank you from the bottom of our hearts.## Einführung in die Künstliche Intelligenz
+Thank you from the bottom of our hearts.
+
+## Einführung in die Künstliche Intelligenz
+
+![](../book/capitolo01/capitolo01.jpg)
 
 Willkommen zu einer außergewöhnlichen Reise in die Welt der Künstlichen Intelligenz (KI), einer der revolutionärsten und transformativsten Technologien unserer Zeit. Dieses Buch entstand aus der Leidenschaft für Innovation und der Überzeugung, dass KI nicht nur ein technisches Werkzeug ist, sondern eine Kraft, die die Art und Weise, wie wir leben, arbeiten und mit der uns umgebenden Welt interagieren, neu definieren kann.
 
@@ -85,7 +97,10 @@ Dieses Projekt wird unter der Lizenz [Creative Commons Attribution-NonCommercial
 
 - **Matteo Baccan**: Software-Ingenieur und Trainer mit über 30 Jahren Erfahrung in der IT-Branche. Autor zahlreicher Artikel, Bücher und Online-Kurse.
 - **Dario Ferrero**: Mitarbeiter und Co-Autor des Projekts, mit einer Leidenschaft für technologische Wissensvermittlung und Innovation.
+
 ## **What is Artificial Intelligence?**
+
+![](../book/capitolo02/capitolo02.jpg)
 
 ### **2.1 AI - What is it about?**
 
@@ -153,7 +168,11 @@ The future of AI is full of promises but also uncertainties. Here are some of th
 
 ### **2.6 Conclusion**
 
-Artificial Intelligence is a powerful and transformative technology that is changing the way we live, work, and interact with the world. While it offers enormous opportunities, it also raises important ethical issues and challenges that need to be addressed. Understanding what AI is, how it works, and its implications is essential to navigate this new technological landscape and make the most of its potential.## **Evolution of Artificial Intelligence**
+Artificial Intelligence is a powerful and transformative technology that is changing the way we live, work, and interact with the world. While it offers enormous opportunities, it also raises important ethical issues and challenges that need to be addressed. Understanding what AI is, how it works, and its implications is essential to navigate this new technological landscape and make the most of its potential.
+
+## **Evolution of Artificial Intelligence**
+
+![](../book/capitolo03/capitolo03.jpg)
 
 ### **3.1 Introduction**
 
@@ -177,7 +196,7 @@ Following Turing's work, other researchers began developing chess programs. In 1
 
 In 1956, the **Dartmouth Conference** was organized by John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon. This event is considered the moment when AI was formally recognized as a scientific discipline. During the conference, participants discussed the possibility of creating machines capable of simulating human intelligence, laying the foundation for future research.
 
-![Dartmouth Conference - source ieee.org](ConferenzaDiDartmouth.webp)
+![Dartmouth Conference - source ieee.org](capitolo03/ConferenzaDiDartmouth.webp)
 
 ### **3.3 The Simulation Period (1965-1980)**
 
@@ -189,7 +208,7 @@ During this period, researchers began developing **expert systems**, programs de
 
 In the 1970s, natural language processing (NLP) became an important area of research. One of the early examples of NLP was **ELIZA**, a chatbot developed by **Joseph Weizenbaum** in 1966. ELIZA simulated a conversation with a Rogerian therapist, using simple rules to analyze and respond to user statements. Despite its simplicity, ELIZA demonstrated that machines could interact with humans in an apparently intelligent manner.
 
-![Eliza - source Wikipedia](eliza.png)
+![Eliza - source Wikipedia](capitolo03/eliza.png)
 
 #### **3.3.3 Computer Vision**
 
@@ -245,7 +264,11 @@ As AI becomes more powerful and pervasive, ethical and regulatory issues have be
 
 ### **3.6 Conclusion**
 
-The evolution of Artificial Intelligence has been a fascinating journey, characterized by extraordinary advancements and significant challenges. From Alan Turing's early theories to today's advanced deep learning models, AI has transformed the way we live, work, and interact with the world. As we look to the future, it is essential to continue exploring the potential of AI while addressing the ethical and social issues it raises.## **Machine Learning, Deep Learning, and Neural Networks**
+The evolution of Artificial Intelligence has been a fascinating journey, characterized by extraordinary advancements and significant challenges. From Alan Turing's early theories to today's advanced deep learning models, AI has transformed the way we live, work, and interact with the world. As we look to the future, it is essential to continue exploring the potential of AI while addressing the ethical and social issues it raises.
+
+## **Machine Learning, Deep Learning, and Neural Networks**
+
+![](../book/capitolo04/capitolo04.jpg)
 
 ### **4.1 Introduction**
 
@@ -259,7 +282,7 @@ The evolution of Artificial Intelligence has been a fascinating journey, charact
 
 **Example**: Imagine teaching a child to recognize animals. You show them many pictures of cats and dogs, telling them "this is a cat" and "this is a dog." The child starts noticing patterns, like "cats have pointy ears" and "dogs have long snouts." When shown a new picture, the child uses what they've learned to say whether it's a cat or a dog.
 
-![Machine Learning Pipeline](4.2.1.png)
+![Machine Learning Pipeline](capitolo04/4.2.1.png)
 
 #### **4.2.2 Why is Machine Learning Important?**
 
@@ -285,7 +308,7 @@ In **supervised learning**, the model is trained on a labeled dataset, where eac
 - **Decision Trees**: Used for classification and regression, based on a series of binary decisions.
 - **Support Vector Machines (SVM)**: Used for classification, finding the optimal boundary between different classes.
 
-![Comparison of Machine Learning Algorithms](4.3.1_2.png)
+![Comparison of Machine Learning Algorithms](capitolo04/4.3.1_2.png)
 
 #### **4.3.2 Unsupervised Learning**
 
@@ -297,7 +320,7 @@ In **unsupervised learning**, the model is trained on an unlabeled dataset, wher
 - **Principal Component Analysis (PCA)**: Used to reduce data dimensionality while retaining the most important information.
 - **Autoencoder**: A neural network used to compress and reconstruct data, often used for noise reduction.
 
-![Supervised and Unsupervised Learning](4.3.1.png)
+![Supervised and Unsupervised Learning](capitolo04/4.3.1.png)
 
 #### **4.3.3 Reinforcement Learning**
 
@@ -308,7 +331,7 @@ In **reinforcement learning**, an agent learns to make decisions by interacting 
 - **Q-Learning**: An algorithm that learns an optimal policy for making decisions in an environment.
 - **Deep Q-Networks (DQN)**: A combination of Q-Learning and deep neural networks, used to solve complex problems.
 
-![Reinforcement Learning](4.3.3.png)
+![Reinforcement Learning](capitolo04/4.3.3.png)
 
 ### **4.4 What is Deep Learning?**
 
@@ -345,7 +368,7 @@ Deep neural networks consist of multiple layers of artificial neurons, each tran
 - **Video Processing**: CNNs can analyze videos to detect movements, objects, or specific events.
 - **Medical Analysis**: CNNs are used to analyze medical images, like X-rays and MRIs, to help doctors diagnose diseases.
 
-![Convolutional Neural Networks](4.5.1.jpg)
+![Convolutional Neural Networks](capitolo04/4.5.1.jpg)
 
 #### **4.5.2 Recurrent Neural Networks (RNN)**
 
@@ -363,7 +386,7 @@ Deep neural networks consist of multiple layers of artificial neurons, each tran
 - **Time Series Prediction**: RNNs are used to predict future values based on historical data, like stock prices or weather forecasts.
 - **Text Generation**: RNNs can generate coherent and contextually relevant text, like poems, articles, or programming code.
 
-![Recurrent Neural Networks](4.5.2.png)
+![Recurrent Neural Networks](capitolo04/4.5.2.png)
 
 ### **4.6 Practical Applications of Machine Learning and Deep Learning**
 
@@ -375,7 +398,7 @@ Image recognition is one of the most common applications of Deep Learning. Model
 
 NLP is a field of AI that deals with the interaction between machines and human language. Models like RNNs and Transformers are used for tasks like automatic translation, text generation, and sentiment analysis.
 
-![Natural Language Processing (NLP)](4.6.2.png)
+![Natural Language Processing (NLP)](capitolo04/4.6.2.png)
 
 #### **4.6.3 Autonomous Driving**
 
@@ -400,7 +423,7 @@ Generative AI, like GANs, is used to create new content, such as images, music, 
 - **Overfitted Model**: Memorizes every single question from the book but doesn't understand the context.
 - **Proper Model**: Studies the concepts and can answer similar questions, even if phrased differently.
 
-![Overfitting](4.7.1.png)
+![Overfitting](capitolo04/4.7.1.png)
 
 #### **4.7.2 Data Bias**
 
@@ -408,7 +431,7 @@ Machine Learning models can be influenced by biases present in the training data
 
 **Example**: An AI model used to select job candidates. If the training data comes from companies that have historically hired mostly men, the model might learn to favor that type of candidate, even if it's not fair or intentional. This is a classic case of data bias leading to algorithmic discrimination.
 
-![Data Bias](4.7.2.png)
+![Data Bias](capitolo04/4.7.2.png)
 
 #### **4.7.3 Computational Complexity**
 
@@ -420,12 +443,16 @@ Deep Learning models are often considered "black boxes" because it's difficult t
 
 ### **4.8 Conclusion**
 
-Machine Learning and Deep Learning are powerful technologies transforming how we tackle complex problems and make decisions. From computer vision to natural language processing, these technologies have practical applications in nearly every sector. However, it's essential to address the challenges and limitations associated with these technologies, ensuring they are used ethically and responsibly. As we continue to explore the potential of Machine Learning and Deep Learning, it's important to balance innovation with awareness of social and ethical implications.## **Generative Algorithms**
+Machine Learning and Deep Learning are powerful technologies transforming how we tackle complex problems and make decisions. From computer vision to natural language processing, these technologies have practical applications in nearly every sector. However, it's essential to address the challenges and limitations associated with these technologies, ensuring they are used ethically and responsibly. As we continue to explore the potential of Machine Learning and Deep Learning, it's important to balance innovation with awareness of social and ethical implications.
+
+## **Generative Algorithms**
+
+![](../book/capitolo05/capitolo05.jpg)
 
 ### **5.1 Introduction**
 
 **Generative algorithms** are at the cutting edge of advancements in the field of Artificial Intelligence (AI). These tools enable machines to create new content, such as images, sounds, and text, that are indistinguishable from those produced by humans. This chapter delves into the fundamental concepts of generative algorithms, their practical applications, and their implications for the future of creativity and innovation.
-![Biological Neuron and Artificial Neuron](5.1.png)
+![Biological Neuron and Artificial Neuron](capitolo05/5.1.png)
 
 ### **5.2 What are Generative Algorithms?**
 
@@ -458,7 +485,7 @@ The two networks train simultaneously:
 
 This process continues until the Generator produces data that the Discriminator can no longer distinguish from real data.
 
-![Image Generation with a GAN](4.5.3.png)
+![Image Generation with a GAN](capitolo05/4.5.3.png)
 
 #### **5.3.3 Applications of GANs**
 
@@ -466,10 +493,10 @@ GANs have a wide range of applications, including:
 
 - **Photorealistic Image Generation**: GANs can create images of faces, landscapes, and objects that appear real.
 - **Sketch-to-Photo Conversion**: GANs can transform drawings or sketches into photorealistic images.
-![Starting Sketch](schizzo.jpg)
-![Image Created with Fotor and a Dystopian Style Filter](schizzi2.png)
+![Starting Sketch](capitolo05/schizzo.jpg)
+![Image Created with Fotor and a Dystopian Style Filter](capitolo05/schizzi2.png)
 - **Aging/Rejuvenating Faces**: GANs can alter the apparent age of a person in a photo.
-![Filters for Aging or Rejuvenating a Portrait, Created with FaceApp](invecchiamento.png)
+![Filters for Aging or Rejuvenating a Portrait, Created with FaceApp](capitolo05/invecchiamento.png)
 - **Art Creation**: GANs can generate original artworks in various styles.
 ```text
 Here is the image obtained with the following prompt:
@@ -477,7 +504,7 @@ A dreamlike landscape at sunset, where the sky is painted with shades of orange,
 reaching towards the sky, illuminated by magical lights. Around the tree, small fairy creatures with transparent wings fly in a sparkling atmosphere. In the background, snow-capped
 mountains stand against the horizon, with a crystal-clear river winding through the scene. The image is rich in detail, with realistic textures and a fairy-tale atmosphere.
 ```
-![Artistic Photo Creation with Leonardo AI](arte.jpg)
+![Artistic Photo Creation with Leonardo AI](capitolo05/arte.jpg)
 - **Video Synthesis**: GANs can create realistic videos from textual descriptions.
 
 #### **5.3.4 Challenges of GANs**
@@ -526,7 +553,11 @@ The ability of generative algorithms to create realistic content raises importan
 
 ### **5.6 Conclusion**
 
-Generative algorithms and neural networks are powerful technologies that are transforming the way we create and interact with content. From image and music generation to voice and text synthesis, these technologies have practical applications in nearly every sector. However, it is essential to address the challenges and limitations associated with these technologies, ensuring they are used ethically and responsibly. As we continue to explore the potential of generative algorithms, it is important to balance innovation with awareness of social and ethical implications.## **AI Applications**
+Generative algorithms and neural networks are powerful technologies that are transforming the way we create and interact with content. From image and music generation to voice and text synthesis, these technologies have practical applications in nearly every sector. However, it is essential to address the challenges and limitations associated with these technologies, ensuring they are used ethically and responsibly. As we continue to explore the potential of generative algorithms, it is important to balance innovation with awareness of social and ethical implications.
+
+## **AI Applications**
+
+![](../book/capitolo06/capitolo06.jpg)
 
 ### **6.1 Introduction**
 
@@ -630,7 +661,11 @@ AI is used to develop mental health support applications, such as therapeutic ch
 
 ### **6.10 Conclusion**
 
-AI has a transformative impact on numerous sectors, bringing innovations that enhance quality of life, process efficiency, and creativity. From medicine to finance, entertainment to industrial production, AI has become an indispensable tool for tackling complex challenges and creating new opportunities. As we continue to explore the potential of AI, it is essential to balance innovation with awareness of ethical and social implications, ensuring that this technology is used responsibly and beneficially for all.## **Evaluation of AI**
+AI has a transformative impact on numerous sectors, bringing innovations that enhance quality of life, process efficiency, and creativity. From medicine to finance, entertainment to industrial production, AI has become an indispensable tool for tackling complex challenges and creating new opportunities. As we continue to explore the potential of AI, it is essential to balance innovation with awareness of ethical and social implications, ensuring that this technology is used responsibly and beneficially for all.
+
+## **Evaluation of AI**
+
+![](../book/capitolo07/capitolo07.jpg)
 
 ### **7.1 Introduction**
 
@@ -646,7 +681,7 @@ The **Turing Test**, proposed by Alan Turing in 1950, was one of the first attem
 
 While the Turing Test was a historical milestone, it is now considered a limited method for evaluating machine intelligence. The test primarily focuses on the ability to mimic human behavior but does not assess aspects such as deep understanding, creativity, or the ability to solve complex problems. Additionally, the test is subjective and depends on the judge's perception, making it unsuitable for objective evaluations.
 
-![Alan Mathison Turing is considered one of the fathers of computer science. Public domain photo from Wikipedia](turing.jpg)
+![Alan Mathison Turing is considered one of the fathers of computer science. Public domain photo from Wikipedia](capitolo07/turing.jpg)
 
 #### **7.2.3 Modern Alternatives to the Turing Test**
 
@@ -697,7 +732,7 @@ Interpretability is the ability of an AI system to explain its decisions in a wa
 #### **7.4.2 ARC Benchmark**
 
 The **ARC Benchmark** (AI2 Reasoning Challenge) was developed to test the reasoning capabilities of large language models (LLMs). This benchmark includes complex multiple-choice questions designed to evaluate deep language understanding and reasoning.
-![A benchmark is a reference standard. Chart made with Claude](benchmark.jpg)
+![A benchmark is a reference standard. Chart made with Claude](capitolo07/benchmark.jpg)
 
 ### **7.5 Challenges in AI Evaluation**
 
@@ -727,7 +762,11 @@ It becomes essential for the average user to develop critical awareness: knowing
 
 ### **7.6 Conclusion**
 
-AI evaluation is a complex and multidisciplinary process that requires the integration of quantitative, qualitative, and ethical methods. With the increasing adoption of AI in critical sectors, it is essential to have robust tools and approaches to ensure that AI systems are effective, reliable, and safe. As we continue to develop and implement new AI technologies, it is important to balance innovation with awareness of ethical and social implications, ensuring that this technology is used responsibly and beneficially for all.## **AI Companies and Technologies**
+AI evaluation is a complex and multidisciplinary process that requires the integration of quantitative, qualitative, and ethical methods. With the increasing adoption of AI in critical sectors, it is essential to have robust tools and approaches to ensure that AI systems are effective, reliable, and safe. As we continue to develop and implement new AI technologies, it is important to balance innovation with awareness of ethical and social implications, ensuring that this technology is used responsibly and beneficially for all.
+
+## **AI Companies and Technologies**
+
+![](../book/capitolo08/capitolo08.jpg)
 
 ### **8.1 Introduction**
 
@@ -870,7 +909,11 @@ In the future, AI will not replace humans but will collaborate with them to enha
 
 ### **8.7 Conclusion**
 
-Leading companies in AI are investing billions of dollars in developing advanced technologies that are transforming how we live, work, and interact with the world. From creating advanced language models to developing autonomous vehicles, AI is opening up new possibilities and challenges. As we continue to explore AI's potential, it is essential to balance innovation with awareness of ethical and social implications, ensuring this technology is used responsibly and beneficially for all.## **AI Tools and Services**
+Leading companies in AI are investing billions of dollars in developing advanced technologies that are transforming how we live, work, and interact with the world. From creating advanced language models to developing autonomous vehicles, AI is opening up new possibilities and challenges. As we continue to explore AI's potential, it is essential to balance innovation with awareness of ethical and social implications, ensuring this technology is used responsibly and beneficially for all.
+
+## **AI Tools and Services**
+
+![](../book/capitolo09/capitolo09.jpg)
 
 ### **9.1 Introduction**
 
@@ -1008,7 +1051,11 @@ Artificial Intelligence (AI) has become increasingly accessible to a wider audie
 
 ### **9.7 Conclusion**
 
-AI tools and services are democratizing access to technology, enabling developers, researchers, and businesses to create and deploy AI models more easily and efficiently. From open-source development platforms to ready-to-use cloud services, these technologies are opening up new possibilities and transforming how we tackle complex problems. As we continue to explore the potential of AI, it is essential to balance innovation with awareness of ethical and social implications, ensuring that this technology is used responsibly and beneficially for all.## **Content Creation with AI**
+AI tools and services are democratizing access to technology, enabling developers, researchers, and businesses to create and deploy AI models more easily and efficiently. From open-source development platforms to ready-to-use cloud services, these technologies are opening up new possibilities and transforming how we tackle complex problems. As we continue to explore the potential of AI, it is essential to balance innovation with awareness of ethical and social implications, ensuring that this technology is used responsibly and beneficially for all.
+
+## **Content Creation with AI**
+
+![](../book/capitolo10/capitolo10.jpg)
 
 ### **10.1 Introduction**
 
@@ -1042,7 +1089,7 @@ Generative AI has a wide range of applications, including:
 - **"A duck wearing sunglasses on a tropical beach"**: DALL-E can generate an image of a duck wearing sunglasses on a tropical beach, with realistic details.
 - **"A futuristic living room with minimalist furniture"**: DALL-E can create an image of a futuristic living room with minimalist furniture, following the textual description.
 
-![DALL-E](10.3.1.jpg)
+![DALL-E](capitolo10/10.3.1.jpg)
 
 #### **10.3.2 Midjourney**
 
@@ -1052,7 +1099,7 @@ Generative AI has a wide range of applications, including:
 - **"A surreal landscape with floating mountains and a purple sky"**: Midjourney can generate an image of a surreal landscape with floating mountains and a purple sky, with artistic details.
 - **"A portrait of a middle-aged man with an intense expression"**: Midjourney can create a photorealistic portrait of a middle-aged man with an intense expression.
 
-![Midjourney](10.3.2.jpg)
+![Midjourney](capitolo10/10.3.2.jpg)
 
 #### **10.3.3 Leonardo AI**
 
@@ -1062,7 +1109,7 @@ Generative AI has a wide range of applications, including:
 - **"A young woman in a bikini on a Cuban beach"**: Leonardo AI can generate a photorealistic image of a young woman in a bikini on a Cuban beach, with realistic details.
 - **"A luxurious interior with a soft bed and white pillows"**: Leonardo AI can create an image of a luxurious interior with a soft bed and white pillows, following the textual description.
 
-![Leonardo](10.3.3.jpg)
+![Leonardo](capitolo10/10.3.3.jpg)
 
 ### **10.4 Music Generation with AI**
 
@@ -1524,7 +1571,11 @@ Generative AI could have a significant impact on the work of content creators, s
 
 ### **10.9 Conclusion**
 
-Content creation with AI is transforming the way we produce and consume art, music, text, and video. Thanks to generative algorithms, AI can produce original and high-quality content, opening new possibilities for creativity and innovation. However, it is essential to balance innovation with awareness of ethical and social implications, ensuring that this technology is used responsibly and beneficially for all.## **Philosophical and Ethical Reflections**
+Content creation with AI is transforming the way we produce and consume art, music, text, and video. Thanks to generative algorithms, AI can produce original and high-quality content, opening new possibilities for creativity and innovation. However, it is essential to balance innovation with awareness of ethical and social implications, ensuring that this technology is used responsibly and beneficially for all.
+
+## **Philosophical and Ethical Reflections**
+
+![](../book/capitolo11/capitolo11.jpg)
 
 ### **11.1 Introduction**
 
@@ -1586,7 +1637,11 @@ The impact of AI on society is not only technological but profoundly human. As p
 
 The challenge for the future is not so much to limit or fear AI but to integrate it consciously into society, preserving and valuing what makes us uniquely human. As cosmologist Max Tegmark argues, the true goal should be to use AI to enhance and enrich the human experience, not to replace it.
 
-These reflections do not have definitive answers, but asking these questions is the first step to becoming active participants, rather than passive spectators, in shaping the future of AI. How we respond to these challenges will determine not only the future of technology but also the future of our species and our understanding of what it means to be human in the age of artificial intelligence.## **Conclusions and Resources**
+These reflections do not have definitive answers, but asking these questions is the first step to becoming active participants, rather than passive spectators, in shaping the future of AI. How we respond to these challenges will determine not only the future of technology but also the future of our species and our understanding of what it means to be human in the age of artificial intelligence.
+
+## **Conclusions and Resources**
+
+![](../book/capitolo12/capitolo12.jpg)
 
 ### **12.1 Introduction**
 
@@ -1664,11 +1719,15 @@ Despite its many advantages, AI raises important ethical and social issues, such
 
 Artificial Intelligence is a powerful and transformative technology that is changing how we live, work, and interact with the world. From content creation to medical diagnosis, autonomous driving to finance, AI is opening up new possibilities and challenges. As we continue to explore the potential of AI, it is essential to balance innovation with awareness of ethical and social implications, ensuring that this technology is used responsibly and beneficially for everyone.
 
-Thank you for following this course on AI. We hope this information has been useful and has inspired you to further explore the world of Artificial Intelligence. Never stop learning, because life never stops teaching.# Biography
+Thank you for following this course on AI. We hope this information has been useful and has inspired you to further explore the world of Artificial Intelligence. Never stop learning, because life never stops teaching.
+
+# Biography
 
 **Matteo Baccan** is a software engineer and professional trainer with over 30 years of experience in the IT sector. He has worked for various companies and organizations, focusing on the design, development, testing, and management of web and desktop applications, using a range of languages and technologies. He is also a passionate educator and computer science teacher, having authored numerous articles, books, and online courses for all skill levels. Matteo runs a website and a YouTube channel where he shares video tutorials, interviews, reviews, and programming tips. Actively involved in open-source communities, he regularly participates in programming events and competitions. He describes himself as a "realistic dreamer" who loves to experiment, innovate, and share his knowledge and passions, following the motto: "Never stop learning, because life never stops teaching."
 
-**Dario Ferrero** began his career in the computing world with programming in Basic, Pascal, Clipper, and C++, later moving on to PHP, Python, and MySQL, as well as editing software like Photoshop and Lightroom, and using Artificial Intelligence applications for multimedia content production. As a trainer, he has conducted courses on the mindful use of the Internet and prepared candidates for the European Computer Driving License (ECDL). He is the author of the book "European Computer License: Practical Strategies and Exercises to Easily Pass the ECDL Exam," published by Bruno Editore, which encapsulates his teaching experience in a practical and accessible guide. As a co-founder and manager of verbanianotizie.it, he created an online news platform that, with over 2 million visitors since 2012, has become a reference point for events, politics, and news in Verbania and its province. The portal is distinguished by its particular attention to the voices and concerns of citizens, collaborating with various professionals to develop thematic columns. His social commitment has materialized in a digital volunteering initiative: the free creation of websites for about 20 local associations, ranging from sports to elderly support, assistance for women in difficulty, health prevention, and aid for local children. A significant project was the development and management of content for a portal dedicated to hiking in the province of Verbano-Cusio-Ossola, which has contributed to promoting the area and its natural beauty.# Glossary
+**Dario Ferrero** began his career in the computing world with programming in Basic, Pascal, Clipper, and C++, later moving on to PHP, Python, and MySQL, as well as editing software like Photoshop and Lightroom, and using Artificial Intelligence applications for multimedia content production. As a trainer, he has conducted courses on the mindful use of the Internet and prepared candidates for the European Computer Driving License (ECDL). He is the author of the book "European Computer License: Practical Strategies and Exercises to Easily Pass the ECDL Exam," published by Bruno Editore, which encapsulates his teaching experience in a practical and accessible guide. As a co-founder and manager of verbanianotizie.it, he created an online news platform that, with over 2 million visitors since 2012, has become a reference point for events, politics, and news in Verbania and its province. The portal is distinguished by its particular attention to the voices and concerns of citizens, collaborating with various professionals to develop thematic columns. His social commitment has materialized in a digital volunteering initiative: the free creation of websites for about 20 local associations, ranging from sports to elderly support, assistance for women in difficulty, health prevention, and aid for local children. A significant project was the development and management of content for a portal dedicated to hiking in the province of Verbano-Cusio-Ossola, which has contributed to promoting the area and its natural beauty.
+
+# Glossary
 
 ---
 
@@ -1876,7 +1935,9 @@ Thank you for following this course on AI. We hope this information has been use
   A field of AI focused on creating models and systems that can explain their decisions in a way that is understandable to humans.
   **Example**: A medical diagnosis system explaining why it classified an image as a "benign tumor."
 
----# **Bibliography**
+---
+
+# **Bibliography**
 
 1. **Fundamental Texts on AI**
    - Russell, Stuart, and Peter Norvig. *"Artificial Intelligence: A Modern Approach"*. Pearson, 2020.
@@ -1917,7 +1978,9 @@ Thank you for following this course on AI. We hope this information has been use
 7. **Additional Resources**
    - TensorFlow: Open-source platform for developing AI models. Available at: [https://www.tensorflow.org](https://www.tensorflow.org)
    - PyTorch: Open-source platform for developing AI models. Available at: [https://pytorch.org](https://pytorch.org)
-   - Kaggle: Platform for data science and Machine Learning competitions. Available at: [https://www.kaggle.com](https://www.kaggle.com)# **Disclaimer**
+   - Kaggle: Platform for data science and Machine Learning competitions. Available at: [https://www.kaggle.com](https://www.kaggle.com)
+
+# **Disclaimer**
 
 This book was created with the support of advanced Artificial Intelligence (AI) technologies. Specifically, the author utilized **GPT**, the large-scale language generation model developed by OpenAI, **Claude**, an advanced AI assistant, and **DeepSeek**, a model specialized in text research and rewriting.
 

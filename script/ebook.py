@@ -40,6 +40,10 @@ def convert_markdown_to_pdf( lang = 'it' ):
         # File di output
         output_file = '../book/Corso_AI_Book-' +lang +'.pdf'
         output_file_md = '../book/Corso_AI_Book-' +lang +'.md'
+        
+        # Determine the absolute path of the directory where the aggregated markdown file will be saved
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        output_md_abs_dir = os.path.abspath(os.path.join(script_dir, os.path.dirname(output_file_md)))
 
         # Registra i font personalizzati
         pdfmetrics.registerFont(TTFont('Quicksand'      , '../book/fonts/Quicksand-Regular.ttf'))
@@ -162,12 +166,14 @@ def convert_markdown_to_pdf( lang = 'it' ):
         toc.levelStyles = [h1, h2, h3, h4]
 
         # Copertina
-        cover_image = Image(os.path.join('../book/cover/book-ai-cover-' +lang +'.png'), width=9*inch, height=11*inch)    
+        cover_path = '../book/cover/book-ai-cover-' +lang +'.png'        
+        cover_image = Image(os.path.join(cover_path), width=9*inch, height=11*inch)    
         elements.append(cover_image)
         add_page(elements)
 
-        # Creo un MD unico per tutto il libro
+        # Creo un MD unico per tutto il libro        
         all_book = ""
+        all_book += f"\n\n![]({cover_path})\n\n"
 
         # Elaborazione capitoli
         for chapter_info in capitoli:
@@ -187,8 +193,6 @@ def convert_markdown_to_pdf( lang = 'it' ):
             with open(filename, 'r', encoding='utf-8') as f:
                 markdown_content = f.read()
                 
-                all_book += markdown_content
-            
                 # Se è presente l'immagine, estrai il titolo e l'immagine
                 if image_path and os.path.exists(image_path):                    
                     # Estrai la prima riga e il resto del contenuto
@@ -201,8 +205,12 @@ def convert_markdown_to_pdf( lang = 'it' ):
                     # Il resto del contenuto (dalla seconda riga in poi)
                     markdown_content = "\n".join(lines[1:]).strip()  # Unisci le righe e trimmale
 
-                    process_markdown_title(elements, custom_styles, title, image_path)                    
+                    all_book += process_markdown_title(elements, custom_styles, title, image_path)                    
 
+                # Adjust image paths in markdown_content before appending to all_book
+                adjusted_markdown_content = adjust_markdown_image_paths(markdown_content, image_path)
+                all_book += "\n\n"+adjusted_markdown_content
+            
                 # Salva la directory corrente
                 original_dir = os.getcwd()
 
@@ -260,8 +268,11 @@ def main():
         convert_markdown_to_pdf(lang)
 
 def process_markdown_title(elements, custom_styles, title, image_path):
+    md_header = "";
     # Aggiungi l'intestazione del capitolo
     if title:
+        md_header = "\n\n## " +title.strip()  # Rimuove spazi bianchi all'inizio e alla fine
+
         # Applica il grassetto al testo tra **
         title = apply_bold(title)
             
@@ -274,12 +285,15 @@ def process_markdown_title(elements, custom_styles, title, image_path):
                 img = Image(image_path, width=400*1.2, height=300*1.2)  # Regola dimensioni secondo necessità
                 img.hAlign = 'CENTER'
                 elements.append(img)                
+                md_header += f"\n\n![]({image_path})"  # Aggiungi l'immagine al testo Markdown
             except Exception as e:
                 print(f"Errore nel caricamento dell'immagine {image_path}: {e}")
         else:
             raise Exception(f"Immagine non trovata: {image_path}")
 
         add_page(elements)
+    
+    return md_header
 
 def apply_bold(text):
     # Cerca il testo tra ** e lo sostituisce con il formato grassetto
@@ -294,6 +308,49 @@ def apply_italic(text):
     # Cerca il testo tra * o _ e lo sostituisce con <i>
     italic_pattern = re.compile(r'(\*)(.*?)\1')
     return italic_pattern.sub(lambda match: f'<font name="Roboto-Italic">{match.group(2)}</font>', text)
+
+def adjust_markdown_image_paths(markdown_text, image_path_original):
+    """
+    Adjusts relative image paths in markdown_text to be relative to a new target directory.
+
+    Args:
+        markdown_text (str): The markdown content.
+        original_md_filepath (str): The absolute path to the original markdown file
+                                    from which markdown_text was read.
+        target_md_dir (str): The absolute path to the directory where the aggregated
+                             markdown file will be saved.
+
+    Returns:
+        str: Markdown content with adjusted image paths.
+    """
+    
+    # Regex to find ![alt](path)
+    # Group 1: alt text
+    # Group 2: image path
+    image_pattern = re.compile(r'!\[(.*?)\]\((.*?)\)')
+
+    def replace_path(match):
+        alt_text = match.group(1)
+        original_image_path = match.group(2)
+        image_path = image_path_original
+
+        if image_path and os.path.exists(image_path):
+            # prende la posizione dell'ultimo / di image_path
+            last_slash_index = image_path.rfind('/')
+            # Prendo il path fino all'ultimo /
+            if last_slash_index != -1:
+                image_path = image_path[:last_slash_index + 1]
+            else:
+                image_path = ''
+
+            original_image_path = image_path + original_image_path;
+
+        ## rimuovo ../book/ dalla path
+        original_image_path = original_image_path.replace('../book/', '')
+        
+        return f"![{alt_text}]({original_image_path})"
+        
+    return image_pattern.sub(replace_path, markdown_text)
 
 # FIXME: evitare che l'immagine e la didascalia vengano spezzate fra una pagina e l'altra
 def process_images(line, custom_styles):
