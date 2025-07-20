@@ -154,7 +154,7 @@ Un concetto chiave nell'allineamento è la "tesi dell'ortogonalità", che afferm
 
 Questo significa che un sistema super-intelligente potrebbe essere brillante nel raggiungere i suoi obiettivi, avere obiettivi completamente diversi dai nostri e non avere alcun interesse a cambiare i suoi obiettivi per adattarsi ai nostri.
 
-## I limiti delle attuali approcci alla sicurezza
+## I limiti degli attuali approcci alla sicurezza
 
 Il rapporto evidenzia una limitazione fondamentale: "L'attuale approccio all'IA tramite scatole nere giganti addestrate su quantità inimmaginabilmente vaste di dati" potrebbe non essere compatibile con le garanzie di sicurezza necessarie.
 
