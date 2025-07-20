@@ -17,7 +17,7 @@ Ma cosa significa concretamente questo voto? Per capirlo, bisogna prima spiegare
 Il problema è che tutte le aziende valutate hanno dichiarato l'intenzione di costruire un'intelligenza artificiale generale, ma solo Anthropic, Google DeepMind e OpenAI hanno articolato una strategia per garantire che l'AGI rimanga allineata con i valori umani. E anche queste strategie sono state giudicate inadeguate dagli esperti.
 
 ![ClassificaAiSafetyIndex.jpg](ClassificaAiSafetyIndex.jpg)
-*Immagine tratta da futureoflife.org*
+*[Immagine tratta da futureoflife.org](https://futureoflife.org/ai-safety-index-summer-2025/)*
 
 ## La metodologia: come sono stati assegnati i voti
 
