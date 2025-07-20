@@ -6,11 +6,11 @@
 
 Immaginate di costruire un'automobile senza freni, o di progettare un aereo senza sistemi di sicurezza. Sembra assurdo, vero? Eppure, secondo un rapporto appena pubblicato dal [Future of Life Institute](https://futureoflife.org/ai-safety-index-summer-2025/), è esattamente quello che stanno facendo le principali aziende tecnologiche mondiali con l'intelligenza artificiale.
 
-L'AI Safety Index 2025 ha valutato sette delle più importanti aziende che sviluppano intelligenza artificiale avanzata, e i risultati sono preoccupanti: il migliore ha ottenuto un misero C, mentre le altre hanno ricevuto voti ancora peggiori. Stiamo parlando di aziende come OpenAI (quella di ChatGPT), Google DeepMind, Meta (Facebook), xAI (di Elon Musk), e altre che stanno correndo a sviluppare quella che viene chiamata "intelligenza artificiale generale" - sistemi capaci di ragionare e risolvere problemi complessi come farebbe un essere umano, ma potenzialmente molto più velocemente e potentemente.
+L'AI Safety Index 2025 ha valutato sette delle più importanti aziende che sviluppano intelligenza artificiale avanzata, e i risultati sono preoccupanti: il migliore ha ottenuto un misero C+, mentre le altre hanno ricevuto voti ancora peggiori. Stiamo parlando di aziende come OpenAI (quella di ChatGPT), Google DeepMind, Meta (Facebook), xAI (di Elon Musk), e altre che stanno correndo a sviluppare quella che viene chiamata "intelligenza artificiale generale" - sistemi capaci di ragionare e risolvere problemi complessi come farebbe un essere umano, ma potenzialmente molto più velocemente e potentemente.
 
 ## Il verdetto: "Fondamentalmente impreparate"
 
-I numeri parlano chiaro. Anthropic, l'azienda che ha creato Claude, ha ottenuto il punteggio più alto con un voto complessivo di C. Le altre sei aziende - Google DeepMind, Meta, OpenAI, xAI, Zhipu AI e DeepSeek - hanno ricevuto voti di D+ o inferiori, con Zhipu AI e DeepSeek che hanno ottenuto i risultati peggiori.
+I numeri parlano chiaro. Anthropic, l'azienda che ha creato Claude, ha ottenuto il punteggio più alto con un voto complessivo di C+. Le altre sei aziende - Google DeepMind, Meta, OpenAI, xAI, Zhipu AI e DeepSeek - hanno ricevuto inferiori, con Zhipu AI e DeepSeek che hanno ottenuto i risultati peggiori.
 
 Ma cosa significa concretamente questo voto? Per capirlo, bisogna prima spiegare cos'è l'intelligenza artificiale generale, o AGI come viene chiamata nel settore. Se i sistemi attuali come ChatGPT o Gemini sono specializzati in compiti specifici (conversazione, traduzione, scrittura), l'AGI rappresenterebbe il passo successivo: un'intelligenza artificiale capace di comprendere, apprendere e applicare la conoscenza in qualsiasi campo, proprio come fa l'intelligenza umana.
 
