@@ -142,3 +142,17 @@ Il cambiamento è inevitabile, ma la sua direzione non è predeterminata. Le sce
 La storia di The Velvet Sundown e Iam è appena iniziata. Rappresentano i primi capitoli di una trasformazione che continuerà a evolversi nei prossimi anni, sfidando le nostre concezioni di creatività, autenticità e valore artistico. Il loro successo ci ricorda che, in ultima analisi, la musica che conta è quella che riesce a toccare l'anima umana, indipendentemente dalla sua origine. La sfida per il futuro sarà garantire che questa capacità di connessione emotiva non vada perduta nella transizione verso l'era dell'intelligenza artificiale musicale.
 
 Nel frattempo, le "fondamenta del copyright nella musica come la conosciamo" continuano a essere scosse dalla rapida evoluzione dell'AI, in un momento in cui l'industria musicale è al centro del dibattito sulla proprietà intellettuale globale. La partita è appena iniziata, e le regole del gioco stanno ancora prendendo forma.
+
+## Resurrezione digitale: far cantare chi non c'è più
+
+Visto l'argomento, ho ritenuto giusto metterlo dopo le conclusioni, immagino capirete l'ironico perchè. Vorrei infatti accennarvi dell'ultima "frontiera" dell'intelligenza artificiale musicale: far "resuscitare" digitalmente artisti morti da decenni per far loro cantare nuove canzoni.
+
+Il caso è esploso solo pochi giorni fa quando una canzone intitolata "Together" è apparsa sulla pagina ufficiale Spotify di Blaze Foley, cantautore country assassinato nel 1989, seguita da "Happened To You" attribuita a Guy Clark, Grammy winner scomparso nel 2016.
+
+I brani, marcati con il copyright di una misteriosa "Syntax Error" e caricati tramite la piattaforma SoundOn di TikTok senza autorizzazione di eredi o etichette, hanno scatenato polemiche feroci prima di essere rimossi.
+
+Craig McDonald, proprietario dell'etichetta che gestisce il catalogo di Foley, ha scoperto casualmente la pubblicazione non autorizzata, sollevando interrogativi inquietanti sui limiti etici di questa tecnologia.
+
+Se già discutiamo di trasparenza e autenticità con artisti AI "vivi e vegeti", immaginate le implicazioni quando si tratta di far cantare i morti senza il loro consenso. Evidentemente, nell'era dell'intelligenza artificiale, nemmeno la morte rappresenta più un limite alla carriera discografica.
+
+Ma questa è un'altra storia che meriterebbe un articolo a parte, magari intitolato "Quando l'AI incontra l'aldilà: guida pratica alla necromanzia digitale".
