@@ -1,4 +1,5 @@
 # Kimi K2: L'Intelligenza Artificiale Cinese che Sfida i Giganti del Coding
+
 *di Dario Ferrero (VerbaniaNotizie.it)*
 ![DavideGolia_IA.jpg](DavideGolia_IA.jpg)
 
@@ -16,9 +17,7 @@ Le prestazioni di Kimi K2 raccontano una storia interessante, specialmente quand
 ![Kimi-K2-Benchmark-Graphic.jpg](Kimi-K2-Benchmark-Graphic.jpg)
 *[Immagine tratta dal sito di Moonshot AI](https://moonshotai.github.io/Kimi-K2/)*
 
-Ma è nel confronto diretto con i modelli più celebrati che Kimi K2 mostra i muscoli. Come evidenziato da diverse analisi comparative pubblicate su [CNBC](https://www.cnbc.com/2025/07/14/alibaba-backed-moonshot-releases-kimi-k2-ai-rivaling-chatgpt-claude.html) e piattaforme specializzate, in matematica il modello cinese raggiunge il 97.4% contro il 92.4% di GPT-4.1, mentre nel coding si attesta al 53.7% superando il 44.7% del modello OpenAI. Anche nel confronto con Claude 4 Sonnet, tradizionalmente considerato uno dei migliori per la programmazione, Kimi K2 dimostra prestazioni superiori nei benchmark di coding agentico, pur mantenendo una velocità di output più bassa (34.1 token al secondo contro i 91.3 di Claude).
-
-
+Ma è nel confronto diretto con i modelli più celebrati che Kimi K2 mostra i muscoli. Come evidenziato da diverse analisi comparative pubblicate su [CNBC](https://www.cnbc.com/2025/07/14/alibaba-backed-moonshot-releases-kimi-k2-ai-rivaling-chatgpt-claude.html) e piattaforme specializzate, in matematica il modello cinese raggiunge il 97.4% contro il 92.4% di GPT-4.1, mentre nel coding si attesta al 53.7% superando il 44.7% del modello OpenAI. Anche nel confronto con Claude 4 Sonnet, tradizionalmente considerato uno dei migliori per la programmazione, Kimi K2 dimostra prestazioni superiori nei benchmark di coding tramite agenti, pur mantenendo una velocità di output più bassa (34.1 token al secondo contro i 91.3 di Claude).
 
 ## L'arma segreta: gratuito e open source
 

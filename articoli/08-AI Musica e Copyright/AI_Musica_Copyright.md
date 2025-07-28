@@ -1,4 +1,5 @@
 # Quando l'Intelligenza Artificiale fa musica: il fenomeno The Velvet Sundown e Iam tra tecnologia ed etica
+
 *di Dario Ferrero (VerbaniaNotizie.it)*
 ![Band_AI.jpg](Band_AI.jpg)
 
@@ -19,9 +20,10 @@ La storia di The Velvet Sundown inizia come un mistero degno di un thriller tecn
 Quello che colpisce inizialmente è la qualità professionale delle produzioni e la coerenza stilistica che attraversa tutto il loro catalogo. Le canzoni sembrano nascere da una visione artistica matura, con arrangiamenti sofisticati e una produzione curata nei minimi dettagli. I fan iniziano a formare una community online, discutendo il significato dei testi e condividendo interpretazioni sui social media. Nessuno sospetta che dietro quei brani non ci siano musicisti in carne ed ossa.
 
 La rivelazione arriva gradualmente, attraverso una strategia comunicativa accuratamente orchestrata. Prima i sospetti, poi indizi sempre più evidenti, infine la confessione completa: The Velvet Sundown è un progetto interamente basato sull'intelligenza artificiale, una "provocazione artistica" che ha confessato di essere un progetto musicale sintetico guidato da direzione creativa umana. La tecnologia utilizzata è principalmente Suno AI, una piattaforma che sta "costruendo un futuro dove chiunque può fare grande musica. Nessuno strumento necessario, solo immaginazione".
-![the-velvet-sundown.jpg](the-velvet-sundown.jpg)
-*[Immagine tratta dal profilo Instagram thevelvetsundownband](https://www.instagram.com/thevelvetsundownband/)*
 
+![the-velvet-sundown.jpg](the-velvet-sundown.jpg)
+
+*[Immagine tratta dal profilo Instagram thevelvetsundownband](https://www.instagram.com/thevelvetsundownband/)*
 
 Il caso The Velvet Sundown ha fatto scuola per diversi motivi. Prima di tutto, ha dimostrato che la musica generata dall'AI può competere qualitativamente con quella prodotta da artisti umani, almeno dal punto di vista dell'ascolto casual. Suno, lanciata nel 2022 da ex ingegneri di OpenAI, utilizza reti neurali addestrate su milioni di canzoni di tutti i generi, permettendo di creare composizioni che rispettano le convenzioni musicali pur mantenendo elementi di originalità.
 
@@ -39,8 +41,10 @@ Il progetto Iam nasce nell'aprile 2025 con un obiettivo dichiaratamente sperimen
 
 Il singolo d'esordio "Pazzesco" ha immediatamente catturato l'attenzione dei media italiani, non solo per la qualità della produzione ma anche per il modo in cui è stato presentato al pubblico. Il brano mescola sonorità pop contemporanee con influenze elettroniche, creando un sound che risulta familiare ma al tempo stesso innovativo. La voce di Iam, generata attraverso sistemi di sintesi vocale avanzati, possiede caratteristiche distintive che la rendono riconoscibile e memorabile.
 
-Quello che rende unico il progetto Iam è l'approccio narrativo che lo accompagna. La cantante virtuale è stata dotata di una biografia, di preferenze musicali, di opinioni artistiche e persino di stranrezze personali che emergono durante le interviste. Questo ha creato un fenomeno curioso: il pubblico si trova a interagire con un'intelligenza artificiale che non solo crea musica, ma che può anche parlarne, spiegare le proprie scelte creative e rispondere alle domande dei giornalisti.
+Quello che rende unico il progetto Iam è l'approccio narrativo che lo accompagna. La cantante virtuale è stata dotata di una biografia, di preferenze musicali, di opinioni artistiche e persino di stranezze personali che emergono durante le interviste. Questo ha creato un fenomeno curioso: il pubblico si trova a interagire con un'intelligenza artificiale che non solo crea musica, ma che può anche parlarne, spiegare le proprie scelte creative e rispondere alle domande dei giornalisti.
+
 ![Iam.jpg](Iam.jpg)
+
 *[Immagine tratta dal video YouTube "Pazzesco"](https://youtu.be/EspBah8iUJQ?si=pJPgGqsy62BO0v8W)*
 
 L'impatto mediatico di Iam è stato significativo proprio per questa sua capacità di "esistere" come personaggio pubblico. Le interviste rilasciate dalla cantante AI hanno suscitato reazioni contrastanti: da un lato fascino per le capacità tecnologiche dimostrate, dall'altro inquietudine per la naturalezza con cui l'artificiale si presenta come autentico. Claudio Zagarini e il team di AIIC hanno dichiarato che l'obiettivo non è ingannare il pubblico, ma esplorare le possibilità espressive offerte dalle nuove tecnologie e stimolare una riflessione critica sul futuro dell'intrattenimento.
@@ -151,7 +155,7 @@ Nel frattempo, le "fondamenta del copyright nella musica come la conosciamo" con
 
 ## Resurrezione digitale: far cantare chi non c'è più
 
-Visto l'argomento, ho ritenuto giusto metterlo dopo le conclusioni, immagino capirete l'ironico perchè. Vorrei infatti accennarvi dell'ultima "frontiera" dell'intelligenza artificiale musicale: far "resuscitare" digitalmente artisti morti da decenni per far loro cantare nuove canzoni.
+Visto l'argomento, ho ritenuto giusto metterlo dopo le conclusioni, immagino capirete l'ironico perché. Vorrei infatti accennarvi dell'ultima "frontiera" dell'intelligenza artificiale musicale: far "resuscitare" digitalmente artisti morti da decenni per far loro cantare nuove canzoni.
 
 Il caso è esploso solo pochi giorni fa quando una canzone intitolata "Together" è apparsa sulla pagina ufficiale Spotify di Blaze Foley, cantautore country assassinato nel 1989, seguita da "Happened To You" attribuita a Guy Clark, Grammy winner scomparso nel 2016.
 
