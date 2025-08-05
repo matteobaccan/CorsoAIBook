@@ -1,4 +1,4 @@
-# "Quando la Dimensione Non Conta": la rivoluzione del Modello HRM
+# "Quando la Dimensione Non Conta": La Rivoluzione del Modello HRM
 *di Dario Ferrero (VerbaniaNotizie.it)*
 ![hrm_le_dimensioni_non_contano.jpg](hrm_le_dimensioni_non_contano.jpg)
 
