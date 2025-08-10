@@ -28,6 +28,7 @@ L'episodio rivela anche un aspetto spesso trascurato dell'ecosistema di sviluppo
 L'attacco ad Amazon Q rappresenta solo la punta dell'iceberg di una categoria emergente di minacce che sfruttano specificatamente le caratteristiche dell'intelligenza artificiale generativa. La ricerca accademica ha identificato diversi vettori di attacco che sfruttano le peculiarità dei modelli linguistici di grandi dimensioni utilizzati negli assistenti di coding.
 
 Il fenomeno delle "allucinazioni controllate" sta emergendo come una delle vulnerabilità più insidiose. [Studi recenti condotti da ricercatori della NYU](https://cacm.acm.org/research-highlights/asleep-at-the-keyboard-assessing-the-security-of-github-copilots-code-contributions/) hanno rivelato che [il 40% del codice generato da GitHub Copilot contiene vulnerabilità](https://www.securityweek.com/code-generated-github-copilot-can-introduce-vulnerabilities-researchers/), mentre [un'analisi di 576.000 campioni di codice da 16 modelli linguistici popolari](https://arxiv.org/abs/2406.10279) ha mostrato che il 19,7% delle dipendenze da pacchetti - 440.445 in totale - fanno riferimento a librerie inesistenti. Questo fenomeno, battezzato "package hallucination" o "slopsquatting", crea opportunità di attacco senza precedenti nella storia della sicurezza informatica.
+
 ![copilot_proces.jpg](copilot_proces.jpg)
 *[Immagine tratta da Communications of the ACM](https://cacm.acm.org/research-highlights/asleep-at-the-keyboard-assessing-the-security-of-github-copilots-code-contributions/)*
 
