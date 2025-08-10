@@ -51,6 +51,7 @@ Il paradosso dell'open source nell'era dell'AI si manifesta in tutta la sua comp
 
 Le statistiche sui plugin compromessi rivelano dimensioni allarmanti del problema. Migliaia di estensioni per VS Code vengono pubblicate ogni mese, molte delle quali integrate con funzionalità di intelligenza artificiale. Il processo di review, pur migliorato negli anni, non riesce a tenere il passo con il volume di pubblicazioni. La ricerca di [Hacker News ha identificato oltre 22.000 progetti PyPI vulnerabili](https://thehackernews.com/2024/09/hackers-hijack-22000-removed-pypi.html) ad attacchi di tipo "dependency confusion", una cifra che diventa ancora più preoccupante quando si considera l'integrazione di questi pacchetti negli assistenti di coding.
 ![number_of_issue.jpg](number_of_issue.jpg)
+
 *[Immagine tratta da The Hacker News](https://thehackernews.com/2024/09/hackers-hijack-22000-removed-pypi.html)*
 
 L'effetto network dell'ecosistema GitHub amplifica ulteriormente i rischi. Un singolo repository compromesso può influenzare centinaia di progetti dipendenti, creando un effetto cascata che si propaga attraverso l'intera catena di fornitura software. Quando questo meccanismo si combina con gli assistenti AI che attingono da questi stessi repository per generare suggerimenti, il risultato è una superficie di attacco di proporzioni inedite.
