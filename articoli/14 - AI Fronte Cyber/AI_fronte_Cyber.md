@@ -1,4 +1,4 @@
-# L'IA sotto assedio: cronache dal fronte cyber.
+# L'IA sotto assedio: cronache dal fronte cyber
 *di Dario Ferrero (VerbaniaNotizie.it)*
 ![fronte_AI.jpg](fronte_AI.jpg)
 
