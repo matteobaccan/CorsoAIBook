@@ -1,3 +1,7 @@
+---
+tags: ["E-learning", "Training"]
+---
+
 # Maschinelles Lernen, Deep Learning und generative Algorithmen: Das pulsierende Herz der modernen Künstlichen Intelligenz
 
 Von: *Dario Ferrero (VerbaniaNotizie.it)*

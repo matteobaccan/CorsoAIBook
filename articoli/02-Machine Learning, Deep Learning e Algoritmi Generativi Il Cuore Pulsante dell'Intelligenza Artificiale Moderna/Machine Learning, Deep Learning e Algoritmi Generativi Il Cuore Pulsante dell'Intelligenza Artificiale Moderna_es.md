@@ -1,3 +1,7 @@
+---
+tags: ["E-learning", "Training"]
+---
+
 # Machine Learning, Deep Learning y Algoritmos Generativos: El Corazón Palpitante de la Inteligencia Artificial Moderna
 
 Por: *Dario Ferrero (VerbaniaNotizie.it)*

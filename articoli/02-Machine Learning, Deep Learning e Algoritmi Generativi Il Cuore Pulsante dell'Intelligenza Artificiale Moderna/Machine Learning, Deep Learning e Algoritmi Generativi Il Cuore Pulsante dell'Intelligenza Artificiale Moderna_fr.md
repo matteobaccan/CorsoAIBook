@@ -1,3 +1,7 @@
+---
+tags: ["E-learning", "Training"]
+---
+
 # Apprentissage Automatique, Apprentissage Profond et Algorithmes Génératifs : Le Cœur Battant de l'Intelligence Artificielle Moderne
 
 Par : *Dario Ferrero (VerbaniaNotizie.it)*

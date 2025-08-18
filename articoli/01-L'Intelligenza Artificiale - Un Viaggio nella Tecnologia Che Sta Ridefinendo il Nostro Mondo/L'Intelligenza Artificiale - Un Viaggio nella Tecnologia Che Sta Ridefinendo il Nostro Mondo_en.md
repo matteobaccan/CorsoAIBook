@@ -1,3 +1,7 @@
+---
+tags: ["E-learning", "Training"]
+---
+
 # Artificial Intelligence: A Journey into the Technology That is Redefining Our World
 
 By: *Dario Ferrero (VerbaniaNotizie.it)*

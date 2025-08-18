@@ -1,3 +1,7 @@
+---
+tags: ["E-learning", "Training"]
+---
+
 # Künstliche Intelligenz: Eine Reise in die Technologie, die unsere Welt neu definiert
 
 Von: *Dario Ferrero (VerbaniaNotizie.it)*

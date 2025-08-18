@@ -1,3 +1,7 @@
+---
+tags: ["E-learning", "Training"]
+---
+
 # Machine Learning, Deep Learning, and Generative Algorithms: The Beating Heart of Modern Artificial Intelligence
 
 By: *Dario Ferrero (VerbaniaNotizie.it)*

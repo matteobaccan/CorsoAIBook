@@ -1,3 +1,7 @@
+---
+tags: ["E-learning", "Training"]
+---
+
 # L'Intelligence Artificielle : Un Voyage dans la Technologie Qui Redéfinit Notre Monde
 
 Par : *Dario Ferrero (VerbaniaNotizie.it)*
