@@ -1,5 +1,6 @@
 ---
 tags: ["E-learning", "Training"]
+date: 2025-06-12
 ---
 
 # Maschinelles Lernen, Deep Learning und generative Algorithmen: Das pulsierende Herz der modernen Künstlichen Intelligenz

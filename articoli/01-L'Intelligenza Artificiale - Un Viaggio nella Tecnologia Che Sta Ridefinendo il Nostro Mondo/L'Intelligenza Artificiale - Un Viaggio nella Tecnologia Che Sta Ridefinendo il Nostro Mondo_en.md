@@ -1,5 +1,6 @@
 ---
 tags: ["E-learning", "Training"]
+date: 2025-06-08
 ---
 
 # Artificial Intelligence: A Journey into the Technology That is Redefining Our World

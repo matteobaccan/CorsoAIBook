@@ -1,5 +1,6 @@
 ---
 tags: ["E-learning", "Training"]
+date: 2025-06-08
 ---
 
 # Inteligencia Artificial: Un Viaje a la Tecnología Que Está Redefiniendo Nuestro Mundo

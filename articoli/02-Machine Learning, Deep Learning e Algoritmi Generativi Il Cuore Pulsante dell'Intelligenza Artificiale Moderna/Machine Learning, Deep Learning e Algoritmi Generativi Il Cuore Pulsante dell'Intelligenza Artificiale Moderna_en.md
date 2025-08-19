@@ -1,5 +1,6 @@
 ---
 tags: ["E-learning", "Training"]
+date: 2025-06-12
 ---
 
 # Machine Learning, Deep Learning, and Generative Algorithms: The Beating Heart of Modern Artificial Intelligence

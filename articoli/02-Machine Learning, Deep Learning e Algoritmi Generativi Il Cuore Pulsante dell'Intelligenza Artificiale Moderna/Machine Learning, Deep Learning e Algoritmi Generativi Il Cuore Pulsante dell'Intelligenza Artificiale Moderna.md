@@ -1,5 +1,6 @@
 ---
 tags: ["E-learning", "Training"]
+date: 2025-06-12
 ---
 
 # Machine Learning, Deep Learning e Algoritmi Generativi: Il Cuore Pulsante dell'Intelligenza Artificiale Moderna

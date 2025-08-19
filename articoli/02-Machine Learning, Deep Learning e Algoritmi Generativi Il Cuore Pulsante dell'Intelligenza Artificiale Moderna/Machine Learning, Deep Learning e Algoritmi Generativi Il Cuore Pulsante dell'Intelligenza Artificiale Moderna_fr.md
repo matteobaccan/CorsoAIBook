@@ -1,5 +1,6 @@
 ---
 tags: ["E-learning", "Training"]
+date: 2025-06-12
 ---
 
 # Apprentissage Automatique, Apprentissage Profond et Algorithmes Génératifs : Le Cœur Battant de l'Intelligence Artificielle Moderne

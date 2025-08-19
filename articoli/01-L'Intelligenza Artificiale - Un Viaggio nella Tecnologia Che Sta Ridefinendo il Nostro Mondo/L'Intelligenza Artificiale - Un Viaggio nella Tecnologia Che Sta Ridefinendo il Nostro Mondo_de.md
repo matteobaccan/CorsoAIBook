@@ -1,5 +1,6 @@
 ---
 tags: ["E-learning", "Training"]
+date: 2025-06-08
 ---
 
 # Künstliche Intelligenz: Eine Reise in die Technologie, die unsere Welt neu definiert
