@@ -1,3 +1,8 @@
+---
+tags: ["Security", "Business", "Ethics & Society"]
+date: 2025-07-25
+---
+
 # Inteligencia Artificial sin Control: Las Grandes Empresas Tecnológicas Reprueban en Seguridad (Primera Parte)
 *por Dario Ferrero (VerbaniaNotizie.it)*
 ![GigantiTechAsini.jpg](GigantiTechAsini.jpg)

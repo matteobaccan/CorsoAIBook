@@ -1,3 +1,8 @@
+---
+tags: ["E-learning", "Training"]
+date: 2025-06-21
+---
+
 # Le Paysage de l'Intelligence Artificielle : Géants Technologiques, Défis Concurrentiels et les Outils qui Démocratisent l'IA
 *Par Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_A_fiercely_competitive_scene_in_the_world_1.jpg](Leonardo_Phoenix_10_A_fiercely_competitive_scene_in_the_world_1.jpg)

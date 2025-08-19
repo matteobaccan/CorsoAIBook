@@ -1,3 +1,8 @@
+---
+tags: ["E-learning", "Training"]
+date: 2025-06-24
+---
+
 # Bewertung künstlicher Intelligenz: Wenn Zahlen auf Ethik treffen
 
 *Von Dario Ferrero (VerbaniaNotizie.it)*

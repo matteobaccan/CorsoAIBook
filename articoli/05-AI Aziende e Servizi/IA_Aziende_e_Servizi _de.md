@@ -1,3 +1,8 @@
+---
+tags: ["E-learning", "Training"]
+date: 2025-06-21
+---
+
 # Die Landschaft der Künstlichen Intelligenz: Technologieriesen, Wettbewerbsherausforderungen und die Werkzeuge, die KI demokratisieren
 *Von Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_A_fiercely_competitive_scene_in_the_world_1.jpg](Leonardo_Phoenix_10_A_fiercely_competitive_scene_in_the_world_1.jpg)

@@ -1,3 +1,8 @@
+---
+tags: ["E-learning", "Training"]
+date: 2025-06-24
+---
+
 # Evaluar la Inteligencia Artificial: Cuando los Números se Encuentran con la Ética
 
 *por Dario Ferrero (VerbaniaNotizie.it)*

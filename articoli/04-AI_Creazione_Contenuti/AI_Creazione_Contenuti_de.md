@@ -1,3 +1,8 @@
+---
+tags: ["E-learning", "Training"]
+date: 2025-06-21
+---
+
 # KI und Content-Erstellung: Gegenwart und Zukunft der digitalen Kreativität
 
 *Von Dario Ferrero (VerbaniaNotizie.it)*

@@ -1,3 +1,8 @@
+---
+tags: ["E-learning", "Training"]
+date: 2025-06-13
+---
+
 # L'Intelligence Artificielle Aujourd'hui : Des Applications Consolidées aux Frontières du Futur
 
 Par *Dario Ferrero (VerbaniaNotizie.it)*

@@ -1,3 +1,8 @@
+---
+tags: ["Security", "Business", "Ethics & Society"]
+date: 2025-07-27
+---
+
 # L'intelligenza artificiale senza controllo: le grandi aziende tech bocciate in sicurezza (Seconda Puntata)
 
 *di Dario Ferrero (VerbaniaNotizie.it)*

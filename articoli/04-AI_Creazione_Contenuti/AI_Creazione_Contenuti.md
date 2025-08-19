@@ -1,3 +1,8 @@
+---
+tags: ["E-learning", "Training"]
+date: 2025-06-15
+---
+
 # AI e Creazione di Contenuti: Il Presente e il Futuro della Creatività Digitale
 
 *di Dario Ferrero (VerbaniaNotizie.it)*

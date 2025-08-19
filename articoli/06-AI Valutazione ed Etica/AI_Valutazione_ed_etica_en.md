@@ -1,3 +1,8 @@
+---
+tags: ["E-learning", "Training"]
+date: 2025-06-24
+---
+
 # Evaluating Artificial Intelligence: When Numbers Meet Ethics
 
 *by Dario Ferrero (VerbaniaNotizie.it)*

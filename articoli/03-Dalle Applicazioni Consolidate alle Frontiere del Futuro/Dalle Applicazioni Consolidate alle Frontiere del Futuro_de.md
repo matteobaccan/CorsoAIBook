@@ -1,3 +1,8 @@
+---
+tags: ["E-learning", "Training"]
+date: 2025-06-13
+---
+
 # Künstliche Intelligenz heute: Von etablierten Anwendungen zu den Grenzen der Zukunft
 
 Von *Dario Ferrero (VerbaniaNotizie.it)*

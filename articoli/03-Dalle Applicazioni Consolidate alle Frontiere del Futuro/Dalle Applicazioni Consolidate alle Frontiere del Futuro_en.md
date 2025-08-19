@@ -1,3 +1,8 @@
+---
+tags: ["E-learning", "Training"]
+date: 2025-06-13
+---
+
 # Artificial Intelligence Today: From Consolidated Applications to Future Frontiers
 
 By *Dario Ferrero (VerbaniaNotizie.it)*

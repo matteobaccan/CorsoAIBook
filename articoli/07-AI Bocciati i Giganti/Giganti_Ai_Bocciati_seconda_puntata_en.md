@@ -1,3 +1,8 @@
+---
+tags: ["Security", "Business", "Ethics & Society"]
+date: 2025-07-27
+---
+
 # Uncontrolled Artificial Intelligence: Big Tech Companies Fail on Safety (Part Two)
 
 *by Dario Ferrero (VerbaniaNotizie.it)*

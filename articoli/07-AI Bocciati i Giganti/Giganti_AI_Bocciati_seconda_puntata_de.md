@@ -1,3 +1,8 @@
+---
+tags: ["Security", "Business", "Ethics & Society"]
+date: 2025-07-27
+---
+
 # Unkontrollierte künstliche Intelligenz: Große Tech-Unternehmen fallen bei der Sicherheit durch (Zweiter Teil)
 
 *von Dario Ferrero (VerbaniaNotizie.it)*

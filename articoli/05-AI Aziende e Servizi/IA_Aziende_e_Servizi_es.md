@@ -1,3 +1,8 @@
+---
+tags: ["E-learning", "Training"]
+date: 2025-06-21
+---
+
 # El Panorama de la Inteligencia Artificial: Gigantes Tecnológicos, Desafíos Competitivos y las Herramientas que Democratizan la IA
 *Por Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_A_fiercely_competitive_scene_in_the_world_1.jpg](Leonardo_Phoenix_10_A_fiercely_competitive_scene_in_the_world_1.jpg)
