@@ -1,3 +1,8 @@
+---
+tags: ["Ethics & Society", "Generative AI", "Business"]
+date: 2025-08-13
+---
+
 # L'AI che non c'è più: quando GPT-4o diventa un lutto digitale
 *di Dario Ferrero (VerbaniaNotizie.it)*
 ![gpt4o_tombstone.jpg](gpt4o_tombstone.jpg)

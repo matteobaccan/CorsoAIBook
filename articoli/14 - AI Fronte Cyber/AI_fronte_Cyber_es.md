@@ -1,3 +1,8 @@
+---
+tags: ["Security", "Ethics & Society", "Business"]
+date: 2025-08-16
+---
+
 # La IA bajo asedio: crónicas desde el frente cibernético
 *por Dario Ferrero (VerbaniaNotizie.it)*
 ![fronte_AI.jpg](fronte_AI.jpg)

@@ -1,3 +1,8 @@
+---
+tags: ["Ethics & Society", "Generative AI", "Business"]
+date: 2025-08-13
+---
+
 # Die KI, die es nicht mehr gibt: Wenn GPT-4o zu einer digitalen Trauer wird
 *von Dario Ferrero (VerbaniaNotizie.it)*
 ![gpt4o_tombstone.jpg](gpt4o_tombstone.jpg)

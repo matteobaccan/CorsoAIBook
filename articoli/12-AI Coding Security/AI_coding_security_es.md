@@ -1,3 +1,8 @@
+---
+tags: ["Security", "Generative AI", "Applications"]
+date: 2025-08-12
+---
+
 # El enemigo en casa: cuando la IA se convierte en cómplice de los hackers
 *por Dario Ferrero (VerbaniaNotizie.it)*
 ![Ai_traditrice.jpg](Ai_traditrice.jpg)

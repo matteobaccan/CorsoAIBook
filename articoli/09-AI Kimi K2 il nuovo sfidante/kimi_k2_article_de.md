@@ -1,3 +1,8 @@
+---
+tags: ["Startups", "Applications", "Research"]
+date: 2025-07-31
+---
+
 # Kimi K2: Die chinesische Künstliche Intelligenz, die die Coding-Giganten herausfordert
 
 *von Dario Ferrero (VerbaniaNotizie.it)*

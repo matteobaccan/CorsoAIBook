@@ -1,3 +1,8 @@
+---
+tags: ["Generative AI", "Copyright", "Ethics & Society"]
+date: 2025-07-29
+---
+
 # When Artificial Intelligence Makes Music: The Phenomenon of The Velvet Sundown and Iam Between Technology and Ethics
 *by Dario Ferrero (VerbaniaNotizie.it)*
 ![Band_AI.jpg](Band_AI.jpg)

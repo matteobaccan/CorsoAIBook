@@ -1,3 +1,8 @@
+---
+tags: ["Security", "Generative AI", "Applications"]
+date: 2025-08-12
+---
+
 # L'ennemi intérieur : quand l'IA devient complice des hackers
 *par Dario Ferrero (VerbaniaNotizie.it)*
 ![Ai_traditrice.jpg](Ai_traditrice.jpg)

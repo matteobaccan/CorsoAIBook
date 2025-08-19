@@ -1,3 +1,8 @@
+---
+tags: ["Ethics & Society", "Business"]
+date: 2025-08-05
+---
+
 # L'Intelligence Artificielle et l'Avenir du Travail
 *par Dario Ferrero (VerbaniaNotizie.it)*
 ![work_wrestling.jpg](work_wrestling.jpg)

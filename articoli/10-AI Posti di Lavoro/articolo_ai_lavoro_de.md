@@ -1,3 +1,8 @@
+---
+tags: ["Ethics & Society", "Business"]
+date: 2025-08-05
+---
+
 # Künstliche Intelligenz und die Zukunft der Arbeit
 *von Dario Ferrero (VerbaniaNotizie.it)*
 ![work_wrestling.jpg](work_wrestling.jpg)

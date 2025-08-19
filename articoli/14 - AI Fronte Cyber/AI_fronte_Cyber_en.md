@@ -1,3 +1,8 @@
+---
+tags: ["Security", "Ethics & Society", "Business"]
+date: 2025-08-16
+---
+
 # AI under siege: chronicles from the cyber front
 *by Dario Ferrero (VerbaniaNotizie.it)*
 ![fronte_AI.jpg](fronte_AI.jpg)

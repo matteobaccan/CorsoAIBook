@@ -1,3 +1,8 @@
+---
+tags: ["Generative AI", "Copyright", "Ethics & Society"]
+date: 2025-07-29
+---
+
 # Wenn Künstliche Intelligenz Musik macht: Das Phänomen The Velvet Sundown und Iam zwischen Technologie und Ethik
 
 *von Dario Ferrero (VerbaniaNotizie.it)*

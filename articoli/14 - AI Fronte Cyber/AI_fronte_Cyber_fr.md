@@ -1,3 +1,8 @@
+---
+tags: ["Security", "Ethics & Society", "Business"]
+date: 2025-08-16
+---
+
 # L'IA assiégée : chroniques du front cybernétique
 *par Dario Ferrero (VerbaniaNotizie.it)*
 ![fronte_AI.jpg](fronte_AI.jpg)

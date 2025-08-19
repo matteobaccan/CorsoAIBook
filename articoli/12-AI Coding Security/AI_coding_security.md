@@ -1,3 +1,8 @@
+---
+tags: ["Security", "Generative AI", "Applications"]
+date: 2025-08-12
+---
+
 # Il nemico in casa: quando l'IA diventa complice degli Hacker
 
 *di Dario Ferrero (VerbaniaNotizie.it)*

@@ -1,3 +1,8 @@
+---
+tags: ["Generative AI", "Copyright", "Ethics & Society"]
+date: 2025-07-29
+---
+
 # Quand l'Intelligence Artificielle fait de la musique : le phénomène The Velvet Sundown et Iam entre technologie et éthique
 
 *par Dario Ferrero (VerbaniaNotizie.it)*

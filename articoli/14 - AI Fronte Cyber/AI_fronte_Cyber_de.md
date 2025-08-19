@@ -1,3 +1,8 @@
+---
+tags: ["Security", "Ethics & Society", "Business"]
+date: 2025-08-16
+---
+
 # KI unter Belagerung: Chroniken von der Cyber-Front
 *von Dario Ferrero (VerbaniaNotizie.it)*
 ![fronte_AI.jpg](fronte_AI.jpg)

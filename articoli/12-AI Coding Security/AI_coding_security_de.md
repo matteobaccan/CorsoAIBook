@@ -1,3 +1,8 @@
+---
+tags: ["Security", "Generative AI", "Applications"]
+date: 2025-08-12
+---
+
 # Der Feind im Inneren: Wenn KI zum Komplizen von Hackern wird
 *von Dario Ferrero (VerbaniaNotizie.it)*
 ![Ai_traditrice.jpg](Ai_traditrice.jpg)

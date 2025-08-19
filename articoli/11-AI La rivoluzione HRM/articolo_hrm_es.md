@@ -1,3 +1,8 @@
+---
+tags: ["Startups", "Research", "Training"]
+date: 2025-08-10
+---
+
 # "Cuando el tamaño no importa": La revolución del modelo HRM
 *por Dario Ferrero (VerbaniaNotizie.it)*
 ![hrm_le_dimensioni_non_contano.jpg](hrm_le_dimensioni_non_contano.jpg)
