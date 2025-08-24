@@ -25,6 +25,7 @@ Il cuore della sua argomentazione risiede in quello che chiama "recursive self-i
 
 Ma Schmidt, con una battuta che tradisce forse più verità di quanto intenda, definisce tutto questo "il consenso di San Francisco perché tutti quelli che ci credono sono a San Francisco. Forse è l'acqua". Una frase che fa sorridere ma nasconde una domanda inquietante: stiamo davvero assistendo a una rivoluzione globale o siamo in una bolla tecnologica che distorce la percezione della realtà?
 ![recursively.jpg](recursively.jpg)
+
 [*Immagine tratta da medium.com*](https://jacobbuckman.com/2022-09-07-recursively-self-improving-ai-is-already-here/)
 
 ## La Voce del Dissenso: Sanfilippo e il Realismo Tecnico
