@@ -5,7 +5,7 @@ date: 2025-08-24
 
 # El Duelo de la Era Digital: ¿Matará la IA a los Programadores?
 *por Dario Ferrero*
-![ElDueloIA.jpg](ElDueloAI.jpg)
+![IlDuelloAI.jpg](IlDuelloAI.jpg)
 
 *Entre las profecías apocalípticas de Eric Schmidt y el realismo pragmático de los expertos del sector, ¿dónde termina el bombo y empieza la realidad?*
 

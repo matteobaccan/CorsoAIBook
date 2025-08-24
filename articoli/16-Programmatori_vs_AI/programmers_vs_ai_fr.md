@@ -5,7 +5,7 @@ date: 2025-08-24
 
 # Le Duel de l'Ère Numérique : L'IA tuera-t-elle les Programmeurs ?
 *par Dario Ferrero*
-![LeDuelIA.jpg](LeDuelIA.jpg)
+![IlDuelloAI.jpg](IlDuelloAI.jpg)
 
 *Entre les prophéties apocalyptiques d'Eric Schmidt et le réalisme pragmatique des experts du secteur, où s'arrête le battage médiatique et où commence la réalité ?*
 

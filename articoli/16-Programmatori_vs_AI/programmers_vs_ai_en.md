@@ -5,7 +5,7 @@ date: 2025-08-24
 
 # The Duel of the Digital Age: Will AI Kill Programmers?
 *by Dario Ferrero*
-![TheAIDuel.jpg](TheAIDuel.jpg)
+![IlDuelloAI.jpg](IlDuelloAI.jpg)
 
 *Between Eric Schmidt's apocalyptic prophecies and the pragmatic realism of industry experts, where does the hype end and reality begin?*
 
