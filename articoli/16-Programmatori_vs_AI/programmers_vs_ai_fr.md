@@ -1,5 +1,5 @@
 ---
-tags: ["IA Générative", "Éthique & Société", "Affaires"]
+tags: ["IA Générative", "Ethics & Society", "Business"]
 date: 2025-08-24
 ---
 

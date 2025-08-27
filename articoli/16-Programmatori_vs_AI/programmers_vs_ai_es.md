@@ -1,5 +1,5 @@
 ---
-tags: ["IA Generativa", "Ética y Sociedad", "Negocios"]
+tags: ["Generative AI", "Ethics & Society", "Business"]
 date: 2025-08-24
 ---
 
