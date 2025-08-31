@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-12
+author: "Dario Ferrero"
 ---
 
 # Machine Learning, Deep Learning, and Generative Algorithms: The Beating Heart of Modern Artificial Intelligence
-
-By: *Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_2.jpg](Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_2.jpg)
 
 *After exploring the historical and technical foundations of Artificial Intelligence in our previous article, we now delve into the technologies that are truly revolutionizing our world: Machine Learning, Deep Learning, and generative algorithms. These tools are no longer science fiction, but everyday realities shaping the way we work, communicate, and create.*

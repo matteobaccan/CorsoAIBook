@@ -1,10 +1,10 @@
 ---
 tags: ["Startups", "Research", "Training"]
 date: 2025-08-10
+author: "Dario Ferrero"
 ---
 
 # "Wenn die Größe keine Rolle spielt": Die Revolution des HRM-Modells
-*von Dario Ferrero (VerbaniaNotizie.it)*
 ![hrm_le_dimensioni_non_contano.jpg](hrm_le_dimensioni_non_contano.jpg)
 
 

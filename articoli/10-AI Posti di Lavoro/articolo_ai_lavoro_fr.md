@@ -1,10 +1,10 @@
 ---
 tags: ["Ethics & Society", "Business"]
 date: 2025-08-05
+author: "Dario Ferrero"
 ---
 
 # L'Intelligence Artificielle et l'Avenir du Travail
-*par Dario Ferrero (VerbaniaNotizie.it)*
 ![work_wrestling.jpg](work_wrestling.jpg)
 
 *Comme dans Matrix, nous sommes face à un choix : pilule rouge ou pilule bleue ? L'intelligence artificielle arrive dans le monde du travail et nous ne pouvons plus l'ignorer.*

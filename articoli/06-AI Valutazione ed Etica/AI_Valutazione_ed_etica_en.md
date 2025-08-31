@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-24
+author: "Dario Ferrero"
 ---
 
 # Evaluating Artificial Intelligence: When Numbers Meet Ethics
-
-*by Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_An_ethically_charged_portrait_of_AIs_challeng_0.jpg](Leonardo_Phoenix_An_ethically_charged_portrait_of_AIs_challeng_0.jpg)
 
 *In the past five articles, we have explored the world of artificial intelligence together, starting from its historical roots and technological foundations, and then delving into the complexities of machine learning and deep learning. We have seen how AI is transforming the world of work and study, discovered the wonders of generative AI that creates images, texts, and videos, and analyzed the landscape of companies and tools shaping this sector.*

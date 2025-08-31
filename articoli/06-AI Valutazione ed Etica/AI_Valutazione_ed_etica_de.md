@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-24
+author: "Dario Ferrero"
 ---
 
 # Bewertung künstlicher Intelligenz: Wenn Zahlen auf Ethik treffen
-
-*Von Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_An_ethically_charged_portrait_of_AIs_challeng_0.jpg](Leonardo_Phoenix_An_ethically_charged_portrait_of_AIs_challeng_0.jpg)
 
 *In den vergangenen fünf Artikeln haben wir gemeinsam die Welt der künstlichen Intelligenz erkundet, angefangen bei ihren historischen Wurzeln und technologischen Grundlagen, um uns dann in die Komplexität des maschinellen Lernens und Deep Learnings zu vertiefen. Wir haben gesehen, wie KI die Arbeits- und Studienwelt verändert, die Wunder der generativen KI entdeckt, die Bilder, Texte und Videos erstellt, und die Landschaft der Unternehmen und Werkzeuge analysiert, die diesen Sektor prägen.*

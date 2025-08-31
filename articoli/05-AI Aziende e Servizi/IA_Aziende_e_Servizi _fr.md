@@ -1,10 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-21
+author: "Dario Ferrero"
 ---
 
 # Le Paysage de l'Intelligence Artificielle : Géants Technologiques, Défis Concurrentiels et les Outils qui Démocratisent l'IA
-*Par Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_A_fiercely_competitive_scene_in_the_world_1.jpg](Leonardo_Phoenix_10_A_fiercely_competitive_scene_in_the_world_1.jpg)
 
 *Après avoir exploré dans les articles précédents les bases théoriques de l'intelligence artificielle, les techniques qui l'alimentent, ses applications dans le monde du travail et des études, et les incroyables possibilités de l'IA générative, il est temps de se tourner vers le cœur battant de cette révolution : les entreprises qui façonnent l'avenir de l'IA et les outils qui la rendent accessible à tous.*

@@ -1,10 +1,10 @@
 ---
 tags: ["Ethics & Society", "Business"]
 date: 2025-08-05
+author: "Dario Ferrero"
 ---
 
 # Artificial Intelligence and the Future of Work
-*by Dario Ferrero (VerbaniaNotizie.it)*
 ![work_wrestling.jpg](work_wrestling.jpg)
 
 *Like in The Matrix, we are faced with a choice: red pill or blue pill? Artificial intelligence is entering the world of work, and we can no longer ignore it.*

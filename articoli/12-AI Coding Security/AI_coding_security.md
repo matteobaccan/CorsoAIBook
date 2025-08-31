@@ -1,11 +1,10 @@
 ---
 tags: ["Security", "Generative AI", "Applications"]
 date: 2025-08-12
+author: "Dario Ferrero"
 ---
 
 # Il nemico in casa: quando l'IA diventa complice degli Hacker
-
-*di Dario Ferrero (VerbaniaNotizie.it)*
 ![Ai_traditrice.jpg](Ai_traditrice.jpg)
 
 La storia inizia come tante altre nella comunità open source: una pull request anonima, poche righe di codice, un plugin che promette di "formattare" meglio il workspace.

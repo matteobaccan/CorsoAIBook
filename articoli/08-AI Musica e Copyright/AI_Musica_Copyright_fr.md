@@ -1,11 +1,10 @@
 ---
 tags: ["Generative AI", "Copyright", "Ethics & Society"]
 date: 2025-07-29
+author: "Dario Ferrero"
 ---
 
 # Quand l'Intelligence Artificielle fait de la musique : le phénomène The Velvet Sundown et Iam entre technologie et éthique
-
-*par Dario Ferrero (VerbaniaNotizie.it)*
 ![Band_AI.jpg](Band_AI.jpg)
 
 *Imaginez découvrir que votre chanson préférée, celle qui vous a accompagné pendant des mois, que vous avez partagée avec des amis et qui a totalisé des millions d'écoutes, n'a jamais été jouée par des mains humaines. Il n'y a pas de chanteur qui l'a interprétée avec sa voix, pas de guitariste qui a trouvé ces accords parfaits, pas de musiciens qui se sont réunis en studio pour créer cette alchimie sonore. Tout est né d'algorithmes, de réseaux de neurones et d'intelligence artificielle.*

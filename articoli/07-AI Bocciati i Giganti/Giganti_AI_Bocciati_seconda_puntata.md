@@ -1,11 +1,10 @@
 ---
 tags: ["Security", "Business", "Ethics & Society"]
 date: 2025-07-27
+author: "Dario Ferrero"
 ---
 
 # L'intelligenza artificiale senza controllo: le grandi aziende tech bocciate in sicurezza (Seconda Puntata)
-
-*di Dario Ferrero (VerbaniaNotizie.it)*
 ![GigantiTechAsini.jpg](GigantiTechAsini.jpg)
 
 *Riprendendo l'analisi del rapporto indipendente del Future of Life Institute, in questa seconda puntata andiamo ad approfondire i temi della sicurezza nello sviluppo delle IA, l'urgenza normativa e tecnica di porre limiti, gli aspetti etici e le prospettive future.*

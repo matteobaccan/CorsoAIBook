@@ -1,10 +1,10 @@
 ---
 tags: ["Security", "Business", "Ethics & Society"]
 date: 2025-07-25
+author: "Dario Ferrero"
 ---
 
 # L'intelligence artificielle sans contrôle : les géants de la tech recalés en matière de sécurité (Première Partie)
-*par Dario Ferrero (VerbaniaNotizie.it)*
 ![GigantiTechAsini.jpg](GigantiTechAsini.jpg)
 
 *Un rapport indépendant révèle que les principales entreprises technologiques ne sont pas prêtes à gérer les risques de l'intelligence artificielle générale*

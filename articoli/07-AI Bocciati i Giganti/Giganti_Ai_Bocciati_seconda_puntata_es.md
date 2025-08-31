@@ -1,11 +1,10 @@
 ---
 tags: ["Security", "Business", "Ethics & Society"]
 date: 2025-07-27
+author: "Dario Ferrero"
 ---
 
 # Inteligencia Artificial sin Control: Las Grandes Empresas Tecnológicas Reprueban en Seguridad (Segunda Parte)
-
-*por Dario Ferrero (VerbaniaNotizie.it)*
 ![GigantiTechAsini.jpg](GigantiTechAsini.jpg)
 
 *Retomando el análisis del informe independiente del Future of Life Institute, en esta segunda parte profundizamos en los temas de seguridad en el desarrollo de la IA, la urgencia regulatoria y técnica de establecer límites, los aspectos éticos y las perspectivas futuras.*

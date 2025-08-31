@@ -1,11 +1,10 @@
 ---
 tags: ["Ethics & Society", "Business"]
 date: 2025-08-28
+author: "Dario Ferrero"
 ---
 
 # When AI Seems Alive: The Illusion of Consciousness
-
-*by Dario Ferrero*
 ![ai_diogene.jpg](ai_diogene.jpg)
 
 *Mustafa Suleyman, the man who helped create some of the most advanced AI systems in the world, now fears that his own success could turn into the most subtle of traps: machines so believable they make us forget they are machines*

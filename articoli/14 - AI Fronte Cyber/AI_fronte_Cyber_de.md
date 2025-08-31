@@ -1,10 +1,10 @@
 ---
 tags: ["Security", "Ethics & Society", "Business"]
 date: 2025-08-16
+author: "Dario Ferrero"
 ---
 
 # KI unter Belagerung: Chroniken von der Cyber-Front
-*von Dario Ferrero (VerbaniaNotizie.it)*
 ![fronte_AI.jpg](fronte_AI.jpg)
 
 *April 2023: Samsung-Ingenieure teilen unwissentlich proprietären Quellcode mit ChatGPT. Mai 2025: Forscher entdecken, dass wissenschaftliche Arbeiten versteckte Anweisungen enthalten, um KI-gestützte Peer-Review-Systeme zu manipulieren. Zwischen diesen beiden Ereignissen entfaltet sich eine alarmierende Chronik, die erzählt, wie die künstliche Intelligenz sowohl zum Raubtier als auch zur Beute des neuen Cyber-Ökosystems geworden ist.*

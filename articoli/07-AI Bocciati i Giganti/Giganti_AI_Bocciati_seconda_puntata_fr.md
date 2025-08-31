@@ -1,11 +1,10 @@
 ---
 tags: ["Security", "Business", "Ethics & Society"]
 date: 2025-07-27
+author: "Dario Ferrero"
 ---
 
 # L'intelligence artificielle sans contrôle : les géants de la tech recalés en matière de sécurité (Deuxième Partie)
-
-*par Dario Ferrero (VerbaniaNotizie.it)*
 ![GigantiTechAsini.jpg](GigantiTechAsini.jpg)
 
 *Reprenant l'analyse du rapport indépendant du Future of Life Institute, dans cette deuxième partie, nous approfondissons les thèmes de la sécurité dans le développement des IA, l'urgence réglementaire et technique de poser des limites, les aspects éthiques et les perspectives futures.*

@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-08
+author: "Dario Ferrero"
 ---
 
 # Artificial Intelligence: A Journey into the Technology That is Redefining Our World
-
-By: *Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_1.jpg](Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_1.jpg)
 
 If you're wondering what Artificial Intelligence really is and why it's talked about so much, you're not alone. At this moment in history, we are witnessing a silent but powerful revolution that is changing the way we work, learn, and interact with the digital world. Artificial Intelligence (AI) is no longer science fiction: it's here, now, and you're probably already using it without even realizing it.

@@ -1,10 +1,10 @@
 ---
 tags: ["Generative AI", "Ethics & Society", "Business"]
 date: 2025-08-24
+author: "Dario Ferrero"
 ---
 
 # El Duelo de la Era Digital: ¿Matará la IA a los Programadores?
-*por Dario Ferrero*
 ![IlDuelloAI.jpg](IlDuelloAI.jpg)
 
 *Entre las profecías apocalípticas de Eric Schmidt y el realismo pragmático de los expertos del sector, ¿dónde termina el bombo y empieza la realidad?*

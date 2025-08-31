@@ -1,11 +1,10 @@
 ---
 tags: ["Security", "Business", "Ethics & Society"]
 date: 2025-07-27
+author: "Dario Ferrero"
 ---
 
 # Unkontrollierte künstliche Intelligenz: Große Tech-Unternehmen fallen bei der Sicherheit durch (Zweiter Teil)
-
-*von Dario Ferrero (VerbaniaNotizie.it)*
 ![GigantiTechAsini.jpg](GigantiTechAsini.jpg)
 
 *In Fortsetzung der Analyse des unabhängigen Berichts des Future of Life Institute vertiefen wir in diesem zweiten Teil die Themen der Sicherheit bei der Entwicklung von KI, die regulatorische und technische Dringlichkeit, Grenzen zu setzen, ethische Aspekte und Zukunftsaussichten.*

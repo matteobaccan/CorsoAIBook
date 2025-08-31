@@ -1,11 +1,10 @@
 ---
 tags: ["Ethics & Society", "Business"]
 date: 2025-08-28
+author: "Dario Ferrero"
 ---
 
 # Wenn KI lebendig scheint: Die Illusion des Bewusstseins
-
-*von Dario Ferrero*
 ![ai_diogene.jpg](ai_diogene.jpg)
 
 *Mustafa Suleyman, der Mann, der geholfen hat, einige der fortschrittlichsten KI-Systeme der Welt zu schaffen, befürchtet nun, dass sein eigener Erfolg zur subtilsten aller Fallen werden könnte: Maschinen, die so glaubwürdig sind, dass sie uns vergessen lassen, dass sie Maschinen sind*

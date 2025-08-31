@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-13
+author: "Dario Ferrero"
 ---
 
 # Artificial Intelligence Today: From Consolidated Applications to Future Frontiers
-
-By *Dario Ferrero (VerbaniaNotizie.it)*
 ![fotocopertina2.jpg](fotocopertina2.jpg)
 
 *After exploring the theoretical and historical foundations of artificial intelligence in the first two articles of our series, it is time to dive into the beating heart of this technological revolution: its concrete applications in the real world. If in past years AI seemed confined to research laboratories and science fiction films, today it has become a constant and often invisible presence in our daily lives, transforming sectors ranging from medicine to entertainment, from finance to robotics.*

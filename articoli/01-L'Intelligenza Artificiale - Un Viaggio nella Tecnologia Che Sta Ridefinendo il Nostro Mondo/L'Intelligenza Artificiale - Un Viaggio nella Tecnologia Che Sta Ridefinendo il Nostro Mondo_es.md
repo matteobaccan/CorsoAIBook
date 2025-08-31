@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-08
+author: "Dario Ferrero"
 ---
 
 # Inteligencia Artificial: Un Viaje a la Tecnología Que Está Redefiniendo Nuestro Mundo
-
-Por: *Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_1.jpg](Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_1.jpg)
 
 Si te estás preguntando qué es realmente la Inteligencia Artificial y por qué se habla tanto de ella, no estás solo. En este momento histórico, estamos asistiendo a una revolución silenciosa pero potentísima que está cambiando la forma en que trabajamos, aprendemos e interactuamos con el mundo digital. La Inteligencia Artificial (IA) ya no es ciencia ficción: está aquí, ahora, y probablemente ya la estés usando sin darte cuenta.

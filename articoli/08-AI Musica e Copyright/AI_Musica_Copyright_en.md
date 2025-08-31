@@ -1,10 +1,10 @@
 ---
 tags: ["Generative AI", "Copyright", "Ethics & Society"]
 date: 2025-07-29
+author: "Dario Ferrero"
 ---
 
 # When Artificial Intelligence Makes Music: The Phenomenon of The Velvet Sundown and Iam Between Technology and Ethics
-*by Dario Ferrero (VerbaniaNotizie.it)*
 ![Band_AI.jpg](Band_AI.jpg)
 
 *Imagine discovering that your favorite song, the one that has accompanied you for months, the one you shared with friends and that has garnered millions of listens, was never played by human hands. There is no singer who performed it with their voice, no guitarist who found those perfect chords, no musicians who gathered in a studio to create that sonic alchemy. Everything was born from algorithms, neural networks, and artificial intelligence.*

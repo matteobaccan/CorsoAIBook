@@ -1,10 +1,10 @@
 ---
 tags: ["Research", "Ethics & Society", "Business"]
 date: 2025-08-20
+author: "Dario Ferrero"
 ---
 
 # Le "Nobel" de l'informatique : "Producteurs d'IA, vous vous êtes égarés"
-*par Dario Ferrero (VerbaniaNotizie.it)*
 ![SuttonMoses.jpg](SuttonMoses.jpg)
 
 

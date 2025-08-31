@@ -1,11 +1,10 @@
 ---
 tags: ["Startups", "Applications", "Research"]
 date: 2025-07-31
+author: "Dario Ferrero"
 ---
 
 # Kimi K2: La Inteligencia Artificial China que Desafía a los Gigantes de la Programación
-
-*por Dario Ferrero (VerbaniaNotizie.it)*
 ![DavideGolia_IA.jpg](DavideGolia_IA.jpg)
 
 *Si la inteligencia artificial fuera una serie de Netflix, diríamos que hemos llegado al momento en que el protagonista indiscutible se enfrenta a un nuevo rival que nadie esperaba. Después de años de dominio estadounidense en el sector de la IA, con OpenAI y Anthropic a la cabeza, desde Oriente llega un retador que promete barajar de nuevo las cartas: Kimi K2, la última creación de Moonshot AI.*

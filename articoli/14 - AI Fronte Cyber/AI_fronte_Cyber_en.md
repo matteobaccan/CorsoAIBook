@@ -1,10 +1,10 @@
 ---
 tags: ["Security", "Ethics & Society", "Business"]
 date: 2025-08-16
+author: "Dario Ferrero"
 ---
 
 # AI under siege: chronicles from the cyber front
-*by Dario Ferrero (VerbaniaNotizie.it)*
 ![fronte_AI.jpg](fronte_AI.jpg)
 
 *April 2023: Samsung engineers unwittingly share proprietary source code with ChatGPT. May 2025: researchers discover that academic papers contain hidden prompts to manipulate AI-powered peer review systems. Between these two events, an alarming chronicle unfolds that tells how artificial intelligence has become both the predator and the prey of the new cyber ecosystem.*

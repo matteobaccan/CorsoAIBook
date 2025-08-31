@@ -1,10 +1,10 @@
 ---
 tags: ["Security", "Business", "Ethics & Society"]
 date: 2025-07-25
+author: "Dario Ferrero"
 ---
 
 # L'intelligenza artificiale senza controllo: le grandi aziende tech bocciate in sicurezza (Prima Puntata)
-*di Dario Ferrero (VerbaniaNotizie.it)*
 ![GigantiTechAsini.jpg](GigantiTechAsini.jpg)
 
 *Un rapporto indipendente rivela che le principali aziende tecnologiche non sono pronte a gestire i rischi dell'intelligenza artificiale generale*

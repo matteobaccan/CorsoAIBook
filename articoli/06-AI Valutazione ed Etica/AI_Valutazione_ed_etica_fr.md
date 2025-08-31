@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-24
+author: "Dario Ferrero"
 ---
 
 # Évaluer l'Intelligence Artificielle : Quand les Chiffres Rencontrent l'Éthique
-
-*Par Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_An_ethically_charged_portrait_of_AIs_challeng_0.jpg](Leonardo_Phoenix_An_ethically_charged_portrait_of_AIs_challeng_0.jpg)
 
 *Au cours des cinq articles précédents, nous avons exploré ensemble le monde de l'intelligence artificielle, en partant de ses racines historiques et de ses fondements technologiques, pour ensuite nous aventurer dans les complexités de l'apprentissage automatique et de l'apprentissage profond. Nous avons vu comment l'IA transforme le monde du travail et des études, découvert les merveilles de l'IA générative qui crée des images, des textes et des vidéos, et analysé le paysage des entreprises et des outils qui façonnent ce secteur.*

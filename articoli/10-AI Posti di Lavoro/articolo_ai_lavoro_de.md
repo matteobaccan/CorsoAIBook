@@ -1,10 +1,10 @@
 ---
 tags: ["Ethics & Society", "Business"]
 date: 2025-08-05
+author: "Dario Ferrero"
 ---
 
 # Künstliche Intelligenz und die Zukunft der Arbeit
-*von Dario Ferrero (VerbaniaNotizie.it)*
 ![work_wrestling.jpg](work_wrestling.jpg)
 
 *Wie in Matrix stehen wir vor einer Wahl: rote oder blaue Pille? Künstliche Intelligenz hält Einzug in die Arbeitswelt, und wir können sie nicht länger ignorieren.*

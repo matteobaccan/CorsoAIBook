@@ -1,10 +1,10 @@
 ---
 tags: ["Ethics & Society", "Generative AI", "Business"]
 date: 2025-08-13
+author: "Dario Ferrero"
 ---
 
 # L'IA qui n'est plus : quand GPT-4o devient un deuil numérique
-*par Dario Ferrero (VerbaniaNotizie.it)*
 ![gpt4o_tombstone.jpg](gpt4o_tombstone.jpg)
 
 *Comment la "mort" de GPT-4o a révélé notre besoin de continuité émotionnelle avec les machines.*

@@ -1,10 +1,10 @@
 ---
 tags: ["Security", "Generative AI", "Applications"]
 date: 2025-08-12
+author: "Dario Ferrero"
 ---
 
 # The enemy within: when AI becomes an accomplice to hackers
-*by Dario Ferrero (VerbaniaNotizie.it)*
 ![Ai_traditrice.jpg](Ai_traditrice.jpg)
 
 

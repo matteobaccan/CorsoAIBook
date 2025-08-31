@@ -1,10 +1,10 @@
 ---
 tags: ["Research", "Ethics & Society", "Business"]
 date: 2025-08-20
+author: "Dario Ferrero"
 ---
 
 # Der "Nobelpreis" für Informatik: "KI-Hersteller, ihr habt den Weg verloren"
-*von Dario Ferrero (VerbaniaNotizie.it)*
 ![SuttonMoses.jpg](SuttonMoses.jpg)
 
 

@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-24
+author: "Dario Ferrero"
 ---
 
 # Valutare l'Intelligenza Artificiale: Quando i Numeri Incontrano l'Etica
-
-*di Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_An_ethically_charged_portrait_of_AIs_challeng_0.jpg](Leonardo_Phoenix_An_ethically_charged_portrait_of_AIs_challeng_0.jpg)
 
 *Negli scorsi cinque articoli abbiamo esplorato insieme il mondo dell'intelligenza artificiale partendo dalle sue radici storiche e dai fondamenti tecnologici, per poi addentrarci nelle complessità del machine learning e del deep learning. Abbiamo visto come l'AI stia trasformando il mondo del lavoro e dello studio, scoperto le meraviglie dell'AI generativa che crea immagini, testi e video, e analizzato il panorama delle aziende e degli strumenti che stanno plasmando questo settore.*

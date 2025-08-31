@@ -1,10 +1,10 @@
 ---
 tags: ["Security", "Business", "Ethics & Society"]
 date: 2025-07-25
+author: "Dario Ferrero"
 ---
 
 # Inteligencia Artificial sin Control: Las Grandes Empresas Tecnológicas Reprueban en Seguridad (Primera Parte)
-*por Dario Ferrero (VerbaniaNotizie.it)*
 ![GigantiTechAsini.jpg](GigantiTechAsini.jpg)
 
 *Un informe independiente revela que las principales empresas tecnológicas no están preparadas para gestionar los riesgos de la inteligencia artificial general.*

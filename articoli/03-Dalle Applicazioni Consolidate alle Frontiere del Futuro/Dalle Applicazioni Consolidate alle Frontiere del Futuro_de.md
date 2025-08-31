@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-13
+author: "Dario Ferrero"
 ---
 
 # Künstliche Intelligenz heute: Von etablierten Anwendungen zu den Grenzen der Zukunft
-
-Von *Dario Ferrero (VerbaniaNotizie.it)*
 ![fotocopertina2.jpg](fotocopertina2.jpg)
 
 *Nachdem wir in den ersten beiden Artikeln unserer Serie die theoretischen und historischen Grundlagen der künstlichen Intelligenz erforscht haben, ist es nun an der Zeit, in das pulsierende Herz dieser technologischen Revolution einzutauchen: ihre konkreten Anwendungen in der realen Welt. Wenn die KI in den vergangenen Jahren auf Forschungslabore und Science-Fiction-Filme beschränkt schien, ist sie heute zu einer konstanten und oft unsichtbaren Präsenz in unserem Alltag geworden und transformiert Sektoren, die von der Medizin bis zur Unterhaltung, von der Finanzwelt bis zur Robotik reichen.*

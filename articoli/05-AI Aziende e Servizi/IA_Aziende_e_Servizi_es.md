@@ -1,10 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-21
+author: "Dario Ferrero"
 ---
 
 # El Panorama de la Inteligencia Artificial: Gigantes Tecnológicos, Desafíos Competitivos y las Herramientas que Democratizan la IA
-*Por Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_A_fiercely_competitive_scene_in_the_world_1.jpg](Leonardo_Phoenix_10_A_fiercely_competitive_scene_in_the_world_1.jpg)
 
 *Después de explorar en artículos anteriores los fundamentos teóricos de la inteligencia artificial, las técnicas que la impulsan, sus aplicaciones en el mundo laboral y de estudio, y las increíbles posibilidades de la IA generativa, es momento de dirigir nuestra mirada hacia el corazón palpitante de esta revolución: las empresas que están moldeando el futuro de la IA y las herramientas que la hacen accesible para todos nosotros.*

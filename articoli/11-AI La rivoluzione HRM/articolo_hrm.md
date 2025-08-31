@@ -1,10 +1,10 @@
 ---
 tags: ["Startups", "Research", "Training"]
 date: 2025-08-10
+author: "Dario Ferrero"
 ---
 
 # "Quando la Dimensione Non Conta": La Rivoluzione del Modello HRM
-*di Dario Ferrero (VerbaniaNotizie.it)*
 ![hrm_le_dimensioni_non_contano.jpg](hrm_le_dimensioni_non_contano.jpg)
 
 

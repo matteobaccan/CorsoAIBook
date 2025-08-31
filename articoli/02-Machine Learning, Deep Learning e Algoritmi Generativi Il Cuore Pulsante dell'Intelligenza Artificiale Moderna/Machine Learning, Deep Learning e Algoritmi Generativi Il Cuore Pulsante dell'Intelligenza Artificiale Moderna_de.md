@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-12
+author: "Dario Ferrero"
 ---
 
 # Maschinelles Lernen, Deep Learning und generative Algorithmen: Das pulsierende Herz der modernen Künstlichen Intelligenz
-
-Von: *Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_2.jpg](Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_2.jpg)
 
 *Nachdem wir in unserem vorherigen Artikel die historischen und technischen Grundlagen der Künstlichen Intelligenz untersucht haben, vertiefen wir nun die Technologien, die unsere Welt wirklich revolutionieren: Maschinelles Lernen, Deep Learning und generative Algorithmen. Diese Werkzeuge sind keine Science-Fiction mehr, sondern tägliche Realität, die die Art und Weise prägt, wie wir arbeiten, kommunizieren und gestalten.*

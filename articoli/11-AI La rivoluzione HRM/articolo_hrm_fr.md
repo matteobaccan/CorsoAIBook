@@ -1,10 +1,10 @@
 ---
 tags: ["Startups", "Research", "Training"]
 date: 2025-08-10
+author: "Dario Ferrero"
 ---
 
 # "Quand la Taille n'a pas d'Importance" : La Révolution du Modèle HRM
-*par Dario Ferrero (VerbaniaNotizie.it)*
 ![hrm_le_dimensioni_non_contano.jpg](hrm_le_dimensioni_non_contano.jpg)
 
 

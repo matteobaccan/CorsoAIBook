@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-12
+author: "Dario Ferrero"
 ---
 
 # Machine Learning, Deep Learning y Algoritmos Generativos: El Corazón Palpitante de la Inteligencia Artificial Moderna
-
-Por: *Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_2.jpg](Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_2.jpg)
 
 *Después de explorar los fundamentos históricos y técnicos de la Inteligencia Artificial en nuestro artículo anterior, profundizamos ahora en las tecnologías que están realmente revolucionando nuestro mundo: el Machine Learning, el Deep Learning y los algoritmos generativos. Estas herramientas ya no son ciencia ficción, sino realidades cotidianas que moldean la forma en que trabajamos, comunicamos y creamos.*

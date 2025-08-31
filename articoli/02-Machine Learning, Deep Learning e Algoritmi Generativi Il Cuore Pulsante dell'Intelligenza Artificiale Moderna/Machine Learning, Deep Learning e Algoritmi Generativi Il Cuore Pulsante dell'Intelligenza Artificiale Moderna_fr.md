@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-12
+author: "Dario Ferrero"
 ---
 
 # Apprentissage Automatique, Apprentissage Profond et Algorithmes Génératifs : Le Cœur Battant de l'Intelligence Artificielle Moderne
-
-Par : *Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_2.jpg](Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_2.jpg)
 
 *Après avoir exploré les fondations historiques et techniques de l'Intelligence Artificielle dans notre article précédent, nous approfondissons maintenant les technologies qui révolutionnent réellement notre monde : l'Apprentissage Automatique, l'Apprentissage Profond et les algorithmes génératifs. Ces outils ne sont plus de la science-fiction, mais une réalité quotidienne qui façonne la manière dont nous travaillons, communiquons et créons.*

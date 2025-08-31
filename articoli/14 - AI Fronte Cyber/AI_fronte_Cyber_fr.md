@@ -1,10 +1,10 @@
 ---
 tags: ["Security", "Ethics & Society", "Business"]
 date: 2025-08-16
+author: "Dario Ferrero"
 ---
 
 # L'IA assiégée : chroniques du front cybernétique
-*par Dario Ferrero (VerbaniaNotizie.it)*
 ![fronte_AI.jpg](fronte_AI.jpg)
 
 *Avril 2023 : des ingénieurs de Samsung partagent sans le savoir du code source propriétaire avec ChatGPT. Mai 2025 : des chercheurs découvrent que des articles universitaires contiennent des invites cachées pour manipuler les systèmes d'évaluation par les pairs alimentés par l'IA. Entre ces deux événements, se déroule une chronique alarmante qui raconte comment l'intelligence artificielle est devenue à la fois le prédateur et la proie du nouvel écosystème cybernétique.*

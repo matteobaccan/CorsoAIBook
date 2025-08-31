@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-08
+author: "Dario Ferrero"
 ---
 
 # Künstliche Intelligenz: Eine Reise in die Technologie, die unsere Welt neu definiert
-
-Von: *Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_1.jpg](Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_1.jpg)
 
 Wenn Sie sich fragen, was Künstliche Intelligenz wirklich ist und warum so viel darüber gesprochen wird, sind Sie nicht allein. In diesem historischen Moment erleben wir eine stille, aber äußerst mächtige Revolution, die die Art und Weise verändert, wie wir arbeiten, lernen und mit der digitalen Welt interagieren. Künstliche Intelligenz (KI) ist keine Science-Fiction mehr: Sie ist hier, jetzt, und Sie benutzen sie wahrscheinlich schon, ohne es zu merken.

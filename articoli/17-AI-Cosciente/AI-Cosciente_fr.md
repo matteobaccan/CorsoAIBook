@@ -1,11 +1,10 @@
 ---
 tags: ["Ethics & Society", "Business"]
 date: 2025-08-28
+author: "Dario Ferrero"
 ---
 
 # Quand l'IA semble vivante : l'illusion de la conscience
-
-*par Dario Ferrero*
 ![ai_diogene.jpg](ai_diogene.jpg)
 
 *Mustafa Suleyman, l'homme qui a contribué à créer certains des systèmes d'IA les plus avancés au monde, craint maintenant que son propre succès ne se transforme en le plus subtil des pièges : des machines si crédibles qu'elles nous font oublier qu'elles sont des machines*

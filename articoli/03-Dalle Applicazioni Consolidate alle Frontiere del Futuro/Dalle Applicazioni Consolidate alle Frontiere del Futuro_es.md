@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-13
+author: "Dario Ferrero"
 ---
 
 # Inteligencia Artificial Hoy: De las Aplicaciones Consolidadas a las Fronteras del Futuro
-
-Por *Dario Ferrero (VerbaniaNotizie.it)*
 ![fotocopertina2.jpg](fotocopertina2.jpg)
 
 *Después de explorar los fundamentos teóricos e históricos de la inteligencia artificial en los dos primeros artículos de nuestra serie, ha llegado el momento de sumergirnos en el corazón palpitante de esta revolución tecnológica: sus aplicaciones concretas en el mundo real. Si en años pasados la IA parecía confinada a los laboratorios de investigación y a las películas de ciencia ficción, hoy se ha convertido en una presencia constante y a menudo invisible en nuestra vida cotidiana, transformando sectores que van desde la medicina al entretenimiento, desde las finanzas a la robótica.*

@@ -1,10 +1,10 @@
 ---
 tags: ["Research", "Ethics & Society", "Business"]
 date: 2025-08-20
+author: "Dario Ferrero"
 ---
 
 # The "Nobel" for computer science: "AI Producers, You Have Lost Your Way"
-*by Dario Ferrero (VerbaniaNotizie.it)*
 ![SuttonMoses.jpg](SuttonMoses.jpg)
 
 

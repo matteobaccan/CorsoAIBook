@@ -1,10 +1,10 @@
 ---
 tags: ["Ethics & Society", "Business"]
 date: 2025-08-05
+author: "Dario Ferrero"
 ---
 
 # L'Intelligenza Artificiale e il Futuro del Lavoro
-*di Dario Ferrero (VerbaniaNotizie.it)*
 ![work_wrestling.jpg](work_wrestling.jpg)
 
 *Come in Matrix, siamo di fronte a una scelta: pillola rossa o blu? L'intelligenza artificiale sta arrivando nel mondo del lavoro e non possiamo più ignorarla.*

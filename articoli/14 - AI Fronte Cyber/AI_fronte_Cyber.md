@@ -1,10 +1,10 @@
 ---
 tags: ["Security", "Ethics & Society", "Business"]
 date: 2025-08-16
+author: "Dario Ferrero"
 ---
 
 # L'IA sotto assedio: cronache dal fronte cyber
-*di Dario Ferrero (VerbaniaNotizie.it)*
 ![fronte_AI.jpg](fronte_AI.jpg)
 
 *Aprile 2023: gli ingegneri Samsung condividono inconsapevolmente codice sorgente proprietario con ChatGPT. Maggio 2025: i ricercatori scoprono che paper accademici contengono prompt nascosti per manipolare sistemi di peer review alimentati da AI. Tra questi due eventi si dispiega una cronaca allarmante che racconta come l'intelligenza artificiale sia diventata insieme il predatore e la preda del nuovo ecosistema cyber.*

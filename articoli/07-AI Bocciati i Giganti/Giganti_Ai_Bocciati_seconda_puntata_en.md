@@ -1,11 +1,10 @@
 ---
 tags: ["Security", "Business", "Ethics & Society"]
 date: 2025-07-27
+author: "Dario Ferrero"
 ---
 
 # Uncontrolled Artificial Intelligence: Big Tech Companies Fail on Safety (Part Two)
-
-*by Dario Ferrero (VerbaniaNotizie.it)*
 ![GigantiTechAsini.jpg](GigantiTechAsini.jpg)
 
 *Resuming the analysis of the independent report from the Future of Life Institute, in this second part, we delve deeper into the themes of safety in AI development, the regulatory and technical urgency to set limits, ethical aspects, and future prospects.*

@@ -1,10 +1,10 @@
 ---
 tags: ["Generative AI", "Ethics & Society", "Business"]
 date: 2025-08-24
+author: "Dario Ferrero"
 ---
 
 # Das Duell des digitalen Zeitalters: Wird KI Programmierer töten?
-*von Dario Ferrero*
 ![IlDuelloAI.jpg](IlDuelloAI.jpg)
 
 *Zwischen den apokalyptischen Prophezeiungen von Eric Schmidt und dem pragmatischen Realismus der Branchenexperten, wo endet der Hype und beginnt die Realität?*

@@ -1,11 +1,10 @@
 ---
 tags: ["Ethics & Society", "Business"]
 date: 2025-08-28
+author: "Dario Ferrero"
 ---
 
 # Quando l'AI sembra viva: l'illusione della coscienza
-
-*di Dario Ferrero*
 ![ai_diogene.jpg](ai_diogene.jpg)
 
 *Mustafa Suleyman, l'uomo che ha contribuito a creare alcuni dei sistemi AI più avanzati al mondo, ora teme che il suo stesso successo possa trasformarsi nella più sottile delle trappole: macchine così credibili da farci dimenticare che sono macchine*

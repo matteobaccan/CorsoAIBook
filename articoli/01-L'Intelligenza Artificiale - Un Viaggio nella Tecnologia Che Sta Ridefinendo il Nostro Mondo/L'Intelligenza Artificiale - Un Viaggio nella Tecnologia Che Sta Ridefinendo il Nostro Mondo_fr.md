@@ -1,11 +1,10 @@
 ---
 tags: ["E-learning", "Training"]
 date: 2025-06-08
+author: "Dario Ferrero"
 ---
 
 # L'Intelligence Artificielle : Un Voyage dans la Technologie Qui Redéfinit Notre Monde
-
-Par : *Dario Ferrero (VerbaniaNotizie.it)*
 ![Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_1.jpg](Leonardo_Phoenix_10_Create_a_thumbnail_to_accompany_the_journa_1.jpg)
 
 Si vous vous demandez ce qu'est réellement l'Intelligence Artificielle et pourquoi on en parle autant, vous n'êtes pas seul. À ce moment historique, nous assistons à une révolution silencieuse mais extrêmement puissante qui change la façon dont nous travaillons, apprenons et interagissons avec le monde numérique. L'Intelligence Artificielle (IA) n'est plus de la science-fiction : elle est là, maintenant, et vous l'utilisez probablement déjà sans vous en rendre compte.

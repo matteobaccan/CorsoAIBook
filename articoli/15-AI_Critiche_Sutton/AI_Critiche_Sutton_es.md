@@ -1,10 +1,10 @@
 ---
 tags: ["Research", "Ethics & Society", "Business"]
 date: 2025-08-20
+author: "Dario Ferrero"
 ---
 
 # El "Nobel" de informática: "Productores de IA, habéis perdido el rumbo"
-*por Dario Ferrero (VerbaniaNotizie.it)*
 ![SuttonMoses.jpg](SuttonMoses.jpg)
 
 
