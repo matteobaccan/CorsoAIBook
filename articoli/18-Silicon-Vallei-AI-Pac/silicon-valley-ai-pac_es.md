@@ -5,7 +5,6 @@ author: "Dario Ferrero"
 ---
 
 # Silicon Valley: 100 millones de dólares contra la regulación de la IA
-*por Dario Ferrero*
 ![consegna-100-milioni.jpg](consegna-100-milioni.jpg)
 
 *Mientras Washington se prepara para una de las batallas regulatorias más significativas del siglo XXI, Silicon Valley ha decidido jugar sus mejores cartas. Como en una partida de póquer donde cada movimiento puede determinar el futuro de toda una industria, los gigantes tecnológicos han puesto sobre la mesa una cifra que haría palidecer incluso al Tío Gilito: más de 100 millones de dólares destinados a influir en las elecciones de mitad de período de 2026.*

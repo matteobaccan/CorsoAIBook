@@ -5,7 +5,6 @@ author: "Dario Ferrero"
 ---
 
 # Silicon Valley: 100 Millionen gegen KI-Regulierung
-*von Dario Ferrero*
 ![consegna-100-milioni.jpg](consegna-100-milioni.jpg)
 
 *Während sich Washington auf eine der bedeutendsten Regulierungsschlachten des 21. Jahrhunderts vorbereitet, hat Silicon Valley beschlossen, seine besten Karten auszuspielen. Wie in einem Pokerspiel, bei dem jeder Zug die Zukunft einer ganzen Branche bestimmen kann, haben die Technologiegiganten eine Summe auf den Tisch gelegt, die selbst Dagobert Duck erblassen lassen würde: über 100 Millionen Dollar, um die Zwischenwahlen 2026 zu beeinflussen.*

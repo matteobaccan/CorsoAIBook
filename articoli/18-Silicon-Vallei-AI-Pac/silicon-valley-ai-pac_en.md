@@ -5,7 +5,6 @@ author: "Dario Ferrero"
 ---
 
 # Silicon Valley: $100 Million Against AI Regulation
-*by Dario Ferrero*
 ![consegna-100-milioni.jpg](consegna-100-milioni.jpg)
 
 *As Washington prepares for one of the most significant regulatory battles of the 21st century, Silicon Valley has decided to play its best cards. Like in a poker game where every move can determine the future of an entire industry, tech giants have put a figure on the table that would make even Scrooge McDuck pale: over $100 million aimed at influencing the 2026 midterm elections.*
