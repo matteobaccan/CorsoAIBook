@@ -1,0 +1,21 @@
+name: Trigger Website Build
+
+on:
+  # Esegui questo workflow ogni volta che ci sono dei push sul branch main
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger_build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send dispatch to trigger website build
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          # Usa il token che abbiamo salvato nei secrets
+          token: ${{ secrets.DISPATCH_PAT }}
+          # Repository del sito web da aggiornare
+          repository: Dario-Fe/News-AI-blog
+          # Questo è l'evento che il sito web sta ascoltando
+          event-type: update-articles
