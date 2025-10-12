@@ -50,47 +50,6 @@ Ce projet est publié sous la licence [Creative Commons Attribution-NonCommercia
 
 Un merci spécial à tous ceux qui ont contribué au projet, par leurs retours, suggestions et soutien. Ce livre est le résultat d'un travail d'équipe et d'une communauté passionnée par la technologie et l'innovation.
 
-## Articles
-
-Cette section rassemble une série d'articles de fond sur divers aspects de l'Intelligence Artificielle.
-
-1.  **L'Intelligence Artificielle : Un Voyage dans la Technologie Qui Redéfinit Notre Monde**
-    -   [Italiano](articoli/01-L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo/L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo.md)
-    -   [English](articoli/01-L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo/L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo_en.md)
-    -   [Español](articoli/01-L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo/L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo_es.md)
-    -   [Français](articoli/01-L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo/L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo_fr.md)
-    -   [Deutsch](articoli/01-L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo/L'Intelligenza%20Artificiale%20-%20Un%20Viaggio%20nella%20Tecnologia%20Che%20Sta%20Ridefinendo%20il%20Nostro%20Mondo_de.md)
-2.  **Apprentissage Automatique, Apprentissage Profond et Algorithmes Génératifs : Le Cœur Battant de l'Intelligence Artificielle Moderne**
-    -   [Italiano](articoli/02-Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna/Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna.md)
-    -   [English](articoli/02-Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna/Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna_en.md)
-    -   [Español](articoli/02-Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna/Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna_es.md)
-    -   [Français](articoli/02-Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna/Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna_fr.md)
-    -   [Deutsch](articoli/02-Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna/Machine%20Learning%2C%20Deep%20Learning%20e%20Algoritmi%20Generativi%20Il%20Cuore%20Pulsante%20dell'Intelligenza%20Artificiale%20Moderna_de.md)
-3.  **Des Applications Consolidées aux Frontières du Futur**
-    -   [Italiano](articoli/03-Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro/Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro.md)
-    -   [English](articoli/03-Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro/Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro_en.md)
-    -   [Español](articoli/03-Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro/Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro_es.md)
-    -   [Français](articoli/03-Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro/Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro_fr.md)
-    -   [Deutsch](articoli/03-Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro/Dalle%20Applicazioni%20Consolidate%20alle%20Frontiere%20del%20Futuro_de.md)
-4.  **IA et Création de Contenu : Le Présent et l'Avenir de la Créativité Numérique**
-    -   [Italiano](articoli/04-AI_Creazione_Contenuti/AI_Creazione_Contenuti.md)
-    -   [English](articoli/04-AI_Creazione_Contenuti/AI_Creazione_Contenuti_en.md)
-    -   [Español](articoli/04-AI_Creazione_Contenuti/AI_Creazione_Contenuti_es.md)
-    -   [Français](articoli/04-AI_Creazione_Contenuti/AI_Creazione_Contenuti_fr.md)
-    -   [Deutsch](articoli/04-AI_Creazione_Contenuti/AI_Creazione_Contenuti_de.md)
-5.  **Le Paysage de l'Intelligence Artificielle : Géants Technologiques, Défis Concurrentiels et les Outils qui Démocratisent l'IA**
-    -   [Italiano](articoli/05-AI%20Aziende%20e%20Servizi/IA_Aziende_e_Servizi%20.md)
-    -   [English](articoli/05-AI%20Aziende%20e%20Servizi/IA_Aziende_e_Servizi_en.md)
-    -   [Español](articoli/05-AI%20Aziende%20e%20Servizi/IA_Aziende_e_Servizi_es.md)
-    -   [Français](articoli/05-AI%20Aziende%20e%20Servizi/IA_Aziende_e_Servizi%20_fr.md)
-    -   [Deutsch](articoli/05-AI%20Aziende%20e%20Servizi/IA_Aziende_e_Servizi%20_de.md)
-6.  **Évaluer l'Intelligence Artificielle : Quand les Chiffres Rencontrent l'Éthique**
-    -   [Italiano](articoli/06-AI%20Valutazione%20ed%20Etica/AI_Valutazione_ed_etica.md)
-    -   [English](articoli/06-AI%20Valutazione%20ed%20Etica/AI_Valutazione_ed_etica_en.md)
-    -   [Español](articoli/06-AI%20Valutazione%20ed%20Etica/AI_Valutazione_ed_etica_es.md)
-    -   [Français](articoli/06-AI%20Valutazione%20ed%20Etica/AI_Valutazione_ed_etica_fr.md)
-    -   [Deutsch](articoli/06-AI%20Valutazione%20ed%20Etica/AI_Valutazione_ed_etica_de.md)
-
 ## Télécharger
 
 - __[Téléchargement gratuit du livre - Italien](https://github.com/matteobaccan/CorsoAIBook/raw/refs/heads/main/book/Corso_AI_Book-it.pdf)__
