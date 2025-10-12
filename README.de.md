@@ -13,15 +13,20 @@ Die Idee entstand im Anschluss an den [Einführungskurs in die KI](https://githu
 
 ## Buchstruktur
 
-Das Buch ist in Kapitel gegliedert, die ein breites Themenspektrum abdecken, darunter:
+Das Buch ist in 12 Kapitel gegliedert, die ein breites Themenspektrum abdecken:
 
-- **Einführung in die KI**: Was ist Künstliche Intelligenz, wie funktioniert sie und was sind ihre Hauptzweige (Maschinelles Lernen, Deep Learning usw.).
-- **Historische Entwicklung**: Von den theoretischen Ursprüngen der KI bis zu modernen Entwicklungen, über Boomphasen und "Winter".
-- **Praktische Anwendungen**: Wie KI in Bereichen wie Medizin, Finanzen, Spiele, Robotik und Content-Erstellung eingesetzt wird.
-- **Ethik und Herausforderungen**: Ethische Fragen im Zusammenhang mit KI, wie algorithmische Voreingenommenheit, Datenschutz und Auswirkungen auf die Arbeit.
-- **Werkzeuge und Technologien**: Ein Überblick über die am häufigsten verwendeten Plattformen und Werkzeuge zur Entwicklung von KI-Modellen wie TensorFlow, PyTorch und Cloud-Plattformen.
-- **Content-Erstellung mit KI**: Wie generative Algorithmen die Kreativität revolutionieren, von der Erzeugung von Bildern und Musik bis zur Videosynthese.
-- **Zukunft der KI**: Aufkommende Trends und langfristige Perspektiven, einschließlich Künstlicher Allgemeiner Intelligenz (KAI) und Mensch-Maschine-Kollaboration.
+- **Kapitel 1 - Einführung in die Künstliche Intelligenz**: Buchpräsentation, Entstehung, Ziele und Lizenz.
+- **Kapitel 2 - Was ist Künstliche Intelligenz**: Grundlegende Definitionen, Unterschiede zwischen KI, Machine Learning und Deep Learning, KI-Typen (ANI, AGI, ASI).
+- **Kapitel 3 - Evolution der Künstlichen Intelligenz**: Geschichte der KI von den theoretischen Ursprüngen bis zu modernen Entwicklungen, über Boomphasen und "Winter".
+- **Kapitel 4 - Machine Learning, Deep Learning und Neuronale Netze**: Grundlegende Konzepte, Techniken und praktische Anwendungen.
+- **Kapitel 5 - Generative Algorithmen**: GANs, VAEs und andere generative Technologien, die die Kreativität revolutionieren.
+- **Kapitel 6 - KI-Anwendungen**: Wie KI in Medizin, Finanzen, Spielen, Robotik und anderen Bereichen eingesetzt wird.
+- **Kapitel 7 - Bewertung von KI**: Methoden zur Messung von Effektivität, Benutzerfreundlichkeit und Ethik von KI-Systemen, algorithmische Voreingenommenheit und Transparenz.
+- **Kapitel 8 - KI-Unternehmen und Technologien**: Führende Unternehmen im KI-Bereich und ihre Investitionen.
+- **Kapitel 9 - KI-Tools und -Dienste**: Überblick über TensorFlow, PyTorch, Cloud-Plattformen und andere verfügbare Tools.
+- **Kapitel 10 - Content-Erstellung mit KI**: Generierung von Bildern, Musik, Texten und Videos durch fortgeschrittene Algorithmen.
+- **Kapitel 11 - Philosophische und ethische Überlegungen**: Das Verhältnis zwischen KI und menschlicher Gesellschaft, ethische Fragen und philosophische Implikationen.
+- **Kapitel 12 - Schlussfolgerungen und Ressourcen**: Zusammenfassung der wichtigsten Punkte und Ressourcen zur weiteren Vertiefung.
 
 ## Projektziele
 

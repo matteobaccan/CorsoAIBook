@@ -13,15 +13,20 @@ L'idea nasce a valle del [Corso di introduzione alle AI](https://github.com/matt
 
 ## Struttura del Libro
 
-Il libro è organizzato in capitoli che coprono un'ampia gamma di argomenti, tra cui:
+Il libro è organizzato in 12 capitoli che coprono un'ampia gamma di argomenti:
 
-- **Introduzione all'AI**: Cos'è l'Intelligenza Artificiale, come funziona e quali sono le sue principali branche (Machine Learning, Deep Learning, ecc.).
-- **Evoluzione storica**: Dalle origini teoriche dell'AI agli sviluppi moderni, passando per i periodi di boom e di "inverno".
-- **Applicazioni pratiche**: Come l'AI viene utilizzata in settori come la medicina, la finanza, i giochi, la robotica e la creazione di contenuti.
-- **Etica e sfide**: Le questioni etiche legate all'AI, come il bias algoritmico, la privacy e l'impatto sul lavoro.
-- **Strumenti e tecnologie**: Una panoramica sulle piattaforme e gli strumenti più utilizzati per sviluppare modelli di AI, come TensorFlow, PyTorch e le piattaforme cloud.
-- **Creazione di contenuti con l'AI**: Come gli algoritmi generativi stanno rivoluzionando la creatività, dalla generazione di immagini e musica alla sintesi di video.
-- **Futuro dell'AI**: Le tendenze emergenti e le prospettive a lungo termine, tra cui l'Intelligenza Artificiale Generale (AGI) e la collaborazione uomo-macchina.
+- **Capitolo 1 - Introduzione all'Intelligenza Artificiale**: Presentazione del libro, come nasce, obiettivi e licenza.
+- **Capitolo 2 - Che cos'è l'Intelligenza Artificiale**: Definizioni fondamentali, differenze tra AI, Machine Learning e Deep Learning, tipologie di AI (ANI, AGI, ASI).
+- **Capitolo 3 - Evoluzione dell'Intelligenza Artificiale**: Storia dell'AI dalle origini teoriche agli sviluppi moderni, passando per i periodi di boom e di "inverno".
+- **Capitolo 4 - Machine Learning, Deep Learning e Reti Neurali**: Concetti fondamentali, tecniche e applicazioni pratiche.
+- **Capitolo 5 - Algoritmi Generativi**: GAN, VAE e altre tecnologie generative che stanno rivoluzionando la creatività.
+- **Capitolo 6 - Applicazioni dell'AI**: Come l'AI viene utilizzata in medicina, finanza, giochi, robotica e altri settori.
+- **Capitolo 7 - Valutazione dell'AI**: Metodi per misurare l'efficacia, l'usabilità e l'etica dei sistemi AI, bias algoritmici e trasparenza.
+- **Capitolo 8 - Aziende e Tecnologie AI**: Le aziende leader nel campo dell'AI e i loro investimenti.
+- **Capitolo 9 - Strumenti e Servizi AI**: Panoramica su TensorFlow, PyTorch, piattaforme cloud e altri strumenti disponibili.
+- **Capitolo 10 - Creazione di Contenuti con l'AI**: Generazione di immagini, musica, testi e video attraverso algoritmi avanzati.
+- **Capitolo 11 - Riflessioni Filosofiche ed Etiche**: Il rapporto tra AI e società umana, questioni etiche e implicazioni filosofiche.
+- **Capitolo 12 - Conclusioni e Risorse**: Riepilogo dei punti chiave e risorse per approfondire l'argomento.
 
 ## Obiettivi del Progetto
 

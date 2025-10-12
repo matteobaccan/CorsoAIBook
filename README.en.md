@@ -13,15 +13,20 @@ The idea originated from the [Introduction to AI Course](https://github.com/matt
 
 ## Book Structure
 
-The book is organized into chapters covering a wide range of topics, including:
+The book is organized into 12 chapters covering a wide range of topics:
 
-- **Introduction to AI**: What is Artificial Intelligence, how it works, and its main branches (Machine Learning, Deep Learning, etc.).
-- **Historical Evolution**: From the theoretical origins of AI to modern developments, through periods of boom and "winter."
-- **Practical Applications**: How AI is used in sectors such as medicine, finance, gaming, robotics, and content creation.
-- **Ethics and Challenges**: Ethical issues related to AI, such as algorithmic bias, privacy, and impact on work.
-- **Tools and Technologies**: An overview of the most used platforms and tools for developing AI models, such as TensorFlow, PyTorch, and cloud platforms.
-- **Content Creation with AI**: How generative algorithms are revolutionizing creativity, from image and music generation to video synthesis.
-- **Future of AI**: Emerging trends and long-term prospects, including Artificial General Intelligence (AGI) and human-machine collaboration.
+- **Chapter 1 - Introduction to Artificial Intelligence**: Book presentation, how it was created, objectives and license.
+- **Chapter 2 - What is Artificial Intelligence**: Fundamental definitions, differences between AI, Machine Learning and Deep Learning, types of AI (ANI, AGI, ASI).
+- **Chapter 3 - Evolution of Artificial Intelligence**: History of AI from theoretical origins to modern developments, through periods of boom and "winter."
+- **Chapter 4 - Machine Learning, Deep Learning and Neural Networks**: Fundamental concepts, techniques and practical applications.
+- **Chapter 5 - Generative Algorithms**: GANs, VAEs and other generative technologies revolutionizing creativity.
+- **Chapter 6 - AI Applications**: How AI is used in medicine, finance, gaming, robotics and other sectors.
+- **Chapter 7 - Evaluation of AI**: Methods for measuring effectiveness, usability and ethics of AI systems, algorithmic bias and transparency.
+- **Chapter 8 - AI Companies and Technologies**: Leading companies in the AI field and their investments.
+- **Chapter 9 - AI Tools and Services**: Overview of TensorFlow, PyTorch, cloud platforms and other available tools.
+- **Chapter 10 - Content Creation with AI**: Generation of images, music, texts and videos through advanced algorithms.
+- **Chapter 11 - Philosophical and Ethical Reflections**: The relationship between AI and human society, ethical issues and philosophical implications.
+- **Chapter 12 - Conclusions and Resources**: Summary of key points and resources for further exploration.
 
 ## Project Goals
 

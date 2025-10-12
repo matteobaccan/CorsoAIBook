@@ -13,15 +13,20 @@ La idea surge a raíz del [Curso de introducción a las IA](https://github.com/m
 
 ## Estructura del Libro
 
-El libro está organizado en capítulos que cubren una amplia gama de temas, entre ellos:
+El libro está organizado en 12 capítulos que cubren una amplia gama de temas:
 
-- **Introducción a la IA**: Qué es la Inteligencia Artificial, cómo funciona y cuáles son sus principales ramas (Machine Learning, Deep Learning, etc.).
-- **Evolución histórica**: Desde los orígenes teóricos de la IA hasta los desarrollos modernos, pasando por los períodos de auge e "invierno".
-- **Aplicaciones prácticas**: Cómo se utiliza la IA en sectores como la medicina, las finanzas, los juegos, la robótica y la creación de contenidos.
-- **Ética y desafíos**: Las cuestiones éticas relacionadas con la IA, como el sesgo algorítmico, la privacidad y el impacto en el trabajo.
-- **Herramientas y tecnologías**: Un panorama de las plataformas y herramientas más utilizadas para desarrollar modelos de IA, como TensorFlow, PyTorch y las plataformas en la nube.
-- **Creación de contenidos con IA**: Cómo los algoritmos generativos están revolucionando la creatividad, desde la generación de imágenes y música hasta la síntesis de vídeo.
-- **Futuro de la IA**: Las tendencias emergentes y las perspectivas a largo plazo, incluida la Inteligencia Artificial General (IAG) y la colaboración hombre-máquina.
+- **Capítulo 1 - Introducción a la Inteligencia Artificial**: Presentación del libro, cómo surge, objetivos y licencia.
+- **Capítulo 2 - ¿Qué es la Inteligencia Artificial?**: Definiciones fundamentales, diferencias entre IA, Machine Learning y Deep Learning, tipos de IA (ANI, AGI, ASI).
+- **Capítulo 3 - Evolución de la Inteligencia Artificial**: Historia de la IA desde los orígenes teóricos hasta los desarrollos modernos, pasando por períodos de auge e "invierno".
+- **Capítulo 4 - Machine Learning, Deep Learning y Redes Neuronales**: Conceptos fundamentales, técnicas y aplicaciones prácticas.
+- **Capítulo 5 - Algoritmos Generativos**: GANs, VAEs y otras tecnologías generativas que están revolucionando la creatividad.
+- **Capítulo 6 - Aplicaciones de la IA**: Cómo se utiliza la IA en medicina, finanzas, juegos, robótica y otros sectores.
+- **Capítulo 7 - Evaluación de la IA**: Métodos para medir la eficacia, usabilidad y ética de los sistemas de IA, sesgos algorítmicos y transparencia.
+- **Capítulo 8 - Empresas y Tecnologías de IA**: Empresas líderes en el campo de la IA y sus inversiones.
+- **Capítulo 9 - Herramientas y Servicios de IA**: Panorama de TensorFlow, PyTorch, plataformas cloud y otras herramientas disponibles.
+- **Capítulo 10 - Creación de Contenidos con IA**: Generación de imágenes, música, textos y vídeos mediante algoritmos avanzados.
+- **Capítulo 11 - Reflexiones Filosóficas y Éticas**: La relación entre la IA y la sociedad humana, cuestiones éticas e implicaciones filosóficas.
+- **Capítulo 12 - Conclusiones y Recursos**: Resumen de los puntos clave y recursos para profundizar en el tema.
 
 ## Objetivos del Proyecto
 
