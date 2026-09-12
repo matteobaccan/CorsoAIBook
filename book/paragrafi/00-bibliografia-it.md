@@ -40,3 +40,4 @@
    - TensorFlow: Piattaforma open-source per lo sviluppo di modelli di AI. Disponibile su: [https://www.tensorflow.org](https://www.tensorflow.org)  
    - PyTorch: Piattaforma open-source per lo sviluppo di modelli di AI. Disponibile su: [https://pytorch.org](https://pytorch.org)  
    - Kaggle: Piattaforma per competizioni di data science e Machine Learning. Disponibile su: [https://www.kaggle.com](https://www.kaggle.com)  
+   - The Concise TypeScript Book: Guida gratuita e open source in italiano per imparare TypeScript. Disponibile su: [https://gibbok.github.io/typescript-book/it-it/](https://gibbok.github.io/typescript-book/it-it/)
